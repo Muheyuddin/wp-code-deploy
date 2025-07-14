@@ -18,27 +18,26 @@ jobs:
 
       # 3) Sync themes folder
       - name: Sync themes via rsync
-        uses: burnett01/rsync-deploy@v4
+        uses: burnett01/rsync-deployments@7.0.2
         with:
           switches: -avzr --delete
           path: themes/
           remote_host: ${{ secrets.EC2_HOST }}
           remote_user: ${{ secrets.EC2_USER }}
           remote_key: ${{ secrets.EC2_SSH_KEY }}
-          remote_path: /opt/wp-code-deploy/themes/
           remote_port: ${{ secrets.SSH_PORT }}
+          remote_path: /opt/wp-code-deploy/themes/
 
-      # 4) Sync plugins folder
       - name: Sync plugins via rsync
-        uses: burnett01/rsync-deploy@v4
+        uses: burnett01/rsync-deployments@7.0.2
         with:
           switches: -avzr --delete
           path: plugins/
           remote_host: ${{ secrets.EC2_HOST }}
           remote_user: ${{ secrets.EC2_USER }}
           remote_key: ${{ secrets.EC2_SSH_KEY }}
-          remote_path: /opt/wp-code-deploy/plugins/
           remote_port: ${{ secrets.SSH_PORT }}
+          remote_path: /opt/wp-code-deploy/plugins/
 
       # 5) Flush caches & reload services
       - name: Flush WP & Varnish cache
