@@ -1,0 +1,1836 @@
+button,
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer;
+}
+
+a:focus {
+    box-shadow: none;
+}
+
+button#collapse-button {
+    font-size: inherit;
+    text-transform: inherit;
+    font-weight: normal;
+}
+
+.wp-person a:focus .gravatar,
+a:focus .media-icon img {
+    color: #fff;
+    box-shadow: none;
+}
+
+.dtsl-custom-table-wrapper table,
+table.dtsl-custom-table {
+    border: 1px solid;
+    border-spacing: 0;
+    background: #fff;
+}
+
+.dtsl-custom-table-wrapper table th,
+table.dtsl-custom-table th {
+    padding: 10px;
+    white-space: nowrap;
+    border-right: 1px solid;
+    font-size: 13px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.dtsl-custom-table-wrapper table td,
+table.dtsl-custom-table td {
+    white-space: pre;
+    padding: 10px 25px;
+    border: 1px solid;
+    border-bottom: none;
+    border-left: none;
+    line-height: initial;
+}
+
+.dtsl-custom-table-wrapper table th:last-child,
+.dtsl-custom-table-wrapper table td:last-child,
+table.dtsl-custom-table th:last-child,
+table.dtsl-custom-table td:last-child {
+    border-right: none;
+}
+
+.custom-button-style {
+    text-decoration: none;
+    outline: none;
+}
+
+table .custom-button-style {
+    margin-right: 0;
+}
+
+table a[class*="dtsl-statistics-"].custom-button-style {
+    font-size: 0;
+    padding: 0;
+    width: 30px;
+    top: -4px;
+    position: relative;
+    background: none;
+    color: initial;
+    outline: none;
+    margin-top: 0;
+}
+
+table a[class*="dtsl-statistics-"].custom-button-style:before {
+    position: absolute;
+    content: "\f06e";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+table.wp-list-table,
+table.form-table {
+    text-align: inherit;
+}
+
+table.form-table tbody tr td a.custom-button-style {
+    margin-top: 0;
+}
+
+table.form-table input[type='text'],
+table.form-table tr.user-description-wrap .chosen-container {
+    margin-bottom: 10px;
+}
+
+.form-wrap .form-field {
+    margin-bottom: 2em;
+}
+
+.form-wrap .form-field>label {
+    margin-bottom: 5px;
+}
+
+.form-wrap .form-field>input[type=text] {
+    margin-bottom: 0;
+}
+
+.wp-core-ui .tablenav .actions {
+    display: inline-flex;
+}
+
+.wp-core-ui .tablenav select {
+    height: 30px;
+}
+
+.wp-core-ui form.search-form input[type=search],
+.wp-core-ui form.search-form p.search-box {
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+}
+
+.wp-core-ui .button,
+.wp-core-ui p .button {
+    font-size: 13px;
+    line-height: 2.15384615;
+    padding: 0 10px;
+    text-transform: inherit;
+    font-weight: normal;
+}
+
+.meta-box-sortables select {
+    border-radius: 0;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li span,
+.custom-button-style,
+.wp-admin .chosen-container-single .chosen-single:before,
+.wp-admin .chosen-container-single .chosen-single:after {
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+.dtsl-custom-box {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    behavior: url(PIE.htc);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.dtsl-custom-box ul {
+    float: none;
+    display: inline-block;
+}
+
+.dtsl-custom-box>h3 {
+    margin: 0;
+}
+
+.dtsl-checkbox-switch {
+    float: left;
+    cursor: pointer;
+    clear: both;
+    margin: 2px 0px 0px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+    display: inline-block;
+    height: 30px;
+    width: 61px;
+    border-radius: 60px;
+    background: #e46363;
+}
+
+.dtsl-checkbox-switch:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background: rgba(76, 217, 100, 0);
+    -webkit-transition: 0.2s cubic-bezier(0.24, 0, 0.5, 1);
+    transition: 0.2s cubic-bezier(0.24, 0, 0.5, 1);
+}
+
+.dtsl-checkbox-switch:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 28px;
+    width: 28px;
+    top: 50%;
+    margin-top: -14px;
+    right: 1px;
+    border-radius: 60px;
+    background: #fff;
+    -webkit-transition: 0.35s cubic-bezier(0.54, 1.6, 0.5, 1);
+    transition: 0.35s cubic-bezier(0.54, 1.6, 0.5, 1);
+}
+
+.dtsl-checkbox-switch.checkbox-switch-on {
+    box-shadow: inset 0 0 0px 25px #e3e3e3;
+    -webkit-transition: box-shadow 2.5s cubic-bezier(0, 1.2, 0.94, 0.95);
+    transition: box-shadow 2.5s cubic-bezier(0, 1.2, 0.94, 0.95);
+}
+
+.dtsl-checkbox-switch.checkbox-switch-on:before {
+    width: 61px;
+    background: #00cc99;
+    -webkit-transition: width 0.2s cubic-bezier(0, 0, 0, 0.1) !important;
+    transition: width 0.2s cubic-bezier(0, 0, 0, 0.1) !important;
+}
+
+.dtsl-checkbox-switch.checkbox-switch-off:after {
+    right: 32px;
+}
+
+.dtsl-radio-switch {
+    clear: none;
+    float: left;
+}
+
+.dtsl-radio-switch {
+    cursor: pointer;
+    cursor: hand;
+    clear: both;
+    margin: 2px 0px 0px;
+}
+
+.dtsl-radio-switch.radio-switch-on,
+.dtsl-radio-switch.radio-switch-on {
+    width: 83px;
+    height: 30px;
+    background: url(../images/backend/checkbox-switch-on.png);
+}
+
+.dtsl-radio-switch.radio-switch-off,
+.dtsl-radio-switch.radio-switch-off {
+    width: 83px;
+    height: 30px;
+    background: url(../images/backend/checkbox-switch-off.png);
+}
+
+.dtsl-save-skin-settings {
+    float: left;
+}
+
+input[type="checkbox"].hidden {
+    display: none;
+}
+
+
+/* Chosen JS */
+
+.wp-admin .chosen-container-single .chosen-single {
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    font-size: 16px;
+    position: relative;
+    color: inherit;
+}
+
+.wp-admin .chosen-container-single .chosen-single:before,
+.wp-admin .chosen-container-single .chosen-single:after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 1px;
+    background-color: currentColor;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    top: 50%;
+}
+
+.wp-admin .chosen-container-single .chosen-single:before {
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+    right: 27px;
+}
+
+.wp-admin .chosen-container-single .chosen-single:after {
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    transform: rotate(-45deg) translateY(-50%);
+    right: 18px;
+}
+
+.wp-admin .chosen-container-single.chosen-container-active .chosen-single:before {
+    right: 18px;
+}
+
+.wp-admin .chosen-container-single.chosen-container-active .chosen-single:after {
+    right: 26px;
+}
+
+.wp-admin .chosen-container-single .chosen-drop {
+    border-radius: 0;
+    padding: 0 15px 25px;
+    box-shadow: none;
+}
+
+.wp-admin .chosen-container-single .chosen-search,
+.wp-admin .chosen-container-single .chosen-results {
+    padding: 0;
+}
+
+.wp-admin .chosen-container-single .chosen-search {
+    margin: 0 0 10px;
+}
+
+.wp-admin .chosen-container-single .chosen-results {
+    margin: 0;
+}
+
+.wp-admin .chosen-container-single .chosen-results li {
+    line-height: normal;
+}
+
+.wp-admin .chosen-container-single .chosen-search input[type="text"] {
+    padding: 15px;
+    background: none;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wp-admin .chosen-container-single .chosen-single div {
+    display: none;
+}
+
+.cs-element .cs-fieldset fieldset {
+    border: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.cs-element .cs-fieldset .cs-pseudo-field,
+.cs-fieldset .cs-pseudo-field+.cs-element {
+    border: none;
+}
+
+.cs-element .cs-fieldset .chosen-container {
+    width: 100% !important;
+}
+
+
+/* .dtsl-custom-box */
+
+ul li a,
+.dtsl-image-preview-holder a .dtsl-image-preview-tooltip,
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section .dtsl-social-item-section-options>span {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.dtsl-custom-box .dtsl-note,
+.dtsl-settings-options-holder .dtsl-note,
+.dtsl-settings-permalink-container .dtsl-note,
+.dtsl-settings-chart-container .dtsl-note {
+    width: 100%;
+    float: left;
+    margin: 15px 0 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 12px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.dtsl-custom-box .dtsl-note strong,
+.dtsl-settings-options-holder .dtsl-note strong,
+.dtsl-settings-permalink-container .dtsl-note strong,
+.dtsl-settings-chart-container .dtsl-note strong {
+    font-size: initial;
+}
+
+.dtsl-custom-box .dtsl-note ul,
+.dtsl-settings-options-holder .dtsl-note ul,
+.dtsl-settings-permalink-container .dtsl-note ul,
+.dtsl-settings-chart-container .dtsl-note ul {
+    margin-bottom: 0;
+}
+
+.dtsl-custom-box input[type='text']+.dtsl-note,
+.dtsl-custom-box input[type='password']+.dtsl-note,
+.dtsl-custom-box input[type='email']+.dtsl-note,
+.dtsl-custom-box input[type='url']+.dtsl-note,
+.dtsl-custom-box input[type='tel']+.dtsl-note,
+.dtsl-custom-box input[type='number']+.dtsl-note,
+.dtsl-custom-box input[type='range']+.dtsl-note,
+.dtsl-custom-box input[type='date']+.dtsl-note,
+.dtsl-custom-box textarea+.dtsl-note,
+.dtsl-custom-box input.text+.dtsl-note,
+.dtsl-custom-box input[type='search']+.dtsl-note {
+    margin-top: 0;
+}
+
+.dtsl-custom-box .dtsl-note:before,
+.dtsl-settings-options-holder .dtsl-note:before {
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.05);
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: 0;
+    left: 10px;
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.dtsl-settings-permalink-container .dtsl-note,
+.dtsl-settings-chart-container .dtsl-note {
+    margin: 0 0 15px 0;
+}
+
+.dtsl-custom-box .custom-button-style.dtsl-revoke-user-submission {
+    float: right;
+    margin: 0;
+}
+
+.postbox-container #dtsl-events-calendar-metabox.postbox .chosen-container {
+    width: 100% !important;
+}
+
+.dtsl-custom-box .chosen-container.chosen-container-multi {
+    width: 100% !important;
+}
+
+.dtsl-custom-box button,
+.dtsl-custom-box input[type="button"] {
+    cursor: pointer;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-container {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.dtsl-custom-box .dtsl-multiple-choice-image-answers .dtsl-upload-media-items-container input[type="button"] {
+    margin-top: 0;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-container input[readonly].uploadfieldurl,
+.dtsl-custom-box .dtsl-multiple-correct-answers #dt_multicorrect_answers {
+    margin-bottom: 20px;
+}
+
+.dtsl-custom-box .dtsl-multiple-choice-image-answers #dt_multichoice_image_answers.uploadfieldurl {
+    width: 83%;
+}
+
+.dtsl-custom-box .custom-button-style {
+    font-size: 16px;
+    padding: 19px 40px;
+    letter-spacing: normal;
+    font-weight: 600;
+    margin: 20px 5px 0 0;
+    text-transform: uppercase;
+    font-family: unset;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dtsl-custom-box .dtsl-add-social-details.custom-button-style {
+    margin: 0;
+}
+
+.dtsl-custom-box #certificate-percentage,
+.dtsl-custom-box #reference-url,
+.dtsl-custom-box #drip-duration,
+.dtsl-custom-box .course-start-date,
+.dtsl-custom-box #capacity,
+.dtsl-custom-box .course-prerequisite,
+.dtsl-custom-box #duration,
+.dtsl-custom-box #quiz-retakes,
+.dtsl-custom-box #dtsl-question-type,
+.dtsl-custom-box #dt_text_before_gap,
+.dtsl-custom-box #dt_gap,
+.dtsl-custom-box #dt_text_after_gap,
+.dtsl-custom-box #assignment-subtitle,
+.dtsl-custom-box #assignment-maximum-mark,
+.dtsl-custom-box #assignment-pass-percentage,
+.dtsl-custom-box #assignment-attachment-size,
+.dtsl-custom-box #review-or-feedback,
+.dtsl-custom-box #dtsl-marks-obtained,
+.dtsl-custom-box #dtsl-marks-obtained-percentage,
+.dtsl-custom-box #period {
+    width: 100% !important;
+}
+
+.dtsl-custom-box #dt_multichoice_answers {
+    width: 95% !important;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items {
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li {
+    margin: 0 20px 20px 0;
+    width: 150px;
+    float: left;
+    position: relative;
+    cursor: grab;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li input[readonly] {
+    width: 70%;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li input.media-attachment-titles {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li .dtsl-remove-media-item {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li .dtsl-featured-media-item {
+    position: absolute;
+    left: 5px;
+    top: 40px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li span {
+    line-height: 30px;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li .dtsl-remove-media-item:hover,
+.dtsl-custom-box .dtsl-upload-media-items-holder ul.dtsl-upload-media-items li .dtsl-featured-media-item:hover {
+    background: #000;
+    color: #fff;
+}
+
+.dtsl-custom-box textarea#sidebar-content {
+    width: 100%;
+}
+
+.dtsl-custom-box .dtsl-image-preview-holder {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    z-index: 10;
+    /* margin-top: 12px; */
+}
+
+.dtsl-custom-box .dtsl-image-preview-holder a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dtsl-custom-box .dtsl-image-preview-holder a .dtsl-image-preview-tooltip {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -15px;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(150%);
+    -moz-transform: translateY(-50%) translateX(150%);
+    transform: translateY(-50%) translateX(150%);
+}
+
+.dtsl-custom-box .dtsl-image-preview-holder a:hover .dtsl-image-preview-tooltip {
+    visibility: visible;
+    opacity: 1;
+    left: -1px;
+}
+
+.dtsl-custom-box .dtsl-image-preview-holder a .dtsl-image-preview-tooltip img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+}
+
+.dtsl-image-preview-holder a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dtsl-image-preview-holder a .dtsl-image-preview-tooltip {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -15px;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(150%);
+    -moz-transform: translateY(-50%) translateX(150%);
+    transform: translateY(-50%) translateX(150%);
+}
+
+.dtsl-image-preview-holder a:hover .dtsl-image-preview-tooltip {
+    visibility: visible;
+    opacity: 1;
+    left: -1px;
+}
+
+.dtsl-image-preview-holder a .dtsl-image-preview-tooltip img {
+    width: 150px;
+    height: auto;
+}
+
+.dtsl-upload-media-items-container:not(.dtsl-column) .dtsl-image-preview-holder {
+    float: none;
+    display: inline-block;
+    margin-left: 2px;
+    position: relative;
+    top: 3px;
+}
+
+
+/*--------------------------------------------------------------
+	Questions Options
+--------------------------------------------------------------*/
+
+.dtsl-custom-box .dtsl-attachments-link {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.dtsl-custom-box .dtsl-attachments-link:last-child {
+    margin-bottom: 0;
+}
+
+.dtsl-custom-box .dtsl-attachments-link p {
+    width: 100%;
+    float: left;
+    margin: 2px 0;
+}
+
+.dtsl-custom-box .dtsl-attachments-link a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #000;
+    padding: 5px 15px;
+    float: left;
+    border-radius: 3px;
+    font-weight: 600;
+    margin: 5px 10px 5px 0;
+    clear: right;
+}
+
+.dtsl-custom-box .dtsl-attachments-link a:hover {
+    background: #ddd;
+    color: #000;
+}
+
+
+/*--------------------------------------------------------------
+	Comments Section
+--------------------------------------------------------------*/
+
+#poststuff .inside input#dtsl_comment_update+.dtsl-custom-box .dtsl-four-fifth input {
+    margin-bottom: 0;
+}
+
+.dtsl-ratings-holder span {
+    width: auto;
+    font-size: 0;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.dtsl-ratings-holder span:before {
+    position: relative;
+    width: 100%;
+    float: left;
+    font-size: 18px;
+}
+
+
+/*--------------------------------------------------------------
+	Settings Options
+--------------------------------------------------------------*/
+
+.dtsl-custom-nav {
+    margin: 15px 0 0;
+}
+
+.dtsl-settings-import-overall-container,
+.formOptionSettings,
+.formSkinSettings,
+.dtsl-statistics-container.dtsl-statistics-listings-container,
+.dtsl-statistics-container.dtsl-statistics-sellers-container,
+.dtsl-statistics-container.dtsl-statistics-packages-container {
+    padding: 20px;
+}
+
+.dtsl-statistics-container.dtsl-statistics-listings-container,
+.dtsl-statistics-container.dtsl-statistics-sellers-container,
+.dtsl-statistics-container.dtsl-statistics-packages-container {
+    overflow: hidden;
+}
+
+.dtsl-settings-import-field {
+    display: flex;
+    align-items: center;
+}
+
+.dtsl-settings-import-field .dtsl-import-file {
+    margin: 0 15px 0 0;
+    background: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.dtsl-settings-import-container .dtsl-import-file-button {
+    margin: 0;
+}
+
+.dtsl-statistics-container.dtsl-statistics-packages-container .dtsl-statistics-packages-data-container {
+    display: flex;
+    margin: 0 -30px;
+}
+
+.dtsl-statistics-container.dtsl-statistics-packages-container .dtsl-statistics-packages-data-container>div {
+    margin: 0 30px;
+}
+
+.formSkinSettings .dtsl-note:first-child {
+    margin-bottom: 20px;
+}
+
+.formSkinSettings .custom-button-style {
+    margin-top: 0;
+}
+
+.formOptionSettings .dtsl-settings-options-holder,
+.formPocSettings .dtsl-settings-options-holder {
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+}
+
+.formOptionSettings .dtsl-option-settings-response-holder,
+.formPocSettings .dtsl-option-settings-response-holder {
+    margin-bottom: 20px;
+}
+
+.formOptionSettings .dtsl-settings-options-holder input,
+.formOptionSettings .dtsl-settings-options-holder select,
+.formOptionSettings .dtsl-settings-options-holder textarea {
+    width: 400px;
+    margin: 0;
+}
+
+.formOptionSettings .wp-picker-container input,
+.formOptionSettings .wp-picker-container select {
+    width: auto;
+}
+
+.dtsl-settings-general-container .formOptionSettings {
+    position: relative;
+}
+
+.formOptionSettings .dtsl-settings-options-holder~.dtsl-note,
+.formPocSettings .dtsl-settings-options-holder~.dtsl-note {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.dtsl-settings-assigning-container,
+.dtsl-settings-poc-container
+{
+    padding: 20px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    position: relative;
+}
+
+.dtsl-settings-general-container .formOptionSettings .dtsl-option-settings-response-holder,
+.dtsl-option-settings-response-holder {
+    clear: both;
+}
+
+.dtsl-settings-general-container .formOptionSettings .dtsl-option-settings-response-holder .dtsl-save-options-settings,
+.custom-button-style.dtsl-save-options-settings {
+    margin-left: 0;
+}
+
+.custom-button-style.dtsl-save-options-settings {
+    margin: 0;
+}
+
+.formPocSettings .dtsl-settings-options-holder {
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.dtsl-settings-data-holder {
+    width: 99%;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+.dtsl-settings-data-holder table.dtsl-custom-table th {
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.dtsl-settings-import-container>p:first-child {
+    margin-top: 0;
+}
+
+.dtsl-settings-import-container>p label {
+    margin-right: 10px;
+}
+
+.form-table td .wp-picker-container span {
+    clear: both;
+}
+
+.wp-admin .dtsl-chart-holder table.dtsl-custom-table th,
+.wp-admin .dtsl-custom-box table th {
+    font-weight: 700;
+}
+
+.wp-admin .dtsl-custom-dashboard-table {
+    position: relative;
+    width: 100%;
+}
+
+.wp-picker-open+.wp-picker-input-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.wp-admin .wp-picker-input-wrap input[type='button'] {
+    float: right;
+    margin-left: 5px;
+}
+
+.wp-admin .wp-picker-container {
+    position: relative;
+}
+
+.wp-admin .wp-picker-input-wrap {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.wp-admin .wp-picker-container .wp-picker-holder {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+
+.wp-admin .wp-picker-container .wp-color-result.button {
+    margin-bottom: 0;
+}
+
+.wp-admin .wp-picker-container .wp-color-result.button .color-alpha {
+    height: 100% !important;
+}
+
+.wp-admin.wp-core-ui #edit-slug-box {
+    padding-left: 0;
+}
+
+.wp-admin.wp-core-ui #edit-slug-box strong {
+    margin-right: 6px;
+}
+
+.wp-admin.wp-core-ui #edit-slug-box #editable-post-name input {
+    padding: 0 5px;
+}
+
+.wp-admin.wp-core-ui #edit-slug-box,
+.wp-admin.wp-core-ui #edit-slug-box span#sample-permalink {
+    display: flex;
+    align-items: center;
+}
+
+.wp-admin.wp-core-ui .button.edit-slug {
+    float: none;
+    margin-left: 5px;
+}
+
+.wp-editor-expand #wp-content-editor-tools {
+    z-index: 0;
+}
+
+#dtsl-listing-default-metabox {
+    width: 100%;
+    float: left;
+}
+
+.dtsl-tabs-vertical-container {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 26px 20px 32px;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical {
+    width: 25%;
+    float: left;
+}
+
+.dtsl-tabs-vertical-container .dtsl-tabs-vertical-content {
+    width: 75%;
+    padding: 20px 50px 30px;
+    float: right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.dtsl-tabs-vertical-container .dtsl-tabs-vertical-content .dtsl-custom-box {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+}
+
+.dtsl-tabs-vertical-container .dtsl-tabs-vertical-content .dtsl-custom-box>h3:only-child {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.dtsl-tabs-vertical-container .dtsl-tabs-vertical-content h3.dtsl-tab-title {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    margin: 0 0 30px;
+}
+
+.dtsl-tabs-vertical-container .dtsl-tabs-vertical-content .dtsl-custom-box>label {
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+
+.dtsl-tabs-vertical-container .dtsl-tabs-vertical-content .dtsl-custom-box:not(:last-child):not(:only-child) {
+    border-bottom: 1px solid;
+    width: 100%;
+    float: left;
+    padding: 0 0 40px;
+    border-radius: 0;
+}
+
+.dtsl-tabs-vertical-container:before {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical {
+    clear: left;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical li {
+    margin-bottom: 0;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical li a {
+    font-size: 15px;
+    position: relative;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #999;
+    border-bottom: 1px solid #2f2f2f;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical li a span {
+    margin-right: 10px;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical li a:hover {
+    color: #fff;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical li a:focus {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical li.current {
+    color: #fff;
+    background-color: #111;
+    position: relative;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical li.current:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border: solid transparent;
+    border-right-color: #fff;
+    border-width: 4px;
+    margin-top: -4px;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical ul {
+    display: none;
+    position: relative;
+    border-bottom: 1px solid #2f2f2f;
+    position: relative;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical ul li a {
+    font-size: 12px;
+    padding: 13px 15px 13px 25px;
+    background-color: #191919;
+    border-bottom: 1px solid #222;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical ul li .cs-section-active {
+    background-color: #101010;
+}
+
+.dtsl-tabs-vertical-container ul.dtsl-tabs-vertical ul li:last-child a {
+    border-bottom: 0;
+}
+
+.cs-framework .cs-nav ul ul:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 1;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.75);
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-container .dtsl-image-holder {
+    width: 150px;
+    float: left;
+}
+
+.dtsl-custom-box .dtsl-upload-media-items-container .dtsl-image-holder img {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.dtsl-custom-box textarea {
+    width: 100%;
+    float: left;
+}
+
+.dtsl-custom-box .dtsl-features-box-container a.dtsl-add-features-box {
+    margin: 0px 10px 0px 0;
+}
+
+.dtsl-custom-box .dtsl-features-box-container .dtsl-features-box-item input[type=text] {
+    margin-bottom: 20px;
+}
+
+.dtsl-custom-box .dtsl-features-box-item-holder .dtsl-features-box-item {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dtsl-custom-box .dtsl-features-box-item-holder .dtsl-features-box-item .dtsl-features-box-options {
+    width: 50%;
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.user-description-wrap .dtsl-note {
+    width: 100%;
+    float: left;
+}
+
+.user-profilepicture-wrap .dtsl-upload-media-items-container .dtsl-image-holder {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.user-profilepicture-wrap .dtsl-upload-media-items-container .dtsl-image-holder img {
+    width: 150px;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section {
+    width: 28%;
+    position: relative;
+    float: left;
+    padding-right: 4%;
+    margin-right: 2%;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section:nth-child(3) {
+    margin-right: 0;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section .chosen-container {
+    margin-bottom: 10px;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section>input[type=text] {
+    width: 100%;
+    float: left;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section .dtsl-social-item-section-options {
+    position: absolute;
+    right: 0;
+    display: flex;
+    top: 0;
+    flex-direction: row-reverse;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section .dtsl-social-item-section-options>span {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    float: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.user-sociallinks-wrap .dtsl-social-item-details-container .dtsl-social-item-section .dtsl-social-item-section-options>span.dtsl-sort-features {
+    cursor: move;
+}
+
+.form-table td span.description {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-single,
+.dtsl-custom-box .chosen-container-single .chosen-drop {
+    width: 100% !important;
+    float: left;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    font-size: 16px;
+    position: relative;
+    color: inherit;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-single:before,
+.dtsl-custom-box .chosen-container-single .chosen-single:after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 1px;
+    background-color: currentColor;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    top: 50%;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-single:before {
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+    right: 27px;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-single:after {
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    transform: rotate(-45deg) translateY(-50%);
+    right: 18px;
+}
+
+.dtsl-custom-box .chosen-container-single.chosen-container-active .chosen-single:before {
+    right: 18px;
+}
+
+.dtsl-custom-box .chosen-container-single.chosen-container-active .chosen-single:after {
+    right: 26px;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-drop {
+    border-radius: 0;
+    padding: 0 15px 25px;
+    box-shadow: none;
+    position: absolute;
+    background: #fff;
+    top: calc(100% - 1px);
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-search,
+.dtsl-custom-box .chosen-container-single .chosen-results {
+    padding: 0;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-search {
+    margin: 0 0 10px;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-results {
+    margin: 0;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-results li {
+    line-height: normal;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-search input[type="text"] {
+    padding: 15px;
+    background: none;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.dtsl-custom-box .chosen-container-single .chosen-single div {
+    display: none;
+}
+
+.dtsl-custom-box ul.dtsl-business-hours-list>li .dtsl-business-hours-starttime .chosen-container-single .chosen-drop,
+.dtsl-custom-box ul.dtsl-business-hours-list>li .dtsl-business-hours-endtime .chosen-container-single .chosen-drop,
+.dtsl-custom-box .chosen-container-single .chosen-drop {
+    padding-top: 15px;
+}
+
+.dtsl-custom-box ul.dtsl-business-hours-list>li .dtsl-business-hours-starttime .chosen-container .chosen-results,
+.dtsl-custom-box ul.dtsl-business-hours-list>li .dtsl-business-hours-endtime .chosen-container .chosen-results,
+.dtsl-custom-box .chosen-container-single .chosen-results {
+    width: 100%;
+    float: left;
+}
+
+.dtsl-custom-box .chosen-container-multi .chosen-choices {
+    padding: 13px 15px;
+    border-width: 1px;
+    border-style: solid;
+    background: none;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.dtsl-custom-box .chosen-container-multi.chosen-container .chosen-drop {
+    box-shadow: none;
+    padding: 10px;
+    margin-top: -4px;
+}
+
+.dtsl-custom-box .chosen-container-multi.chosen-container .chosen-results {
+    width: 100%;
+}
+
+.dtsl-custom-box .chosen-container-multi .chosen-choices li.search-choice {
+    margin: 0 5px 5px 0;
+}
+
+.dtsl-custom-box .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    margin: 0;
+}
+
+.dtsl-custom-box .dtsl-attachments-box-item-holder .dtsl-attachments-box-item:not(.hidden) {
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: calc(50% - 40px) calc(50% - 40px) 80px;
+    grid-column-gap: 20px;
+    background: #fff;
+    width: 100%;
+}
+
+.dtsl-custom-box .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-attachments-box-options {
+    display: inline-flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+}
+
+.dtsl-custom-box .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-attachments-box-options span.dtsl-remove-attachments {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: initial;
+}
+
+.dtsl-custom-box .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-attachments-box-options span.dtsl-sort-attachments {
+    cursor: grab;
+    font-size: initial;
+}
+
+.dtsl-custom-box .dtsl-attachments-box-item-holder .dtsl-attachments-box-item:not(:only-child):not(:last-child) {
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
+
+
+/*Upload Items Container*/
+
+.dtsl-upload-media-items-container input[type="button"] {
+    padding: 10px 20px;
+}
+
+
+/*Upload Media Video Container*/
+
+.dtsl-media-videos-box-container .custom-button-style {
+    margin-top: 0;
+}
+
+.dtsl-media-videos-box-container .dtsl-media-videos-box-item-holder .dtsl-media-videos-box-item {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.dtsl-media-videos-box-container .dtsl-media-videos-box-item-holder .dtsl-media-videos-box-item .dtsl_media_videos {
+    width: calc(100% - 65px);
+}
+
+.dtsl-media-videos-box-container .dtsl-media-videos-box-item-holder .dtsl-media-videos-box-item .dtsl-media-videos-box-options {
+    position: absolute;
+    right: 0px;
+    left: auto;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.dtsl-media-videos-box-container .dtsl-media-videos-box-item-holder .dtsl-media-videos-box-item .dtsl-media-videos-box-options>span.dtsl-remove-media-videos {
+    cursor: pointer;
+    font-size: initial;
+}
+
+.dtsl-media-videos-box-container .dtsl-media-videos-box-item-holder .dtsl-media-videos-box-item .dtsl-media-videos-box-options>span.dtsl-sort-media-videos {
+    cursor: grab;
+    font-size: initial;
+}
+
+.dtsl-media-videos-box-container .dtsl-media-videos-box-item-holder .dtsl-media-videos-box-item .dtsl-media-videos-box-options>span:first-child {
+    float: right;
+    margin-left: 10px;
+}
+
+
+/* Add Features */
+
+.dtsl-features-box-container .dtsl-features-box-item-holder .dtsl-features-box-item .dtsl-column:not(.dtsl-upload-media-items-container) {
+    width: calc(49.5% - 35px);
+    margin: 0 20px 0 0;
+}
+
+.dtsl-features-box-container .dtsl-features-box-item-holder .dtsl-features-box-item .dtsl-features-box-options {
+    position: absolute;
+    right: 0px;
+    left: auto;
+    display: flex;
+    flex-flow: row-reverse;
+    top: 0;
+    font-size: initial;
+    width: auto;
+}
+
+.dtsl-features-box-container .dtsl-features-box-item-holder .dtsl-features-box-item .dtsl-features-box-options span.dtsl-remove-features {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: initial;
+}
+
+.dtsl-features-box-container .dtsl-features-box-item-holder .dtsl-features-box-item .dtsl-features-box-options span.dtsl-sort-features {
+    cursor: grab;
+    font-size: initial;
+}
+
+.dtsl-features-box-container .dtsl-features-box-item-holder .dtsl-features-box-item:not(:only-child):not(:last-child) {
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+    background: #fff;
+}
+
+.dtsl-features-box-container .dtsl-features-box-item-holder .dtsl-features-box-item .dtsl-column.dtsl-upload-media-items-container {
+    width: calc(100% - 45px);
+}
+
+
+/* Floor Plan */
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item>.dtsl-column:not(.dtsl-upload-media-items-container) {
+    margin-left: 0;
+    width: calc(100% - 50px);
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-floorplan-box-item-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    float: left;
+    grid-column-gap: 20px;
+    width: calc(100% - 50px);
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-floorplan-box-item-content .dtsl-column,
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-upload-media-items-container {
+    margin: 0;
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-upload-media-items-container {
+    width: calc(100% - 50px);
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-floorplan-box-options {
+    margin-left: 15px;
+    display: flex;
+    flex-flow: row-reverse;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-floorplan-box-options>span:first-child {
+    margin-left: 10px;
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-floorplan-box-options span.dtsl-remove-floorplan {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: initial;
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item .dtsl-floorplan-box-options span.dtsl-sort-floorplan {
+    cursor: grab;
+    font-size: initial;
+}
+
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item:not(:only-child):not(:last-child) {
+    margin-bottom: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 30px;
+    background: #fff;
+}
+
+.dtsl-custom-box .dtsl-add-floorplan-box.custom-button-style {
+    margin-top: 0;
+}
+
+
+/* Business Hours */
+
+.dtsl-custom-box .dtsl-business-hours-list {
+    width: 100%;
+    margin: 0;
+}
+
+.dtsl-custom-box .dtsl-business-hours-list>li {
+    list-style: none;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: .5fr 1fr 1fr;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.dtsl-custom-box .dtsl-business-hours-list li span {
+    display: flex;
+    align-items: center;
+    font-size: initial;
+}
+
+.dtsl-custom-box .dtsl-business-hours-list li span .selection-box {
+    width: 100%;
+}
+
+
+/* Social Item */
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section {
+    display: flex;
+    background: #fff;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section .chosen-container {
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section input[type='text'] {
+    margin-bottom: 0;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section div[class*="section-options"] {
+    width: 115px;
+    text-align: right;
+    font-size: initial;
+    display: inline-flex;
+    flex-flow: row-reverse;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section>span:first-child {
+    margin-left: 10px;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section span.dtsl-remove-social-item {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: initial;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section span.dtsl-sort-features {
+    cursor: grab;
+    font-size: initial;
+}
+
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section:not(:only-child):not(:last-child) {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 30px;
+    background: #fff;
+}
+
+
+/* Statistic Container */
+
+.dtsl-statistics-container.dtsl-statistics-listings-container>span {
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.dtsl-statistics-container.dtsl-statistics-listings-container .dtsl-statistics-listings-count,
+.dtsl-statistics-container.dtsl-statistics-packages-container .dtsl-statistics-packages-count {
+    margin: 20px 0 0;
+}
+
+.dtsl-statistics-container.dtsl-statistics-listings-container .dtsl-statistics-listings-count span:before,
+.dtsl-statistics-container.dtsl-statistics-packages-container .dtsl-statistics-packages-count span:before {
+    position: relative;
+    content: ":";
+    margin-left: 2px;
+    padding-left: 2px;
+    left: -2px;
+    top: 0;
+}
+
+.dtsl-statistics-container.dtsl-statistics-listings-container .dtsl-statistics-listings-seller,
+.dtsl-statistics-container.dtsl-statistics-packages-container .dtsl-statistics-packages-seller {
+    margin-top: 10px;
+}
+
+
+/* Widgets */
+
+div[id*="tagsdiv-"].postbox {
+    display: inline-block;
+    width: 100%;
+}
+
+div[id*="tagsdiv-"].postbox .inside ul.tagchecklist {
+    width: 100%;
+    float: left;
+    margin-bottom: 3px;
+}
+
+.tagsdiv .ajaxtag .newtag {
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+.tagsdiv .ajaxtag .button {
+    margin-right: 10px;
+}
+
+div[id*="tagsdiv-"].postbox .inside>p:last-child {
+    width: 100%;
+    float: left;
+    margin: 0 0 25px !important;
+}
+
+div[id*="tagsdiv-"].postbox .inside>p:last-child .tagcloud-link {
+    text-decoration: none;
+    text-transform: unset;
+    width: 100%;
+    float: left;
+    border: none;
+    box-shadow: none;
+}
+
+div[id*="tagsdiv-"].postbox .inside>p:last-child .the-tagcloud {
+    width: 100%;
+    float: left;
+    border: none !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+/* Media Modal */
+
+.media-router .media-menu-item {
+    text-transform: inherit;
+    font-weight: normal;
+    color: inherit;
+}
+
+.media-modal-content .media-frame select.attachment-filters {
+    height: auto;
+}
+
+.media-modal .attachment-info .delete-attachment,
+.media-modal .attachment-info .edit-attachment {
+    font-size: inherit;
+    text-transform: inherit;
+    float: none;
+    font-weight: normal;
+}
+
+
+/* Default WP Backend Style Overwrite */
+
+button.notice-dismiss,
+button.notice-dismiss:hover {
+    background: none;
+}
+
+.wpb_edit_form_elements.vc_edit_form_elements .vc_column+.vc_column,
+.wpb_edit_form_elements.vc_edit_form_elements .vc_column-with-padding {
+    padding-top: 0;
+}
+
+.wpb_edit_form_elements.vc_edit_form_elements .vc_column {
+    margin-bottom: 20px;
+}
+
+.wpb_edit_form_elements.vc_edit_form_elements .vc_column input {
+    height: 46px;
+    border-radius: 3px;
+}
+
+.widefat button.button-link {
+    text-transform: none;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+#wpbody-content .dtsl-pagination.dtsl-ajax-pagination ul.page-numbers li a,
+#wpbody-content .dtsl-pagination.dtsl-ajax-pagination .prev-post a,
+#wpbody-content .dtsl-pagination.dtsl-ajax-pagination .next-post a {
+    background-color: #000;
+    border-color: #000;
+}
+
+#wpbody-content .dtsl-pagination.dtsl-ajax-pagination ul.page-numbers li span,
+#wpbody-content .dtsl-pagination.dtsl-ajax-pagination ul.page-numbers li a:hover,
+#wpbody-content .dtsl-pagination.dtsl-ajax-pagination .prev-post a:hover,
+#wpbody-content .dtsl-pagination.dtsl-ajax-pagination .next-post a:hover {
+    color: #000;
+    background: none;
+}
+
+
+/* Other Colors */
+
+.dtsl-custom-box ul.dtsl-business-hours-list>li .dtsl-business-hours-starttime .chosen-container-single .chosen-single,
+.dtsl-custom-box ul.dtsl-business-hours-list>li .dtsl-business-hours-endtime .chosen-container-single .chosen-single,
+.dtsl-custom-box .chosen-container-single .chosen-drop,
+.dtsl-custom-box .chosen-container-single .chosen-search input[type="text"],
+.dtsl-custom-box .chosen-container-multi .chosen-choices,
+.dtsl-custom-box .chosen-container-multi.chosen-container .chosen-drop,
+.dtsl-custom-box .dtsl-attachments-box-item-holder .dtsl-attachments-box-item:not(:only-child):not(:last-child),
+.dtsl-features-box-container .dtsl-features-box-item-holder .dtsl-features-box-item:not(:only-child):not(:last-child),
+.dtsl-custom-box .dtsl-floorplan-box-container .dtsl-floorplan-box-item,
+.dtsl-custom-box .chosen-container-single .chosen-single,
+.dtsl-custom-box .chosen-container-single .chosen-drop,
+.dtsl-custom-box .ui-sortable .dtsl-social-item-section:not(:only-child):not(:last-child),
+.wp-admin .chosen-container-single .chosen-single,
+.media-frame select.attachment-filters:last-of-type,
+.wp-admin .chosen-container-single .chosen-drop,
+.wp-admin .chosen-container-single .chosen-search input[type="text"],
+.dtsl-custom-table-wrapper table,
+.dtsl-custom-table-wrapper table tbody tr:not(:last-child),
+.dtsl-tabs-vertical-container .dtsl-tabs-vertical-content .dtsl-custom-box:not(:last-child):not(:only-child),
+table.dtsl-custom-table,
+table.dtsl-custom-table td,
+.dtsl-custom-table-wrapper table th,
+.dtsl-custom-table-wrapper table td,
+.dtsl-settings-data-holder table.dtsl-custom-table th,
+.meta-box-sortables select,
+.vc_shortcode-param[data-param_type=dropdown] select.wpb_vc_param_value,
+.vc_shortcode-param[data-param_type=dropdown] select.wpb_vc_param_value option {
+    border-color: #e3e3e3;
+}
+
+input[type='submit'],
+button,
+input[type='button'],
+input[type='reset'],
+.dtsl-custom-box .custom-button-style {
+    color: #fff;
+}
+
+.custom-button-style,
+input[type='submit'],
+button,
+input[type='button'],
+input[type='reset'],
+.dtsl-custom-box .custom-button-style {
+    background-color: #000;
+}
+
+.custom-button-style:hover,
+input[type='submit']:hover,
+button:hover,
+input[type='button']:hover,
+input[type='reset']:hover,
+.dtsl-custom-box .custom-button-style:hover {
+    background-color: #32373c;
+}

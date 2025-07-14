@@ -1,0 +1,29 @@
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item:last-child {
+    margin-bottom: 30px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item {
+    display: grid;
+    grid-template-columns: calc(100% - 50px) 50px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item input {
+    margin-bottom: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item .dtsl-media-videos-box-options {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item .dtsl-media-videos-box-options>span:first-child {
+    margin-left: 10px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item .dtsl-media-videos-box-options span.dtsl-remove-media-videos {
+    cursor: pointer;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item .dtsl-media-videos-box-options span.dtsl-sort-media-videos {
+    cursor: grab;
+}

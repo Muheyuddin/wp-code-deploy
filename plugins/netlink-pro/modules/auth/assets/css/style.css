@@ -1,0 +1,496 @@
+
+/* Container + Colors of Header, Footer After Registration */
+.wdt-custom-auth-form{
+    background-color: var(--wdtTertiaryColor);
+}
+.wdt-custom-auth-form section.elementor-element .elementor-container{
+    max-width: 1700px;
+}
+.wdt-custom-auth-form .elementor-element.wdt-custom-header-search-icon.elementor-widget.elementor-widget-wdt-header-icons{
+    max-width: 90px;
+}
+.elementor-element.wdt-custom-footer-description .elementor-text-editor p,
+.wdt-custom-footer-mailchimp-2 .wdt-mailchimp-holder.wdt-template-type3 .wdt-mailchimp-wrapper .wdt-mailchimp-subscribe-form.with-btn-icon .wdt-mailchimp-subscription-button-holder button:hover,
+.wdt-custom-auth-form .elementor-element.wdt-custom-footer-icon-lists ul.elementor-icon-list-items li.elementor-icon-list-item a span,
+.wdt-custom-auth-form .elementor-element.wdt-custom-footer-social ul.elementor-icon-list-items li.elementor-icon-list-item a span > i{
+    color: var(--wdtAccentTxtColor);
+}
+.wdt-custom-footer-mailchimp-2 .wdt-mailchimp-holder.wdt-template-type3 .wdt-mailchimp-wrapper .wdt-mailchimp-subscribe-form.with-btn-icon .wdt-mailchimp-subscription-button-holder button,
+.wdt-custom-auth-form .elementor-element.wdt-custom-footer-icon-lists ul.elementor-icon-list-items li.elementor-icon-list-item a:hover span{
+    color: var(--wdtPrimaryColor);
+}
+.wdt-custom-auth-form .wdt-custom-header{
+    background: var(--wdtAccentTxtColor) !important;
+
+}
+/* Registration Page */
+
+.page-template.page-template-tpl-registration #main{
+    padding: 150px;
+    position: relative;
+    margin-top: -150px;
+    background-color: var(--wdtTertiaryColor);
+}
+.page-template.page-template-tpl-registration #main .container > .container{
+    padding: 0;
+}
+
+/* Registration Form */
+
+.wdt-registration-form{
+    padding: 80px;
+    background-color: rgb(35, 33, 33);
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    border-radius: calc(var(--wdtRadius_3X)*1);
+    box-shadow: rgba(0,0,0,.3) 0 0 40px;
+}
+.wdt-registration-form form{
+    margin-top: 60px;
+}
+.wdt-registration-form .ai-max-custom-auth-sc-border-title h2{
+    text-align: center;
+    color: var(--wdtAccentTxtColor);
+}
+.wdt-registration-form p{
+    text-align: center;
+    font-weight: calc(var(--wdtFontWeight_Base) - 100);
+}
+.wdt-registration-form p strong{
+    font-weight: calc(var(--wdtFontWeight_Base) - 100);
+    color: var(--wdtAccentTxtColor);
+}
+.wdt-registration-form form p{
+    text-align: left;
+    color: var(--wdtAccentTxtColor);
+}
+.wdt-registration-form form p:last-child{
+    text-align: center;
+}
+.wdt-registration-form form p a.aimax-pro-login-link{
+    color: var(--wdtLinkHoverColor);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+.wdt-registration-form form p a.aimax-pro-login-link:hover{
+    text-decoration-color: currentColor;
+}
+.wdt-registration-form form#loginform{
+    display: block;
+}
+.wdt-registration-form input[type="text"],
+.wdt-registration-form input[type="password"],
+.wdt-registration-form input[type="email"],
+.wdt-registration-form input[type="url"],
+.wdt-registration-form input[type="tel"],
+.wdt-registration-form input[type="number"], 
+.wdt-registration-form input[type="range"], 
+.wdt-registration-form input[type="date"], 
+.wdt-registration-form textarea, 
+.wdt-registration-form input.text, 
+.wdt-registration-form input[type="search"], 
+.wdt-registration-form .select2-container--default .select2-search .select2-search__field, 
+.wdt-registration-form .select2-container--default .select2-search--dropdown .select2-search__field, 
+.wdt-registration-form .select2-container--default .select2-search--inline .select2-search__field{
+    background-color: var(--wdtBodyBGColor);
+    box-shadow: 0 0;
+    -webkit-box-shadow: 0 0;
+    border: 1px solid var(--wdtBodyBGColor);
+    /* padding-top: 13px;
+    padding-bottom: 13px; */
+    padding-left: 30px;
+}
+.wdt-registration-form input[type="text"]:focus,
+.wdt-registration-form input[type="password"]:focus,
+.wdt-registration-form input[type="email"]:focus,
+.wdt-registration-form input[type="url"]:focus,
+.wdt-registration-form input[type="tel"]:focus,
+.wdt-registration-form input[type="number"]:focus, 
+.wdt-registration-form input[type="range"]:focus, 
+.wdt-registration-form input[type="date"]:focus, 
+.wdt-registration-form textarea:focus, 
+.wdt-registration-form input.text:focus, 
+.wdt-registration-form input[type="search"]:focus, 
+.wdt-registration-form .select2-container--default .select2-search .select2-search__field:focus, 
+.wdt-registration-form .select2-container--default .select2-search--dropdown .select2-search__field:focus, 
+.wdt-registration-form .select2-container--default .select2-search--inline .select2-search__field:focus{
+    border: 1px solid var(--wdtPrimaryColor);
+    box-shadow: 0 0;
+    -webkit-box-shadow: 0 0;
+}
+.wdt-registration-form input[type="submit"]{
+    width: 100%;
+    padding: var(--wdtPadding_MiniBtn);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-transform: capitalize;
+}
+.wdt-registration-form input[type="submit"]:hover{
+    background-color: var(--wdtPrimaryColor);
+}
+.wdt-registration-form form p{
+    margin-bottom: 20px;
+}
+.wdt-registration-form p.submit{
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 1540px){
+    .page-template.page-template-tpl-registration #main{
+        padding: 100px 0;
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width:767px){
+    .wdt-registration-form{
+        padding: 30px;
+    }
+    .wdt-registration-form .ai-max-custom-auth-sc-border-title h2{
+        font-size: var(--wdtFontSize_H3);
+    }
+    
+}
+@media screen and (max-width: 479px){
+    .wdt-registration-form .ai-max-custom-auth-sc-border-title h2{
+        font-size: var(--wdtFontSize_H4);
+    }
+    .page-template.page-template-tpl-registration #main{
+        margin-top: -50px;
+    }
+    .page-template.page-template-tpl-registration #main{
+        padding: 70px 0;
+    }
+}
+
+
+/* Login form */
+
+.netlink-pro-login-form-container{
+    display: block;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+    width: 100%;
+    z-index: 10000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.netlink-pro-login-form-overlay{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,.8);
+}
+.netlink-pro-login-form-container .netlink-pro-login-form{
+    display: block;
+    padding: 0;
+    pointer-events: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 20px 50px 40px;
+    background-color: rgb(35, 33, 33);
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    border-radius: calc(var(--wdtRadius_3X)*2);
+    box-shadow: rgba(var(--wdtPrimaryColorRgb),.5) 0 0 20px;
+    -webkit-box-shadow: rgba(var(--wdtPrimaryColorRgb),.5) 0 0 20px;
+    overflow-y: auto;
+    height: calc(100% - 100px);
+}
+.netlink-pro-login-form-container .netlink-pro-login-form .netlink-pro-title.netlink-pro-login-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#loginform .login-username, #loginform .login-password{
+    width: 100%;
+}
+#loginform p{
+    margin-bottom: 20px;
+}
+#loginform .login-remember{
+    text-align: left;
+}
+#loginform p.login-remember input[type="checkbox"]{
+    opacity: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border: 1px solid var(--wdtBorderColor);
+    transform: translateY(-0.075em);
+    display: inline-grid;
+    place-content: center;
+	box-shadow: 0 0 40px #00000080;
+    -webkit-box-shadow: 0 0 40px #00000080;
+    background: rgba(var(--wdtTertiaryColorRgb),.5);
+    border-radius: 2px;
+    padding: 0 0;
+}
+#loginform p.login-remember input[type="checkbox"]:after{
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--wdtPrimaryColor);
+}
+#loginform p.login-remember input[type="checkbox"]:checked:after {
+	transform: scale(1);
+}
+#loginform p.login-remember input[type="checkbox"]:before{
+    content: none;
+}
+#loginform p.login-remember{
+    margin: 0 0 40px;
+    color: var(--wdtAccentTxtColor);
+    text-align: left;
+}
+#loginform input[type="text"],
+#loginform input[type="password"]{
+    background-color: var(--wdtBodyBGColor);
+    box-shadow: 0 0;
+    -webkit-box-shadow: 0 0;
+    border: 1px solid var(--wdtBodyBGColor);
+    /* padding-top: 13px;
+    padding-bottom: 13px; */
+    margin-bottom: 0;
+    padding-left: 30px;
+    color:rgba(var(--wdtLinkColorRgb),1);
+}
+#loginform input[type="text"]:focus,
+#loginform input[type="password"]:focus{
+    border-color: var(--wdtPrimaryColor);
+}
+#loginform .login-submit{
+    margin-bottom: 40px;
+}
+#loginform .login-submit input[type="submit"]{
+    width: 100%;
+    /* background-color: var(--wdtPrimaryColor); */
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+#loginform .login-submit input[type="submit"]:hover{
+    background-color: var(--wdtPrimaryColor);
+}
+
+.netlink-pro-social-logins-divider{
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--wdtAccentTxtColor);
+}
+.netlink-pro-title.netlink-pro-login-title h2{
+    text-align: center;
+    color: var(--wdtAccentTxtColor);
+}
+span.netlink-pro-login-description{
+    color: var(--wdtAccentTxtColor);
+    text-align: center;
+}
+.netlink-pro-login-form #loginform{
+    margin-top: 60px;
+}
+.netlink-pro-login-form-container .netlink-pro-login-form .netlink-pro-login-form-holder p.tpl-forget-pwd{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.netlink-pro-login-form-container .netlink-pro-login-form .netlink-pro-login-form-holder p.tpl-forget-pwd a{
+    color: var(--wdtLinkHoverColor);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: all 0.3s linear;
+}
+.netlink-pro-login-form-container .netlink-pro-login-form .netlink-pro-login-form-holder p.tpl-forget-pwd a:hover{
+    text-decoration-color: var(--wdtLinkHoverColor);
+}
+
+a.netlink-pro-social-facebook-connect,
+a.netlink-pro-social-google-connect{
+    width: 45%;
+    padding: var(--wdtPadding_MiniBtn);
+    display: inline-block;
+    text-align: center;
+    background: var(--wdtAccentTxtColor);
+    color: var(--wdt-elementor-color-black);
+    border-radius: var(--wdtRadius_3X);
+    box-shadow: rgba(var(--wdtLinkHoverColorRgb),.35) 0 0 15px;
+    margin: 10px;
+    font-size: calc(var(--wdtFontWeight_H6) - 2px);
+    font-weight: var(--wdtFontWeight_Base);
+}
+a.netlink-pro-social-facebook-connect:hover,
+a.netlink-pro-social-google-connect:hover{
+    background: var(--wdtPrimaryColor);
+    color: var(--wdtAccentTxtColor);
+}
+a.netlink-pro-social-facebook-connect i,
+a.netlink-pro-social-google-connect i{
+    margin-right: 10px;
+    display: none;
+}
+.netlink-pro-login-form-container{
+    max-width: 1640px;
+    margin: auto;
+}
+a.netlink-pro-social-facebook-connect i:before{
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCSVQICAgIfAhkiAAAAcpJREFUOE9jZACC6kUXC648+FR2/fFniU/ffjGCxECAkZGR4f///zAunC8lzPnHUl1489RskyCwOpABc3fe74erJIHhZihxYVGJhSGjW82B95cffBTAZiMhF4Hkc72VJRglojcg3IvFFanuSgweJpJgmasPPzLULbmCoirVU0kPxRD0MGiK0WVI9VCCazp2/Q1DcOtRlDBKdFXSx+uSm7O8GPi4WBk+ffvNMHvHPYbHb74xrDz0CMUl8U5yBmBDcMXC8yX+YA29624y9Ky7gRFLIIFYF3lDvC6BGQIyAGQQNhDlqGCEESZasnwMTbE6YPVWmiJg+vHrb2CvXH34CRiwl1FcFG4rbYzhEkugxnXV1lhtnb3jLkbshDnImmCEiawoF0O4nRwDAzDii4PUwYaBYuX49bdgGoSRwzDEVs6U4jDBMAQ9ltADFlssBlrKmTEa5u78/fzddxZsgUBM7ARZyWoxpk48dWDL6ef22PIOoXSiIsX7/Ui3Mxc428f1nDi/6/wLA3TX4HMJyAAnfbFEYNZYCS878maekfv9l1GK6d///0zMLED8//+EVANwGl+w+x7fzeefeRh+MzCAxDk5WT7XRujehVkKANTH/arDDq6/AAAAAElFTkSuQmCC");
+    display: block;
+    position: relative;
+    top: 4px;
+}
+a.netlink-pro-social-google-connect i:before{
+    content: url('data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABQAAD/4QMvaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzE0NSA3OS4xNjM0OTksIDIwMTgvMDgvMTMtMTY6NDA6MjIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NEEzNTVFRDM3MzcxMUVFQkEwREYzNzBBMEQ3MUZBNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3NEEzNTVFRTM3MzcxMUVFQkEwREYzNzBBMEQ3MUZBNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjc0QTM1NUVCMzczNzExRUVCQTBERjM3MEEwRDcxRkE1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjc0QTM1NUVDMzczNzExRUVCQTBERjM3MEEwRDcxRkE1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/+4ADkFkb2JlAGTAAAAAAf/bAIQAAgICAgICAgICAgMCAgIDBAMCAgMEBQQEBAQEBQYFBQUFBQUGBgcHCAcHBgkJCgoJCQwMDAwMDAwMDAwMDAwMDAEDAwMFBAUJBgYJDQsJCw0PDg4ODg8PDAwMDAwPDwwMDAwMDA8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAEwARAwERAAIRAQMRAf/EAHgAAAIDAAAAAAAAAAAAAAAAAAAHBAgJAQADAQEBAAAAAAAAAAAAAAAABAYFAwcQAAAGAQQBBQEAAAAAAAAAAAECAwQFBhEAIRIHMVGBIhMUFREAAgEDAwIGAwEAAAAAAAAAAQIDABEEIRIFMVFBYXEiEzOBYgYV/9oADAMBAAIRAxEAPwDansvs0aB/Cjoypyt4tVoXUQga5FFKAnFEnNRRwup8EEyh5Mb2AcDrLzeWix5VgHumYEhB1Kjq3oO9UXA/z/8Ap/JJJMkMMYBd389AFUasx7CpXXV0tNtSl0rZ1xKdeSUOqmkKT1dB22dgoUT82jhEQ+wC7AbJQwO2++mMTJkmv8kZQjvYg+hFc+c4rFwShxspJ1cE+0FWW2lnVul/DU6UydOVg0i+zHV7qVrrd9qdSUvEKizXi7jBMjgEmRAxgVRcMyHMUinE+eZPIhjHqExl8Iq8snKLuZ1iMW0WttLb9w8/D0pXk+YzcbHWGGISRbyz2+zpYbdbEd/HtSn6nptjmO1E763gLdRKLEt3xyRlqk3CzuVkX4mATfhUVOCCCJTm4gIecY2Db1R/6mPN4doZIwJywH1qm2NLWIYasXPXtr+ZricWSXL+cJJHGL6OTdmb9b6AVczUlVfRooo0UUaKK//Z');
+    display: block;
+    position: relative;
+    top: 6px;
+}
+@media screen and (min-width:1281px) and (max-width: 1540px){
+    .netlink-pro-login-form-container{
+        max-width: 1080px;
+        margin: auto;
+    }    
+}
+@media screen and (min-width:1025px) and (max-width: 1280px){
+    .netlink-pro-login-form-container{
+        max-width: 900px;
+        margin: auto;
+    }    
+}
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .netlink-pro-login-form-container{
+        max-width: 710px;
+        margin: auto;
+    }    
+}
+@media screen and (max-width: 767px){
+    #loginform .login-username, 
+    #loginform .login-password{
+        margin-bottom: 20px;
+    }
+    /* .netlink-pro-login-form-container {overflow: scroll;} */
+    .netlink-pro-login-form-container .netlink-pro-login-form{
+        padding: 10px 30px 20px;
+        max-width: 420px;
+        
+    }
+    .netlink-pro-title.netlink-pro-login-title h2{
+        font-size: var(--wdtFontSize_H3);
+    }
+    a.netlink-pro-social-facebook-connect, a.netlink-pro-social-google-connect{
+        width: 44%;
+    }
+}
+@media screen and (min-width:480px) and (max-width: 767px){
+    .netlink-pro-login-form-container{
+        max-width: 420px;
+        margin: auto;
+    }    
+}
+@media screen and (max-width: 479px){
+    .netlink-pro-login-form-container{
+        max-width: 290px;
+        margin: auto;
+    }    
+    .netlink-pro-title.netlink-pro-login-title h2{
+        font-size: var(--wdtFontSize_H4);
+    }
+    a.netlink-pro-social-facebook-connect, a.netlink-pro-social-google-connect{
+        width: 100%;
+    }
+}
+
+/* After Registration */
+.mu_register{
+    width: 100%;
+    margin: 260px auto 100px !important;
+    max-width: 600px;
+    padding: 50px;
+    background: rgb(35, 33, 33);
+    box-shadow: rgba(0,0,0,.25) 0 0 40px;
+    border-radius: var(--wdtRadius_3X);
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register h2{
+    font-size: var(--wdtFontSize_H4);
+    text-align: center;
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register form input{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 1px solid transparent;
+}
+.mu_register form label{
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register form input:focus{
+    border-color: var(--wdtPrimaryColor);
+}
+.mu_register form #wp-signup-username-description,
+.mu_register form #wp-signup-email-description{
+    margin-bottom: 15px;
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register form .signup-options legend{
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register p.submit{
+
+    margin-top: 20px;
+}
+.mu_register label, .mu_register legend, .mu_register .label-heading{
+    font-weight: var(--wdtFontWeight_Base) !important;
+}
+.mu_register form p.submit input[type="submit"]{
+    font-size: var(--wdtFontSize_Base);
+}
+.mu_register form p.submit input[type="submit"]:hover{
+    background-color: var(--wdtPrimaryColor);
+}
+.mu_register .prefix_address, .mu_register .suffix_address{
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register.wp-signup-container form#setupform p{
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register label, .mu_register legend, .mu_register .label-heading{
+    color: var(--wdtAccentTxtColor);
+}
+.mu_register.wp-signup-container form#setupform .wp-signup-blogname{
+    margin-bottom: 15px;
+}
+#signup-content .mu_register.wp-signup-container p{
+    color: var(--wdtPrimaryColor);
+    text-align: center;
+}
+#signup-content .mu_register.wp-signup-container #noemail-tips{
+    color: var(--wdtAccentTxtColor);
+    text-align: center;
+}
+.mu_register .signup-options .wp-signup-radio-button{
+    text-align: left;
+}
+.mu_register.wp-signup-container form#setupform p.wp-signup-radio-buttons{
+    text-align: left;
+}
+
+@media screen and (max-width: 479px){
+    .mu_register{
+        padding: 30px;
+    }
+}

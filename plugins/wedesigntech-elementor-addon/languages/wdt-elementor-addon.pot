@@ -1,0 +1,3791 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WeDesignTech Elementor Addon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-08 15:48+0530\n"
+"PO-Revision-Date: 2019-07-19 11:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: Creative Brahma\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../inc/common-controls/content-position/register.php:41
+#: ../inc/common-controls/content-position/register.php:42
+msgid "Content Position"
+msgstr ""
+
+#: ../inc/common-controls/content-position/register.php:66
+#: ../inc/common-controls/content-position/register.php:93
+#: ../inc/common-controls/content-position/register.php:135
+#: ../inc/common-controls/content-position/register.php:162
+#: ../inc/widgets/heading/class-widget-base.php:421
+#: ../inc/widgets/pricing-table/class-widget-base.php:197
+#: ../inc/widgets/pricing-table/class-widget-base.php:433
+msgid "Element"
+msgstr ""
+
+#: ../inc/common-controls/content-position/register.php:72
+#: ../inc/common-controls/content-position/register.php:99
+#: ../inc/common-controls/content-position/register.php:141
+#: ../inc/common-controls/content-position/register.php:168
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:95
+msgid "Module"
+msgstr ""
+
+#: ../inc/common-controls/content-position/register.php:186
+msgid "Title & Sub Title Positions"
+msgstr ""
+
+#: ../inc/common-controls/content-position/register.php:192
+#: ../inc/widgets/pricing-table/class-widget-base.php:1442
+msgid "Below"
+msgstr ""
+
+#: ../inc/common-controls/content-position/register.php:193
+#: ../inc/widgets/pricing-table/class-widget-base.php:1443
+msgid "Beside"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:55
+#: ../inc/common-controls/layout/register.php:70
+#: ../inc/widgets/button/class-widget-base.php:61
+#: ../inc/widgets/tabs/class-widget-base.php:123
+msgid "Layout"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:73
+#: ../inc/common-controls/layout/register.php:123
+#: ../inc/common-controls/repeater-contents/register.php:65
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:109
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:189
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:779
+#: ../inc/widgets/chart/class-widget-base.php:219
+#: ../inc/widgets/chart/class-widget-base.php:610
+#: ../inc/widgets/counter/class-widget-base.php:213
+#: ../inc/widgets/creative-button/class-widget-base.php:169
+#: ../inc/widgets/flip-box/class-widget-base.php:128
+#: ../inc/widgets/flip-box/class-widget-base.php:297
+#: ../inc/widgets/google-map/class-widget-base.php:193
+#: ../inc/widgets/heading/class-widget-base.php:465
+#: ../inc/widgets/hotspot/class-widget-base.php:128
+#: ../inc/widgets/icon-box/class-widget-base.php:191
+#: ../inc/widgets/pricing-table/class-widget-base.php:518
+#: ../inc/widgets/progress-bar/class-widget-base.php:93
+#: ../inc/widgets/tabs/class-widget-base.php:137
+#: ../inc/widgets/team/class-widget-base.php:228
+#: ../inc/widgets/team/class-widget-base.php:917
+#: ../inc/widgets/testimonial/class-widget-base.php:206
+#: ../inc/widgets/testimonial/class-widget-base.php:896
+msgid "Default"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:74
+msgid "Column"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:75
+msgid "Carousel"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:104
+msgid "Columns"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:119
+msgid "Columns Gap"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:124
+msgid "No Gap"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:125
+msgid "Narrow"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:126
+msgid "Extended"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:127
+msgid "Wide"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:128
+msgid "Wider"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:129
+#: ../inc/widgets/google-map/class-widget-base.php:194
+#: ../inc/widgets/google-map/class-widget-base.php:324
+#: ../inc/widgets/pricing-table/class-widget-base.php:252
+msgid "Custom"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:138
+msgid "Custom Columns Gap"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:176
+msgid "Carousel Options"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:181
+#: ../inc/core/sections/register.php:192
+#: ../inc/core/sections/register.php:212
+#: ../inc/core/sections/register.php:228
+msgid "Direction"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:185
+#: ../inc/widgets/progress-bar/class-widget-base.php:68
+#: ../inc/widgets/tabs/class-widget-base.php:127
+msgid "Horizontal"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:186
+#: ../inc/widgets/tabs/class-widget-base.php:128
+msgid "Vertical"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:196
+msgid "Slides to Show"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:209
+msgid "Slides to Scroll"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:214
+msgid "All visible"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:215
+msgid "One at a Time"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:221
+msgid "Pagination"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:225
+#: ../inc/common-controls/layout/register.php:329
+#: ../inc/common-controls/rating/register.php:23
+#: ../inc/common-controls/repeater-contents/register.php:93
+#: ../inc/core/sections/register.php:151
+#: ../inc/widgets/flip-box/class-widget-base.php:69
+#: ../inc/widgets/flip-box/class-widget-base.php:238
+#: ../inc/widgets/flip-box/class-widget-base.php:356
+#: ../inc/widgets/google-map/class-widget-base.php:224
+#: ../inc/widgets/hotspot/class-widget-base.php:143
+#: ../inc/widgets/pricing-table/class-widget-base.php:127
+#: ../inc/widgets/pricing-table/class-widget-base.php:234
+msgid "None"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:226
+msgid "Dots"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:227
+#: ../inc/widgets/pricing-table/class-widget-base.php:1356
+msgid "Fraction"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:228
+msgid "Progress"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:229
+msgid "Scrollbar"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:235
+msgid "Arrows"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:244
+msgid "Arrow Prev Icon"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:256
+msgid "Arrow Next Icon"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:266
+msgid "Transition Duration"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:273
+msgid "Unequal Height Compatability"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:284
+msgid "Autoplay"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:291
+msgid "Autoplay Speed"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:301
+msgid "Infinite Loop"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:308
+msgid "Centered Slides"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:315
+msgid "Pause on Interaction"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:325
+msgid "Overflow Type"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:330
+#: ../inc/common-controls/style/register.php:342
+#: ../inc/widgets/button/class-widget-base.php:105
+#: ../inc/widgets/chart/class-widget-base.php:205
+#: ../inc/widgets/creative-button/class-widget-base.php:277
+#: ../inc/widgets/flip-box/class-widget-base.php:534
+#: ../inc/widgets/flip-box/class-widget-base.php:599
+#: ../inc/widgets/flip-box/class-widget-base.php:1057
+#: ../inc/widgets/google-map/class-widget-base.php:474
+#: ../inc/widgets/heading/class-widget-base.php:655
+#: ../inc/widgets/heading/class-widget-base.php:837
+#: ../inc/widgets/heading/class-widget-base.php:1149
+#: ../inc/widgets/hotspot/class-widget-base.php:97
+#: ../inc/widgets/hotspot/class-widget-base.php:307
+#: ../inc/widgets/hotspot/class-widget-base.php:377
+#: ../inc/widgets/pricing-table/class-widget-base.php:490
+msgid "Left"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:331
+#: ../inc/common-controls/style/register.php:346
+#: ../inc/widgets/button/class-widget-base.php:107
+#: ../inc/widgets/chart/class-widget-base.php:207
+#: ../inc/widgets/creative-button/class-widget-base.php:279
+#: ../inc/widgets/flip-box/class-widget-base.php:535
+#: ../inc/widgets/flip-box/class-widget-base.php:607
+#: ../inc/widgets/flip-box/class-widget-base.php:1065
+#: ../inc/widgets/google-map/class-widget-base.php:476
+#: ../inc/widgets/heading/class-widget-base.php:684
+#: ../inc/widgets/heading/class-widget-base.php:866
+#: ../inc/widgets/heading/class-widget-base.php:1178
+#: ../inc/widgets/hotspot/class-widget-base.php:105
+#: ../inc/widgets/hotspot/class-widget-base.php:301
+#: ../inc/widgets/hotspot/class-widget-base.php:371
+#: ../inc/widgets/pricing-table/class-widget-base.php:491
+msgid "Right"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:348
+msgid "Carousel Arrows"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:355
+#: ../inc/common-controls/layout/register.php:623
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:190
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:230
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:323
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:365
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:499
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:592
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:699
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:812
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:914
+#: ../inc/widgets/button/class-widget-base.php:75
+#: ../inc/widgets/button/class-widget-base.php:119
+#: ../inc/widgets/button/class-widget-base.php:218
+#: ../inc/widgets/chart/class-widget-base.php:611
+#: ../inc/widgets/creative-button/class-widget-base.php:199
+#: ../inc/widgets/flip-box/class-widget-base.php:1548
+#: ../inc/widgets/hotspot/class-widget-base.php:497
+#: ../inc/widgets/hotspot/class-widget-base.php:539
+#: ../inc/widgets/hotspot/class-widget-base.php:590
+#: ../inc/widgets/icon-box/class-widget-base.php:240
+#: ../inc/widgets/icon-box/class-widget-base.php:333
+#: ../inc/widgets/icon-box/class-widget-base.php:375
+#: ../inc/widgets/icon-box/class-widget-base.php:434
+#: ../inc/widgets/icon-box/class-widget-base.php:527
+#: ../inc/widgets/icon-box/class-widget-base.php:634
+#: ../inc/widgets/icon-box/class-widget-base.php:736
+#: ../inc/widgets/icon-box/class-widget-base.php:838
+#: ../inc/widgets/instagram/class-widget-base.php:132
+#: ../inc/widgets/mailchimp/class-widget-base.php:223
+#: ../inc/widgets/mailchimp/class-widget-base.php:336
+#: ../inc/widgets/mailchimp/class-widget-base.php:446
+#: ../inc/widgets/pricing-table/class-widget-base.php:563
+#: ../inc/widgets/pricing-table/class-widget-base.php:668
+#: ../inc/widgets/pricing-table/class-widget-base.php:778
+#: ../inc/widgets/pricing-table/class-widget-base.php:913
+#: ../inc/widgets/pricing-table/class-widget-base.php:1044
+#: ../inc/widgets/pricing-table/class-widget-base.php:1115
+#: ../inc/widgets/pricing-table/class-widget-base.php:1166
+#: ../inc/widgets/pricing-table/class-widget-base.php:1233
+#: ../inc/widgets/pricing-table/class-widget-base.php:1411
+#: ../inc/widgets/pricing-table/class-widget-base.php:1466
+#: ../inc/widgets/pricing-table/class-widget-base.php:1555
+#: ../inc/widgets/pricing-table/class-widget-base.php:1805
+#: ../inc/widgets/pricing-table/class-widget-base.php:1891
+#: ../inc/widgets/pricing-table/class-widget-base.php:1967
+#: ../inc/widgets/pricing-table/class-widget-base.php:2049
+#: ../inc/widgets/tabs/class-widget-base.php:227
+#: ../inc/widgets/team/class-widget-base.php:277
+#: ../inc/widgets/team/class-widget-base.php:370
+#: ../inc/widgets/team/class-widget-base.php:412
+#: ../inc/widgets/team/class-widget-base.php:546
+#: ../inc/widgets/team/class-widget-base.php:642
+#: ../inc/widgets/team/class-widget-base.php:749
+#: ../inc/widgets/team/class-widget-base.php:837
+#: ../inc/widgets/team/class-widget-base.php:881
+#: ../inc/widgets/team/class-widget-base.php:950
+#: ../inc/widgets/team/class-widget-base.php:1052
+#: ../inc/widgets/testimonial/class-widget-base.php:256
+#: ../inc/widgets/testimonial/class-widget-base.php:349
+#: ../inc/widgets/testimonial/class-widget-base.php:391
+#: ../inc/widgets/testimonial/class-widget-base.php:525
+#: ../inc/widgets/testimonial/class-widget-base.php:621
+#: ../inc/widgets/testimonial/class-widget-base.php:728
+#: ../inc/widgets/testimonial/class-widget-base.php:816
+#: ../inc/widgets/testimonial/class-widget-base.php:860
+#: ../inc/widgets/testimonial/class-widget-base.php:929
+#: ../inc/widgets/testimonial/class-widget-base.php:1031
+msgid "Normal"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:359
+#: ../inc/common-controls/layout/register.php:423
+#: ../inc/widgets/chart/class-widget-base.php:585
+msgid "Font Color"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:419
+#: ../inc/common-controls/layout/register.php:672
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:264
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:335
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:377
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:526
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:626
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:733
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:846
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:948
+#: ../inc/widgets/button/class-widget-base.php:260
+#: ../inc/widgets/creative-button/class-widget-base.php:238
+#: ../inc/widgets/flip-box/class-widget-base.php:1602
+#: ../inc/widgets/hotspot/class-widget-base.php:398
+#: ../inc/widgets/hotspot/class-widget-base.php:509
+#: ../inc/widgets/hotspot/class-widget-base.php:551
+#: ../inc/widgets/hotspot/class-widget-base.php:624
+#: ../inc/widgets/icon-box/class-widget-base.php:274
+#: ../inc/widgets/icon-box/class-widget-base.php:345
+#: ../inc/widgets/icon-box/class-widget-base.php:387
+#: ../inc/widgets/icon-box/class-widget-base.php:461
+#: ../inc/widgets/icon-box/class-widget-base.php:561
+#: ../inc/widgets/icon-box/class-widget-base.php:668
+#: ../inc/widgets/icon-box/class-widget-base.php:770
+#: ../inc/widgets/icon-box/class-widget-base.php:872
+#: ../inc/widgets/instagram/class-widget-base.php:161
+#: ../inc/widgets/mailchimp/class-widget-base.php:257
+#: ../inc/widgets/mailchimp/class-widget-base.php:376
+#: ../inc/widgets/mailchimp/class-widget-base.php:486
+#: ../inc/widgets/pricing-table/class-widget-base.php:597
+#: ../inc/widgets/pricing-table/class-widget-base.php:695
+#: ../inc/widgets/pricing-table/class-widget-base.php:819
+#: ../inc/widgets/pricing-table/class-widget-base.php:960
+#: ../inc/widgets/pricing-table/class-widget-base.php:1066
+#: ../inc/widgets/pricing-table/class-widget-base.php:1127
+#: ../inc/widgets/pricing-table/class-widget-base.php:1178
+#: ../inc/widgets/pricing-table/class-widget-base.php:1262
+#: ../inc/widgets/pricing-table/class-widget-base.php:1423
+#: ../inc/widgets/pricing-table/class-widget-base.php:1478
+#: ../inc/widgets/pricing-table/class-widget-base.php:1613
+#: ../inc/widgets/pricing-table/class-widget-base.php:1834
+#: ../inc/widgets/pricing-table/class-widget-base.php:1903
+#: ../inc/widgets/pricing-table/class-widget-base.php:2001
+#: ../inc/widgets/pricing-table/class-widget-base.php:2071
+#: ../inc/widgets/team/class-widget-base.php:311
+#: ../inc/widgets/team/class-widget-base.php:382
+#: ../inc/widgets/team/class-widget-base.php:424
+#: ../inc/widgets/team/class-widget-base.php:573
+#: ../inc/widgets/team/class-widget-base.php:676
+#: ../inc/widgets/team/class-widget-base.php:783
+#: ../inc/widgets/team/class-widget-base.php:849
+#: ../inc/widgets/team/class-widget-base.php:893
+#: ../inc/widgets/team/class-widget-base.php:984
+#: ../inc/widgets/team/class-widget-base.php:1086
+#: ../inc/widgets/testimonial/class-widget-base.php:290
+#: ../inc/widgets/testimonial/class-widget-base.php:361
+#: ../inc/widgets/testimonial/class-widget-base.php:403
+#: ../inc/widgets/testimonial/class-widget-base.php:552
+#: ../inc/widgets/testimonial/class-widget-base.php:655
+#: ../inc/widgets/testimonial/class-widget-base.php:762
+#: ../inc/widgets/testimonial/class-widget-base.php:828
+#: ../inc/widgets/testimonial/class-widget-base.php:872
+#: ../inc/widgets/testimonial/class-widget-base.php:963
+#: ../inc/widgets/testimonial/class-widget-base.php:1065
+msgid "Hover"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:487
+msgid "Prev Arrow Position"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:500
+#: ../inc/common-controls/layout/register.php:563
+msgid "Top Indent"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:511
+#: ../inc/common-controls/layout/register.php:574
+msgid "Bottom Indent"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:528
+#: ../inc/common-controls/layout/register.php:591
+msgid "Left Indent"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:539
+#: ../inc/common-controls/layout/register.php:602
+msgid "Right Indent"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:550
+msgid "Next Arrow Position"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:616
+msgid "Carousel Dots"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:755
+msgid "Carousel Pagination"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:760
+#: ../inc/common-controls/style/register.php:109
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:195
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:227
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:280
+#: ../inc/widgets/chart/class-widget-base.php:100
+#: ../inc/widgets/chart/class-widget-base.php:534
+#: ../inc/widgets/flip-box/class-widget-base.php:1572
+#: ../inc/widgets/flip-box/class-widget-base.php:1626
+#: ../inc/widgets/mailchimp/class-widget-base.php:350
+#: ../inc/widgets/mailchimp/class-widget-base.php:390
+#: ../inc/widgets/mailchimp/class-widget-base.php:460
+#: ../inc/widgets/mailchimp/class-widget-base.php:500
+#: ../inc/widgets/mailchimp/class-widget-base.php:589
+#: ../inc/widgets/mailchimp/class-widget-base.php:611
+#: ../inc/widgets/pricing-table/class-widget-base.php:2061
+#: ../inc/widgets/pricing-table/class-widget-base.php:2083
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/common-controls/layout/register.php:769
+msgid "Text / Active Color"
+msgstr ""
+
+#: ../inc/common-controls/rating/register.php:19
+#: ../inc/widgets/team/class-widget-base.php:36
+#: ../inc/widgets/testimonial/class-widget-base.php:36
+#: ../inc/widgets/testimonial/class-widget-base.php:1162
+#: ../inc/widgets/testimonial/class-widget-base.php:1183
+#: ../inc/widgets/testimonial/class-widget-base.php:1206
+#: ../inc/widgets/testimonial/class-widget-base.php:1233
+#: ../inc/widgets/testimonial/class-widget-base.php:1260
+#: ../inc/widgets/testimonial/class-widget-base.php:1289
+#: ../inc/widgets/testimonial/class-widget-base.php:1320
+#: ../inc/widgets/testimonial/class-widget-base.php:1346
+#: ../inc/widgets/testimonial/class-widget-base.php:1362
+#: ../inc/widgets/testimonial/class-widget-base.php:1396
+#: ../inc/widgets/testimonial/class-widget-base.php:1417
+msgid "Rating"
+msgstr ""
+
+#: ../inc/common-controls/rating/register.php:24
+msgid "1"
+msgstr ""
+
+#: ../inc/common-controls/rating/register.php:25
+msgid "2"
+msgstr ""
+
+#: ../inc/common-controls/rating/register.php:26
+msgid "3"
+msgstr ""
+
+#: ../inc/common-controls/rating/register.php:27
+msgid "4"
+msgstr ""
+
+#: ../inc/common-controls/rating/register.php:28
+msgid "5"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:55
+#: ../inc/widgets/flip-box/class-widget-base.php:59
+#: ../inc/widgets/flip-box/class-widget-base.php:228
+#: ../inc/widgets/hotspot/class-widget-base.php:161
+msgid "Content"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:61
+#: ../inc/common-controls/repeater-contents/register.php:72
+#: ../inc/common-controls/repeater-contents/register.php:78
+#: ../inc/widgets/progress-bar/class-widget-base.php:90
+msgid "Content Type"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:66
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:105
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:185
+#: ../inc/widgets/counter/class-widget-base.php:209
+#: ../inc/widgets/heading/class-widget-base.php:461
+#: ../inc/widgets/icon-box/class-widget-base.php:187
+#: ../inc/widgets/mailchimp/class-widget-base.php:102
+#: ../inc/widgets/pricing-table/class-widget-base.php:514
+#: ../inc/widgets/tabs/class-widget-base.php:133
+#: ../inc/widgets/team/class-widget-base.php:224
+#: ../inc/widgets/testimonial/class-widget-base.php:202
+msgid "Template"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:88
+#: ../inc/widgets/flip-box/class-widget-base.php:64
+#: ../inc/widgets/flip-box/class-widget-base.php:233
+msgid "Graphic Element"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:97
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:28
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:39
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:396
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1018
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1040
+#: ../inc/widgets/counter/class-widget-base.php:29
+#: ../inc/widgets/counter/class-widget-base.php:250
+#: ../inc/widgets/creative-button/class-widget-base.php:76
+#: ../inc/widgets/flip-box/class-widget-base.php:73
+#: ../inc/widgets/flip-box/class-widget-base.php:242
+#: ../inc/widgets/flip-box/class-widget-base.php:663
+#: ../inc/widgets/flip-box/class-widget-base.php:1122
+#: ../inc/widgets/hotspot/class-widget-base.php:67
+#: ../inc/widgets/pricing-table/class-widget-base.php:131
+#: ../inc/widgets/pricing-table/class-widget-base.php:727
+#: ../inc/widgets/team/class-widget-base.php:28
+#: ../inc/widgets/team/class-widget-base.php:41
+#: ../inc/widgets/team/class-widget-base.php:443
+#: ../inc/widgets/team/class-widget-base.php:1151
+#: ../inc/widgets/team/class-widget-base.php:1175
+#: ../inc/widgets/team/class-widget-base.php:1200
+#: ../inc/widgets/team/class-widget-base.php:1227
+#: ../inc/widgets/team/class-widget-base.php:1254
+#: ../inc/widgets/team/class-widget-base.php:1284
+#: ../inc/widgets/team/class-widget-base.php:1310
+#: ../inc/widgets/team/class-widget-base.php:1333
+#: ../inc/widgets/team/class-widget-base.php:1356
+#: ../inc/widgets/team/class-widget-base.php:1382
+#: ../inc/widgets/team/class-widget-base.php:1407
+#: ../inc/widgets/testimonial/class-widget-base.php:28
+#: ../inc/widgets/testimonial/class-widget-base.php:41
+#: ../inc/widgets/testimonial/class-widget-base.php:422
+#: ../inc/widgets/testimonial/class-widget-base.php:1130
+#: ../inc/widgets/testimonial/class-widget-base.php:1154
+#: ../inc/widgets/testimonial/class-widget-base.php:1186
+#: ../inc/widgets/testimonial/class-widget-base.php:1209
+#: ../inc/widgets/testimonial/class-widget-base.php:1230
+#: ../inc/widgets/testimonial/class-widget-base.php:1257
+#: ../inc/widgets/testimonial/class-widget-base.php:1284
+#: ../inc/widgets/testimonial/class-widget-base.php:1314
+#: ../inc/widgets/testimonial/class-widget-base.php:1340
+#: ../inc/widgets/testimonial/class-widget-base.php:1370
+#: ../inc/widgets/testimonial/class-widget-base.php:1388
+#: ../inc/widgets/testimonial/class-widget-base.php:1410
+msgid "Image"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:101
+#: ../inc/common-controls/repeater-contents/register.php:132
+#: ../inc/common-controls/repeater-contents/register.php:242
+#: ../inc/common-controls/social-icons/register.php:32
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:29
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:40
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:471
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1019
+#: ../inc/widgets/button/class-widget-base.php:139
+#: ../inc/widgets/button/class-widget-base.php:146
+#: ../inc/widgets/counter/class-widget-base.php:30
+#: ../inc/widgets/counter/class-widget-base.php:258
+#: ../inc/widgets/creative-button/class-widget-base.php:83
+#: ../inc/widgets/creative-button/class-widget-base.php:90
+#: ../inc/widgets/flip-box/class-widget-base.php:77
+#: ../inc/widgets/flip-box/class-widget-base.php:113
+#: ../inc/widgets/flip-box/class-widget-base.php:246
+#: ../inc/widgets/flip-box/class-widget-base.php:282
+#: ../inc/widgets/flip-box/class-widget-base.php:775
+#: ../inc/widgets/flip-box/class-widget-base.php:1234
+#: ../inc/widgets/heading/class-widget-base.php:62
+#: ../inc/widgets/heading/class-widget-base.php:140
+#: ../inc/widgets/heading/class-widget-base.php:246
+#: ../inc/widgets/heading/class-widget-base.php:296
+#: ../inc/widgets/heading/class-widget-base.php:316
+#: ../inc/widgets/heading/class-widget-base.php:353
+#: ../inc/widgets/heading/class-widget-base.php:364
+#: ../inc/widgets/heading/class-widget-base.php:424
+#: ../inc/widgets/heading/class-widget-base.php:902
+#: ../inc/widgets/heading/class-widget-base.php:998
+#: ../inc/widgets/hotspot/class-widget-base.php:131
+#: ../inc/widgets/hotspot/class-widget-base.php:216
+#: ../inc/widgets/icon-box/class-widget-base.php:28
+#: ../inc/widgets/icon-box/class-widget-base.php:38
+#: ../inc/widgets/icon-box/class-widget-base.php:406
+#: ../inc/widgets/icon-box/class-widget-base.php:940
+#: ../inc/widgets/icon-box/class-widget-base.php:962
+#: ../inc/widgets/icon-box/class-widget-base.php:991
+#: ../inc/widgets/icon-box/class-widget-base.php:1013
+#: ../inc/widgets/icon-box/class-widget-base.php:1033
+#: ../inc/widgets/icon-box/class-widget-base.php:1053
+#: ../inc/widgets/icon-box/class-widget-base.php:1075
+#: ../inc/widgets/icon-box/class-widget-base.php:1098
+#: ../inc/widgets/icon-box/class-widget-base.php:1118
+#: ../inc/widgets/icon-box/class-widget-base.php:1139
+#: ../inc/widgets/icon-box/class-widget-base.php:1160
+#: ../inc/widgets/mailchimp/class-widget-base.php:159
+#: ../inc/widgets/pricing-table/class-widget-base.php:135
+#: ../inc/widgets/pricing-table/class-widget-base.php:160
+#: ../inc/widgets/pricing-table/class-widget-base.php:865
+#: ../inc/widgets/tabs/class-widget-base.php:26
+#: ../inc/widgets/tabs/class-widget-base.php:31
+#: ../inc/widgets/team/class-widget-base.php:29
+#: ../inc/widgets/team/class-widget-base.php:42
+#: ../inc/widgets/team/class-widget-base.php:518
+#: ../inc/widgets/team/class-widget-base.php:1152
+#: ../inc/widgets/team/class-widget-base.php:1176
+#: ../inc/widgets/team/class-widget-base.php:1201
+#: ../inc/widgets/team/class-widget-base.php:1228
+#: ../inc/widgets/team/class-widget-base.php:1255
+#: ../inc/widgets/team/class-widget-base.php:1285
+#: ../inc/widgets/team/class-widget-base.php:1357
+#: ../inc/widgets/testimonial/class-widget-base.php:29
+#: ../inc/widgets/testimonial/class-widget-base.php:42
+#: ../inc/widgets/testimonial/class-widget-base.php:497
+#: ../inc/widgets/testimonial/class-widget-base.php:1131
+#: ../inc/widgets/testimonial/class-widget-base.php:1155
+#: ../inc/widgets/testimonial/class-widget-base.php:1180
+#: ../inc/widgets/testimonial/class-widget-base.php:1203
+#: ../inc/widgets/testimonial/class-widget-base.php:1231
+#: ../inc/widgets/testimonial/class-widget-base.php:1258
+#: ../inc/widgets/testimonial/class-widget-base.php:1285
+#: ../inc/widgets/testimonial/class-widget-base.php:1315
+#: ../inc/widgets/testimonial/class-widget-base.php:1341
+#: ../inc/widgets/testimonial/class-widget-base.php:1360
+#: ../inc/widgets/testimonial/class-widget-base.php:1387
+msgid "Icon"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:116
+#: ../inc/core/sections/register.php:59
+#: ../inc/widgets/flip-box/class-widget-base.php:88
+#: ../inc/widgets/flip-box/class-widget-base.php:257
+#: ../inc/widgets/hotspot/class-widget-base.php:73
+#: ../inc/widgets/pricing-table/class-widget-base.php:146
+msgid "Choose Image"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:147
+#: ../inc/common-controls/repeater-contents/register.php:148
+#: ../inc/common-controls/repeater-contents/register.php:233
+#: ../inc/common-controls/repeater-contents/register.php:234
+msgid "Item Title"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:157
+#: ../inc/common-controls/repeater-contents/register.php:158
+msgid "Item Sub Title"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:167
+msgid "Item Description"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:174
+#: ../inc/common-controls/social-icons/register.php:102
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:33
+#: ../inc/widgets/button/class-widget-base.php:96
+#: ../inc/widgets/counter/class-widget-base.php:34
+#: ../inc/widgets/creative-button/class-widget-base.php:144
+#: ../inc/widgets/flip-box/class-widget-base.php:367
+#: ../inc/widgets/hotspot/class-widget-base.php:181
+#: ../inc/widgets/icon-box/class-widget-base.php:32
+#: ../inc/widgets/pricing-table/class-widget-base.php:408
+#: ../inc/widgets/team/class-widget-base.php:33
+#: ../inc/widgets/testimonial/class-widget-base.php:33
+msgid "Link"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:177
+#: ../inc/common-controls/social-icons/register.php:111
+#: ../inc/widgets/button/class-widget-base.php:98
+#: ../inc/widgets/creative-button/class-widget-base.php:147
+#: ../inc/widgets/hotspot/class-widget-base.php:184
+#: ../inc/widgets/pricing-table/class-widget-base.php:414
+msgid "https://your-link.com"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:183
+#: ../inc/widgets/creative-button/class-widget-base.php:57
+#: ../inc/widgets/flip-box/class-widget-base.php:382
+#: ../inc/widgets/pricing-table/class-widget-base.php:401
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:194
+msgid "Facebook Link"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:197
+#: ../inc/common-controls/repeater-contents/register.php:204
+#: ../inc/common-controls/repeater-contents/register.php:211
+#: ../inc/common-controls/repeater-contents/register.php:218
+msgid "#"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:201
+msgid "Twitter Link"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:208
+msgid "YouTube Link"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:215
+msgid "LinkedIn Link"
+msgstr ""
+
+#: ../inc/common-controls/repeater-contents/register.php:250
+msgid "Select Template"
+msgstr ""
+
+#: ../inc/common-controls/social-icons/register.php:23
+#: ../inc/common-controls/social-icons/register.php:116
+#: ../inc/common-controls/social-icons/register.php:117
+#: ../inc/widgets/team/class-widget-base.php:35
+#: ../inc/widgets/team/class-widget-base.php:59
+#: ../inc/widgets/team/class-widget-base.php:824
+#: ../inc/widgets/team/class-widget-base.php:1160
+#: ../inc/widgets/team/class-widget-base.php:1183
+#: ../inc/widgets/team/class-widget-base.php:1203
+#: ../inc/widgets/team/class-widget-base.php:1230
+#: ../inc/widgets/team/class-widget-base.php:1259
+#: ../inc/widgets/team/class-widget-base.php:1290
+#: ../inc/widgets/team/class-widget-base.php:1316
+#: ../inc/widgets/team/class-widget-base.php:1339
+#: ../inc/widgets/team/class-widget-base.php:1362
+#: ../inc/widgets/team/class-widget-base.php:1384
+#: ../inc/widgets/team/class-widget-base.php:1414
+#: ../inc/widgets/testimonial/class-widget-base.php:35
+#: ../inc/widgets/testimonial/class-widget-base.php:59
+#: ../inc/widgets/testimonial/class-widget-base.php:803
+#: ../inc/widgets/testimonial/class-widget-base.php:1139
+msgid "Social Icons"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:48
+#: ../inc/widgets/google-map/class-widget-base.php:527
+#: ../inc/widgets/google-map/class-widget-base.php:567
+msgid "Typography"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:60
+#: ../inc/widgets/chart/class-widget-base.php:476
+#: ../inc/widgets/creative-button/class-widget-base.php:296
+#: ../inc/widgets/google-map/class-widget-base.php:451
+msgid "Margin"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:74
+#: ../inc/widgets/button/class-widget-base.php:341
+#: ../inc/widgets/chart/class-widget-base.php:540
+#: ../inc/widgets/creative-button/class-widget-base.php:305
+#: ../inc/widgets/flip-box/class-widget-base.php:582
+#: ../inc/widgets/flip-box/class-widget-base.php:1040
+#: ../inc/widgets/google-map/class-widget-base.php:438
+#: ../inc/widgets/google-map/class-widget-base.php:494
+msgid "Padding"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:88
+#: ../inc/widgets/creative-button/class-widget-base.php:209
+#: ../inc/widgets/creative-button/class-widget-base.php:241
+#: ../inc/widgets/google-map/class-widget-base.php:515
+#: ../inc/widgets/google-map/class-widget-base.php:555
+#: ../inc/widgets/mailchimp/class-widget-base.php:341
+#: ../inc/widgets/mailchimp/class-widget-base.php:381
+#: ../inc/widgets/mailchimp/class-widget-base.php:451
+#: ../inc/widgets/mailchimp/class-widget-base.php:491
+msgid "Color"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:127
+#: ../inc/widgets/chart/class-widget-base.php:420
+#: ../inc/widgets/flip-box/class-widget-base.php:898
+#: ../inc/widgets/flip-box/class-widget-base.php:1357
+#: ../inc/widgets/flip-box/class-widget-base.php:1658
+msgid "Border Width"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:130
+#: ../inc/widgets/chart/class-widget-base.php:122
+#: ../inc/widgets/flip-box/class-widget-base.php:1586
+#: ../inc/widgets/flip-box/class-widget-base.php:1640
+msgid "Border Color"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:143
+#: ../inc/widgets/button/class-widget-base.php:321
+#: ../inc/widgets/creative-button/class-widget-base.php:224
+#: ../inc/widgets/creative-button/class-widget-base.php:256
+#: ../inc/widgets/flip-box/class-widget-base.php:493
+#: ../inc/widgets/flip-box/class-widget-base.php:754
+#: ../inc/widgets/flip-box/class-widget-base.php:913
+#: ../inc/widgets/flip-box/class-widget-base.php:1213
+#: ../inc/widgets/flip-box/class-widget-base.php:1372
+#: ../inc/widgets/flip-box/class-widget-base.php:1679
+#: ../inc/widgets/google-map/class-widget-base.php:418
+msgid "Border Radius"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:181
+#: ../inc/widgets/button/class-widget-base.php:102
+#: ../inc/widgets/chart/class-widget-base.php:215
+#: ../inc/widgets/creative-button/class-widget-base.php:271
+#: ../inc/widgets/flip-box/class-widget-base.php:594
+#: ../inc/widgets/flip-box/class-widget-base.php:1052
+#: ../inc/widgets/google-map/class-widget-base.php:471
+#: ../inc/widgets/hotspot/class-widget-base.php:93
+msgid "Alignment"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:185
+#: ../inc/widgets/chart/class-widget-base.php:220
+msgid "Start"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:189
+#: ../inc/widgets/button/class-widget-base.php:106
+#: ../inc/widgets/chart/class-widget-base.php:221
+#: ../inc/widgets/creative-button/class-widget-base.php:278
+#: ../inc/widgets/flip-box/class-widget-base.php:603
+#: ../inc/widgets/flip-box/class-widget-base.php:1061
+#: ../inc/widgets/google-map/class-widget-base.php:475
+#: ../inc/widgets/hotspot/class-widget-base.php:101
+msgid "Center"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:193
+#: ../inc/widgets/chart/class-widget-base.php:222
+msgid "End"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:208
+#: ../inc/widgets/creative-button/class-widget-base.php:285
+#: ../inc/widgets/progress-bar/class-widget-base.php:126
+msgid "Width"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:235
+#: ../inc/widgets/flip-box/class-widget-base.php:471
+msgid "Height"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:262
+msgid "Font Size"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:286
+msgid "Ratio"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:314
+msgid "Vertical Align"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:318
+#: ../inc/widgets/chart/class-widget-base.php:204
+#: ../inc/widgets/flip-box/class-widget-base.php:626
+#: ../inc/widgets/flip-box/class-widget-base.php:1085
+#: ../inc/widgets/heading/class-widget-base.php:552
+#: ../inc/widgets/heading/class-widget-base.php:734
+#: ../inc/widgets/hotspot/class-widget-base.php:298
+#: ../inc/widgets/hotspot/class-widget-base.php:368
+#: ../inc/widgets/pricing-table/class-widget-base.php:1328
+#: ../inc/widgets/pricing-table/class-widget-base.php:1374
+#: ../inc/widgets/pricing-table/class-widget-base.php:1497
+#: ../inc/widgets/progress-bar/class-widget-base.php:333
+msgid "Top"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:322
+#: ../inc/widgets/chart/class-widget-base.php:206
+#: ../inc/widgets/flip-box/class-widget-base.php:634
+#: ../inc/widgets/flip-box/class-widget-base.php:1093
+#: ../inc/widgets/heading/class-widget-base.php:560
+#: ../inc/widgets/heading/class-widget-base.php:742
+#: ../inc/widgets/hotspot/class-widget-base.php:304
+#: ../inc/widgets/hotspot/class-widget-base.php:374
+#: ../inc/widgets/pricing-table/class-widget-base.php:1336
+#: ../inc/widgets/pricing-table/class-widget-base.php:1382
+#: ../inc/widgets/pricing-table/class-widget-base.php:1505
+#: ../inc/widgets/progress-bar/class-widget-base.php:341
+msgid "Bottom"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:338
+msgid "Horizontal Align"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:362
+msgid "Indent"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:399
+msgid "Weight"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:426
+msgid "Gap"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:448
+msgid "Select"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:463
+#: ../inc/widgets/hotspot/class-widget-base.php:129
+msgid "Number"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:477
+msgid "Switcher"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:491
+msgid "Slider"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:518
+msgid "Font"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:542
+msgid "Image Type"
+msgstr ""
+
+#: ../inc/common-controls/style/register.php:555
+msgid "Image Ratio"
+msgstr ""
+
+#: ../inc/core/columns/register.php:39
+#: ../inc/core/columns/register.php:43
+#: ../inc/core/sections/register.php:35
+#: ../inc/core/sections/register.php:39
+#: ../inc/core/widgets/register.php:36
+#: ../inc/core/widgets/register.php:40
+msgid "Desktop"
+msgstr ""
+
+#: ../inc/core/columns/register.php:44
+#: ../inc/core/sections/register.php:40
+#: ../inc/core/widgets/register.php:41
+msgid "Tablet"
+msgstr ""
+
+#: ../inc/core/columns/register.php:45
+#: ../inc/core/sections/register.php:41
+#: ../inc/core/widgets/register.php:42
+msgid "Mobile"
+msgstr ""
+
+#: ../inc/core/columns/register.php:53 ../inc/settings.php:28
+msgid "WeDesignTech"
+msgstr ""
+
+#: ../inc/core/columns/register.php:61
+msgid "Sticky Column"
+msgstr ""
+
+#: ../inc/core/columns/register.php:63
+#: ../inc/core/sections/register.php:169
+#: ../inc/core/sections/register.php:181
+#: ../inc/core/widgets/register.php:60
+#: ../inc/core/widgets/register.php:94
+#: ../inc/widgets/flip-box/class-widget-base.php:555
+#: ../inc/widgets/google-map/class-widget-base.php:165
+#: ../inc/widgets/google-map/class-widget-base.php:242
+#: ../inc/widgets/google-map/class-widget-base.php:251
+#: ../inc/widgets/google-map/class-widget-base.php:260
+#: ../inc/widgets/google-map/class-widget-base.php:269
+#: ../inc/widgets/google-map/class-widget-base.php:278
+#: ../inc/widgets/google-map/class-widget-base.php:287
+#: ../inc/widgets/google-map/class-widget-base.php:296
+#: ../inc/widgets/google-map/class-widget-base.php:305
+#: ../inc/widgets/mailchimp/class-widget-base.php:125
+msgid "On"
+msgstr ""
+
+#: ../inc/core/columns/register.php:64
+#: ../inc/core/sections/register.php:170
+#: ../inc/core/sections/register.php:182
+#: ../inc/core/widgets/register.php:61
+#: ../inc/core/widgets/register.php:95
+#: ../inc/widgets/flip-box/class-widget-base.php:556
+#: ../inc/widgets/google-map/class-widget-base.php:166
+#: ../inc/widgets/google-map/class-widget-base.php:243
+#: ../inc/widgets/google-map/class-widget-base.php:252
+#: ../inc/widgets/google-map/class-widget-base.php:261
+#: ../inc/widgets/google-map/class-widget-base.php:270
+#: ../inc/widgets/google-map/class-widget-base.php:279
+#: ../inc/widgets/google-map/class-widget-base.php:288
+#: ../inc/widgets/google-map/class-widget-base.php:297
+#: ../inc/widgets/google-map/class-widget-base.php:306
+#: ../inc/widgets/mailchimp/class-widget-base.php:126
+msgid "Off"
+msgstr ""
+
+#: ../inc/core/columns/register.php:72
+msgid "Top Spacing"
+msgstr ""
+
+#: ../inc/core/columns/register.php:87
+#: ../inc/widgets/google-map/class-widget-base.php:533
+msgid "Bottom Spacing"
+msgstr ""
+
+#: ../inc/core/columns/register.php:102
+msgid "Sticky On Devices"
+msgstr ""
+
+#: ../inc/core/sections/register.php:49
+msgid "WeDesignTech Background Effects"
+msgstr ""
+
+#: ../inc/core/sections/register.php:70
+msgid "Background X Position (%)"
+msgstr ""
+
+#: ../inc/core/sections/register.php:84
+msgid "Background Y Position (%)"
+msgstr ""
+
+#: ../inc/core/sections/register.php:98
+msgid "Background Size"
+msgstr ""
+
+#: ../inc/core/sections/register.php:102
+msgid "Auto"
+msgstr ""
+
+#: ../inc/core/sections/register.php:103
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:111
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:780
+#: ../inc/widgets/counter/class-widget-base.php:217
+#: ../inc/widgets/team/class-widget-base.php:230
+#: ../inc/widgets/team/class-widget-base.php:918
+#: ../inc/widgets/testimonial/class-widget-base.php:210
+#: ../inc/widgets/testimonial/class-widget-base.php:897
+msgid "Cover"
+msgstr ""
+
+#: ../inc/core/sections/register.php:104
+msgid "Contain"
+msgstr ""
+
+#: ../inc/core/sections/register.php:117
+#: ../inc/core/widgets/register.php:69
+msgid "Speed (%)"
+msgstr ""
+
+#: ../inc/core/sections/register.php:136
+msgid "Z-Index"
+msgstr ""
+
+#: ../inc/core/sections/register.php:147
+msgid "Effect Type"
+msgstr ""
+
+#: ../inc/core/sections/register.php:152
+#: ../inc/widgets/chart/class-widget-base.php:266
+#: ../inc/widgets/hotspot/class-widget-base.php:140
+#: ../inc/widgets/hotspot/class-widget-base.php:421
+msgid "Animation"
+msgstr ""
+
+#: ../inc/core/sections/register.php:153
+msgid "Ken Burn"
+msgstr ""
+
+#: ../inc/core/sections/register.php:154
+msgid "Vertical Scroll"
+msgstr ""
+
+#: ../inc/core/sections/register.php:155
+msgid "Horizontal Scroll"
+msgstr ""
+
+#: ../inc/core/sections/register.php:156
+msgid "Mouse Move"
+msgstr ""
+
+#: ../inc/core/sections/register.php:157
+msgid "Scrolling Zoom"
+msgstr ""
+
+#: ../inc/core/sections/register.php:158
+msgid "Scrolling Rotate"
+msgstr ""
+
+#: ../inc/core/sections/register.php:159
+msgid "Scrolling Blur"
+msgstr ""
+
+#: ../inc/core/sections/register.php:160
+msgid "Scrolling Transparency"
+msgstr ""
+
+#: ../inc/core/sections/register.php:166
+msgid "Enable Rotation"
+msgstr ""
+
+#: ../inc/core/sections/register.php:178
+msgid "Enable Moving"
+msgstr ""
+
+#: ../inc/core/sections/register.php:196
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../inc/core/sections/register.php:197
+msgid "Bottom to Top"
+msgstr ""
+
+#: ../inc/core/sections/register.php:198
+msgid "Left to Right"
+msgstr ""
+
+#: ../inc/core/sections/register.php:199
+msgid "Right to Left"
+msgstr ""
+
+#: ../inc/core/sections/register.php:200
+msgid "Random"
+msgstr ""
+
+#: ../inc/core/sections/register.php:216
+msgid "To Right"
+msgstr ""
+
+#: ../inc/core/sections/register.php:217
+msgid "To Left"
+msgstr ""
+
+#: ../inc/core/sections/register.php:232
+msgid "Fade In"
+msgstr ""
+
+#: ../inc/core/sections/register.php:233
+msgid "Fade Out"
+msgstr ""
+
+#: ../inc/core/sections/register.php:244
+msgid "Animation Property"
+msgstr ""
+
+#: ../inc/core/sections/register.php:248
+msgid "Background Position"
+msgstr ""
+
+#: ../inc/core/sections/register.php:249
+msgid "Transform"
+msgstr ""
+
+#: ../inc/core/sections/register.php:250
+msgid "Transform 3D"
+msgstr ""
+
+#: ../inc/core/sections/register.php:261
+#: ../inc/core/widgets/register.php:106
+msgid "Enable On Device"
+msgstr ""
+
+#: ../inc/core/widgets/register.php:50
+msgid "WeDesignTech Parallax"
+msgstr ""
+
+#: ../inc/core/widgets/register.php:57
+msgid "Enable Parallax"
+msgstr ""
+
+#: ../inc/core/widgets/register.php:91
+msgid "Reverse"
+msgstr ""
+
+#: ../inc/settings.php:31
+#: ../inc/widgets/google-map/class-widget-base.php:35
+msgid "Google Map"
+msgstr ""
+
+#: ../inc/settings.php:34
+#: ../inc/widgets/mailchimp/class-widget-base.php:36
+msgid "Mailchimp"
+msgstr ""
+
+#: ../inc/settings.php:37
+#: ../inc/widgets/instagram/class-widget-base.php:34
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/settings.php:39
+#, php-format
+msgid "You can create your instagram application settings %1$s"
+msgstr ""
+
+#: ../inc/settings.php:39
+msgid "here."
+msgstr ""
+
+#: ../inc/settings.php:51 ../inc/settings.php:63
+msgid "API Key"
+msgstr ""
+
+#: ../inc/settings.php:55
+#, php-format
+msgid ""
+"Please set Google maps API key before using Google Map widget. You "
+"can create own API key %1$s."
+msgstr ""
+
+#: ../inc/settings.php:56
+#: ../inc/widgets/google-map/class-widget-base.php:89
+#: ../inc/widgets/google-map/class-widget-base.php:99
+#: ../inc/widgets/google-map/class-widget-base.php:140
+#: ../inc/widgets/google-map/class-widget-base.php:150
+msgid "here"
+msgstr ""
+
+#: ../inc/settings.php:66
+msgid "Please set Mailchimp API key before using Mailchimp widget."
+msgstr ""
+
+#: ../inc/settings.php:72
+msgid "Instagram App ID"
+msgstr ""
+
+#: ../inc/settings.php:79
+msgid "Instagram App Secret"
+msgstr ""
+
+#: ../inc/settings.php:86
+msgid "Instagram App Access Token"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:26
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:29
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:30
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:305
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1041
+#: ../inc/widgets/counter/class-widget-base.php:31
+#: ../inc/widgets/counter/class-widget-base.php:234
+#: ../inc/widgets/flip-box/class-widget-base.php:358
+#: ../inc/widgets/flip-box/class-widget-base.php:930
+#: ../inc/widgets/flip-box/class-widget-base.php:1389
+#: ../inc/widgets/google-map/class-widget-base.php:155
+#: ../inc/widgets/google-map/class-widget-base.php:506
+#: ../inc/widgets/heading/class-widget-base.php:63
+#: ../inc/widgets/heading/class-widget-base.php:108
+#: ../inc/widgets/heading/class-widget-base.php:205
+#: ../inc/widgets/heading/class-widget-base.php:425
+#: ../inc/widgets/icon-box/class-widget-base.php:29
+#: ../inc/widgets/icon-box/class-widget-base.php:45
+#: ../inc/widgets/icon-box/class-widget-base.php:315
+#: ../inc/widgets/icon-box/class-widget-base.php:941
+#: ../inc/widgets/icon-box/class-widget-base.php:966
+#: ../inc/widgets/icon-box/class-widget-base.php:992
+#: ../inc/widgets/icon-box/class-widget-base.php:1035
+#: ../inc/widgets/icon-box/class-widget-base.php:1119
+#: ../inc/widgets/icon-box/class-widget-base.php:1143
+#: ../inc/widgets/icon-box/class-widget-base.php:1164
+#: ../inc/widgets/pricing-table/class-widget-base.php:100
+#: ../inc/widgets/pricing-table/class-widget-base.php:178
+#: ../inc/widgets/pricing-table/class-widget-base.php:200
+#: ../inc/widgets/pricing-table/class-widget-base.php:1092
+#: ../inc/widgets/progress-bar/class-widget-base.php:106
+#: ../inc/widgets/tabs/class-widget-base.php:27
+#: ../inc/widgets/tabs/class-widget-base.php:32
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:30
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:32
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:56
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:560
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1025
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1046
+#: ../inc/widgets/counter/class-widget-base.php:33
+#: ../inc/widgets/counter/class-widget-base.php:64
+#: ../inc/widgets/counter/class-widget-base.php:277
+#: ../inc/widgets/flip-box/class-widget-base.php:171
+#: ../inc/widgets/flip-box/class-widget-base.php:339
+#: ../inc/widgets/flip-box/class-widget-base.php:989
+#: ../inc/widgets/flip-box/class-widget-base.php:1447
+#: ../inc/widgets/google-map/class-widget-base.php:182
+#: ../inc/widgets/google-map/class-widget-base.php:546
+#: ../inc/widgets/icon-box/class-widget-base.php:31
+#: ../inc/widgets/icon-box/class-widget-base.php:54
+#: ../inc/widgets/icon-box/class-widget-base.php:495
+#: ../inc/widgets/icon-box/class-widget-base.php:947
+#: ../inc/widgets/icon-box/class-widget-base.php:969
+#: ../inc/widgets/icon-box/class-widget-base.php:987
+#: ../inc/widgets/icon-box/class-widget-base.php:1009
+#: ../inc/widgets/icon-box/class-widget-base.php:1034
+#: ../inc/widgets/icon-box/class-widget-base.php:1057
+#: ../inc/widgets/icon-box/class-widget-base.php:1080
+#: ../inc/widgets/icon-box/class-widget-base.php:1103
+#: ../inc/widgets/icon-box/class-widget-base.php:1124
+#: ../inc/widgets/icon-box/class-widget-base.php:1146
+#: ../inc/widgets/icon-box/class-widget-base.php:1166
+#: ../inc/widgets/pricing-table/class-widget-base.php:103
+#: ../inc/widgets/pricing-table/class-widget-base.php:420
+#: ../inc/widgets/pricing-table/class-widget-base.php:437
+#: ../inc/widgets/pricing-table/class-widget-base.php:1868
+#: ../inc/widgets/tabs/class-widget-base.php:28
+#: ../inc/widgets/team/class-widget-base.php:32
+#: ../inc/widgets/team/class-widget-base.php:58
+#: ../inc/widgets/team/class-widget-base.php:610
+#: ../inc/widgets/team/class-widget-base.php:1159
+#: ../inc/widgets/team/class-widget-base.php:1182
+#: ../inc/widgets/team/class-widget-base.php:1202
+#: ../inc/widgets/team/class-widget-base.php:1229
+#: ../inc/widgets/team/class-widget-base.php:1256
+#: ../inc/widgets/team/class-widget-base.php:1288
+#: ../inc/widgets/team/class-widget-base.php:1315
+#: ../inc/widgets/team/class-widget-base.php:1338
+#: ../inc/widgets/team/class-widget-base.php:1383
+#: ../inc/widgets/team/class-widget-base.php:1413
+#: ../inc/widgets/testimonial/class-widget-base.php:32
+#: ../inc/widgets/testimonial/class-widget-base.php:58
+#: ../inc/widgets/testimonial/class-widget-base.php:589
+#: ../inc/widgets/testimonial/class-widget-base.php:1138
+#: ../inc/widgets/testimonial/class-widget-base.php:1161
+#: ../inc/widgets/testimonial/class-widget-base.php:1187
+#: ../inc/widgets/testimonial/class-widget-base.php:1204
+#: ../inc/widgets/testimonial/class-widget-base.php:1232
+#: ../inc/widgets/testimonial/class-widget-base.php:1259
+#: ../inc/widgets/testimonial/class-widget-base.php:1286
+#: ../inc/widgets/testimonial/class-widget-base.php:1318
+#: ../inc/widgets/testimonial/class-widget-base.php:1344
+#: ../inc/widgets/testimonial/class-widget-base.php:1361
+#: ../inc/widgets/testimonial/class-widget-base.php:1394
+#: ../inc/widgets/testimonial/class-widget-base.php:1416
+msgid "Description"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:36
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:83
+#: ../inc/widgets/counter/class-widget-base.php:96
+#: ../inc/widgets/hotspot/class-widget-base.php:328
+#: ../inc/widgets/icon-box/class-widget-base.php:83
+#: ../inc/widgets/tabs/class-widget-base.php:45
+#: ../inc/widgets/tabs/class-widget-base.php:47
+#: ../inc/widgets/team/class-widget-base.php:92
+#: ../inc/widgets/testimonial/class-widget-base.php:92
+msgid "Ut accumsan mass"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:37
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:41
+#: ../inc/widgets/counter/class-widget-base.php:98
+#: ../inc/widgets/counter/class-widget-base.php:122
+#: ../inc/widgets/tabs/class-widget-base.php:46
+msgid ""
+"Donec sed lectus mi. Vestibulum et augue ultricies, tempus augue "
+"non, consectetur est. In arcu justo, pulvinar sit amet turpis id, "
+"tincidunt fermentum eros. Nam porttitor massa ac leo porta congue "
+"nec at leo. Maecenas rutrum, neque bibendum vestibulum imperdiet, "
+"ex tellus molestie ante, at semper justo neque vel nisi. In tellus "
+"felis, suscipit pellentesque imperdiet sit amet, posuere nec sem. "
+"Sed at fringilla justo. Fusce dictum condimentum turpis vitae "
+"interdum."
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:40
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:104
+#: ../inc/widgets/counter/class-widget-base.php:120
+#: ../inc/widgets/hotspot/class-widget-base.php:340
+#: ../inc/widgets/icon-box/class-widget-base.php:102
+#: ../inc/widgets/tabs/class-widget-base.php:57
+#: ../inc/widgets/tabs/class-widget-base.php:60
+#: ../inc/widgets/team/class-widget-base.php:127
+#: ../inc/widgets/testimonial/class-widget-base.php:116
+msgid "Pellentesque ornare"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:47
+msgid "Items"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:62
+msgid "Accordion And Toggle"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:91
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:181
+#: ../inc/widgets/chart/class-widget-base.php:172
+#: ../inc/widgets/counter/class-widget-base.php:205
+#: ../inc/widgets/flip-box/class-widget-base.php:464
+#: ../inc/widgets/heading/class-widget-base.php:457
+#: ../inc/widgets/icon-box/class-widget-base.php:183
+#: ../inc/widgets/mailchimp/class-widget-base.php:91
+#: ../inc/widgets/pricing-table/class-widget-base.php:510
+#: ../inc/widgets/tabs/class-widget-base.php:119
+#: ../inc/widgets/team/class-widget-base.php:220
+#: ../inc/widgets/testimonial/class-widget-base.php:198
+msgid "Settings"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:99
+msgid "Accordion"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:100
+msgid "Toggle"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:110
+#: ../inc/widgets/counter/class-widget-base.php:214
+#: ../inc/widgets/team/class-widget-base.php:229
+#: ../inc/widgets/testimonial/class-widget-base.php:207
+msgid "Side Image"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:116
+#: ../inc/widgets/heading/class-widget-base.php:80
+#: ../inc/widgets/progress-bar/class-widget-base.php:261
+msgid "Title Tag"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:120
+#: ../inc/widgets/heading/class-widget-base.php:84
+msgid "Div"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:121
+#: ../inc/widgets/heading/class-widget-base.php:85
+msgid "H1"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:122
+#: ../inc/widgets/heading/class-widget-base.php:86
+msgid "H2"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:123
+#: ../inc/widgets/heading/class-widget-base.php:87
+msgid "H3"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:124
+#: ../inc/widgets/heading/class-widget-base.php:88
+msgid "H4"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:125
+#: ../inc/widgets/heading/class-widget-base.php:89
+msgid "H5"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:126
+#: ../inc/widgets/heading/class-widget-base.php:90
+msgid "H6"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:127
+#: ../inc/widgets/heading/class-widget-base.php:92
+msgid "P"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:134
+msgid "Expand Icon"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:143
+msgid "Collapse Icon"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:154
+#: ../inc/widgets/button/class-widget-base.php:80
+#: ../inc/widgets/creative-button/class-widget-base.php:194
+#: ../inc/widgets/pricing-table/class-widget-base.php:1699
+msgid "Style"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:159
+msgid "Title Section"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:171
+msgid "Icon Font Size"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:204
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:236
+#: ../inc/widgets/progress-bar/class-widget-base.php:282
+msgid "Title Color"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:213
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:245
+msgid "Icon Color"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:222
+msgid "Active"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:259
+msgid "Content Section"
+msgstr ""
+
+#: ../inc/widgets/accordion-and-toggle/class-widget-base.php:289
+#: ../inc/widgets/hotspot/class-widget-base.php:714
+msgid "Content Color"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:31
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:354
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1045
+#: ../inc/widgets/counter/class-widget-base.php:32
+#: ../inc/widgets/counter/class-widget-base.php:242
+#: ../inc/widgets/icon-box/class-widget-base.php:30
+#: ../inc/widgets/icon-box/class-widget-base.php:47
+#: ../inc/widgets/icon-box/class-widget-base.php:364
+#: ../inc/widgets/icon-box/class-widget-base.php:943
+#: ../inc/widgets/icon-box/class-widget-base.php:967
+#: ../inc/widgets/icon-box/class-widget-base.php:1036
+#: ../inc/widgets/icon-box/class-widget-base.php:1123
+#: ../inc/widgets/icon-box/class-widget-base.php:1144
+#: ../inc/widgets/icon-box/class-widget-base.php:1165
+#: ../inc/widgets/pricing-table/class-widget-base.php:101
+#: ../inc/widgets/pricing-table/class-widget-base.php:186
+#: ../inc/widgets/pricing-table/class-widget-base.php:201
+#: ../inc/widgets/pricing-table/class-widget-base.php:1143
+msgid "Sub Title"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:34
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:64
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:667
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1026
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1047
+#: ../inc/widgets/button/class-widget-base.php:29
+#: ../inc/widgets/button/class-widget-base.php:189
+#: ../inc/widgets/counter/class-widget-base.php:35
+#: ../inc/widgets/counter/class-widget-base.php:48
+#: ../inc/widgets/counter/class-widget-base.php:65
+#: ../inc/widgets/counter/class-widget-base.php:74
+#: ../inc/widgets/counter/class-widget-base.php:285
+#: ../inc/widgets/flip-box/class-widget-base.php:359
+#: ../inc/widgets/flip-box/class-widget-base.php:1506
+#: ../inc/widgets/icon-box/class-widget-base.php:33
+#: ../inc/widgets/icon-box/class-widget-base.php:62
+#: ../inc/widgets/icon-box/class-widget-base.php:602
+#: ../inc/widgets/icon-box/class-widget-base.php:948
+#: ../inc/widgets/icon-box/class-widget-base.php:988
+#: ../inc/widgets/icon-box/class-widget-base.php:1010
+#: ../inc/widgets/icon-box/class-widget-base.php:1058
+#: ../inc/widgets/icon-box/class-widget-base.php:1081
+#: ../inc/widgets/icon-box/class-widget-base.php:1104
+#: ../inc/widgets/icon-box/class-widget-base.php:1125
+#: ../inc/widgets/mailchimp/class-widget-base.php:421
+#: ../inc/widgets/pricing-table/class-widget-base.php:102
+#: ../inc/widgets/pricing-table/class-widget-base.php:436
+#: ../inc/widgets/pricing-table/class-widget-base.php:1920
+#: ../inc/widgets/team/class-widget-base.php:34
+#: ../inc/widgets/team/class-widget-base.php:67
+#: ../inc/widgets/team/class-widget-base.php:717
+#: ../inc/widgets/team/class-widget-base.php:1161
+#: ../inc/widgets/team/class-widget-base.php:1415
+#: ../inc/widgets/testimonial/class-widget-base.php:34
+#: ../inc/widgets/testimonial/class-widget-base.php:67
+#: ../inc/widgets/testimonial/class-widget-base.php:696
+#: ../inc/widgets/testimonial/class-widget-base.php:1140
+#: ../inc/widgets/testimonial/class-widget-base.php:1418
+msgid "Button"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:41
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:57
+#: ../inc/widgets/counter/class-widget-base.php:66
+#: ../inc/widgets/counter/class-widget-base.php:293
+#: ../inc/widgets/icon-box/class-widget-base.php:39
+#: ../inc/widgets/icon-box/class-widget-base.php:55
+#: ../inc/widgets/icon-box/class-widget-base.php:985
+#: ../inc/widgets/icon-box/class-widget-base.php:1007
+#: ../inc/widgets/icon-box/class-widget-base.php:1072
+#: ../inc/widgets/icon-box/class-widget-base.php:1095
+#: ../inc/widgets/team/class-widget-base.php:43
+#: ../inc/widgets/team/class-widget-base.php:60
+#: ../inc/widgets/team/class-widget-base.php:1197
+#: ../inc/widgets/team/class-widget-base.php:1224
+#: ../inc/widgets/team/class-widget-base.php:1251
+#: ../inc/widgets/team/class-widget-base.php:1281
+#: ../inc/widgets/team/class-widget-base.php:1307
+#: ../inc/widgets/team/class-widget-base.php:1330
+#: ../inc/widgets/team/class-widget-base.php:1353
+#: ../inc/widgets/team/class-widget-base.php:1379
+#: ../inc/widgets/testimonial/class-widget-base.php:43
+#: ../inc/widgets/testimonial/class-widget-base.php:60
+#: ../inc/widgets/testimonial/class-widget-base.php:1181
+#: ../inc/widgets/testimonial/class-widget-base.php:1202
+#: ../inc/widgets/testimonial/class-widget-base.php:1227
+#: ../inc/widgets/testimonial/class-widget-base.php:1254
+#: ../inc/widgets/testimonial/class-widget-base.php:1281
+#: ../inc/widgets/testimonial/class-widget-base.php:1311
+#: ../inc/widgets/testimonial/class-widget-base.php:1337
+#: ../inc/widgets/testimonial/class-widget-base.php:1366
+msgid "Elements Group"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:48
+#: ../inc/widgets/counter/class-widget-base.php:55
+#: ../inc/widgets/icon-box/class-widget-base.php:1078
+#: ../inc/widgets/icon-box/class-widget-base.php:1101
+#: ../inc/widgets/mailchimp/class-widget-base.php:137
+#: ../inc/widgets/mailchimp/class-widget-base.php:138
+#: ../inc/widgets/team/class-widget-base.php:30
+#: ../inc/widgets/team/class-widget-base.php:49
+#: ../inc/widgets/team/class-widget-base.php:352
+#: ../inc/widgets/team/class-widget-base.php:1153
+#: ../inc/widgets/team/class-widget-base.php:1180
+#: ../inc/widgets/team/class-widget-base.php:1233
+#: ../inc/widgets/team/class-widget-base.php:1260
+#: ../inc/widgets/team/class-widget-base.php:1313
+#: ../inc/widgets/team/class-widget-base.php:1336
+#: ../inc/widgets/team/class-widget-base.php:1360
+#: ../inc/widgets/team/class-widget-base.php:1385
+#: ../inc/widgets/team/class-widget-base.php:1389
+#: ../inc/widgets/team/class-widget-base.php:1408
+#: ../inc/widgets/testimonial/class-widget-base.php:30
+#: ../inc/widgets/testimonial/class-widget-base.php:49
+#: ../inc/widgets/testimonial/class-widget-base.php:331
+#: ../inc/widgets/testimonial/class-widget-base.php:1132
+#: ../inc/widgets/testimonial/class-widget-base.php:1159
+#: ../inc/widgets/testimonial/class-widget-base.php:1178
+#: ../inc/widgets/testimonial/class-widget-base.php:1263
+#: ../inc/widgets/testimonial/class-widget-base.php:1290
+#: ../inc/widgets/testimonial/class-widget-base.php:1389
+#: ../inc/widgets/testimonial/class-widget-base.php:1411
+msgid "Name"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:49
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1024
+#: ../inc/widgets/counter/class-widget-base.php:47
+#: ../inc/widgets/counter/class-widget-base.php:56
+#: ../inc/widgets/icon-box/class-widget-base.php:46
+#: ../inc/widgets/icon-box/class-widget-base.php:942
+#: ../inc/widgets/icon-box/class-widget-base.php:968
+#: ../inc/widgets/icon-box/class-widget-base.php:1051
+#: ../inc/widgets/icon-box/class-widget-base.php:1145
+#: ../inc/widgets/team/class-widget-base.php:50
+#: ../inc/widgets/team/class-widget-base.php:1154
+#: ../inc/widgets/team/class-widget-base.php:1204
+#: ../inc/widgets/team/class-widget-base.php:1279
+#: ../inc/widgets/testimonial/class-widget-base.php:50
+#: ../inc/widgets/testimonial/class-widget-base.php:1133
+#: ../inc/widgets/testimonial/class-widget-base.php:1205
+#: ../inc/widgets/testimonial/class-widget-base.php:1234
+#: ../inc/widgets/testimonial/class-widget-base.php:1309
+msgid "Separator 1"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:50
+#: ../inc/widgets/counter/class-widget-base.php:57
+#: ../inc/widgets/icon-box/class-widget-base.php:1079
+#: ../inc/widgets/icon-box/class-widget-base.php:1102
+#: ../inc/widgets/team/class-widget-base.php:31
+#: ../inc/widgets/team/class-widget-base.php:51
+#: ../inc/widgets/team/class-widget-base.php:401
+#: ../inc/widgets/team/class-widget-base.php:1155
+#: ../inc/widgets/team/class-widget-base.php:1181
+#: ../inc/widgets/team/class-widget-base.php:1234
+#: ../inc/widgets/team/class-widget-base.php:1261
+#: ../inc/widgets/team/class-widget-base.php:1314
+#: ../inc/widgets/team/class-widget-base.php:1337
+#: ../inc/widgets/team/class-widget-base.php:1361
+#: ../inc/widgets/team/class-widget-base.php:1386
+#: ../inc/widgets/team/class-widget-base.php:1390
+#: ../inc/widgets/team/class-widget-base.php:1412
+#: ../inc/widgets/testimonial/class-widget-base.php:31
+#: ../inc/widgets/testimonial/class-widget-base.php:51
+#: ../inc/widgets/testimonial/class-widget-base.php:380
+#: ../inc/widgets/testimonial/class-widget-base.php:1134
+#: ../inc/widgets/testimonial/class-widget-base.php:1160
+#: ../inc/widgets/testimonial/class-widget-base.php:1179
+#: ../inc/widgets/testimonial/class-widget-base.php:1264
+#: ../inc/widgets/testimonial/class-widget-base.php:1291
+#: ../inc/widgets/testimonial/class-widget-base.php:1390
+#: ../inc/widgets/testimonial/class-widget-base.php:1415
+msgid "Role"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:63
+#: ../inc/widgets/counter/class-widget-base.php:73
+#: ../inc/widgets/icon-box/class-widget-base.php:61
+#: ../inc/widgets/icon-box/class-widget-base.php:986
+#: ../inc/widgets/icon-box/class-widget-base.php:1008
+#: ../inc/widgets/team/class-widget-base.php:66
+#: ../inc/widgets/team/class-widget-base.php:1289
+#: ../inc/widgets/testimonial/class-widget-base.php:66
+#: ../inc/widgets/testimonial/class-widget-base.php:1182
+#: ../inc/widgets/testimonial/class-widget-base.php:1319
+#: ../inc/widgets/testimonial/class-widget-base.php:1395
+msgid "Separator 2"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:84
+#: ../inc/widgets/counter/class-widget-base.php:97
+#: ../inc/widgets/icon-box/class-widget-base.php:84
+#: ../inc/widgets/team/class-widget-base.php:93
+#: ../inc/widgets/testimonial/class-widget-base.php:93
+msgid "Accumsan mass"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:85
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:106
+#: ../inc/widgets/icon-box/class-widget-base.php:85
+#: ../inc/widgets/icon-box/class-widget-base.php:104
+#: ../inc/widgets/team/class-widget-base.php:94
+#: ../inc/widgets/team/class-widget-base.php:129
+#: ../inc/widgets/testimonial/class-widget-base.php:94
+#: ../inc/widgets/testimonial/class-widget-base.php:118
+msgid ""
+"Donec sit amet turpis tincidunt eros, nam porttitor massa leo porta "
+"maecenas reque."
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:92
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:113
+#: ../inc/widgets/counter/class-widget-base.php:105
+#: ../inc/widgets/counter/class-widget-base.php:129
+#: ../inc/widgets/icon-box/class-widget-base.php:92
+#: ../inc/widgets/icon-box/class-widget-base.php:111
+#: ../inc/widgets/team/class-widget-base.php:101
+#: ../inc/widgets/team/class-widget-base.php:136
+#: ../inc/widgets/testimonial/class-widget-base.php:101
+#: ../inc/widgets/testimonial/class-widget-base.php:125
+msgid "Click Here"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:105
+#: ../inc/widgets/counter/class-widget-base.php:121
+#: ../inc/widgets/icon-box/class-widget-base.php:103
+#: ../inc/widgets/tabs/class-widget-base.php:58
+#: ../inc/widgets/team/class-widget-base.php:128
+#: ../inc/widgets/testimonial/class-widget-base.php:117
+msgid "Tesque ornare"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:120
+#: ../inc/widgets/counter/class-widget-base.php:136
+#: ../inc/widgets/tabs/class-widget-base.php:67
+#: ../inc/widgets/team/class-widget-base.php:155
+#: ../inc/widgets/testimonial/class-widget-base.php:133
+msgid "Image Group"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:121
+#: ../inc/widgets/counter/class-widget-base.php:137
+#: ../inc/widgets/icon-box/class-widget-base.php:119
+#: ../inc/widgets/tabs/class-widget-base.php:68
+#: ../inc/widgets/team/class-widget-base.php:156
+#: ../inc/widgets/testimonial/class-widget-base.php:134
+msgid "Content Group"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:122
+#: ../inc/widgets/counter/class-widget-base.php:138
+#: ../inc/widgets/heading/class-widget-base.php:415
+#: ../inc/widgets/icon-box/class-widget-base.php:120
+#: ../inc/widgets/tabs/class-widget-base.php:69
+#: ../inc/widgets/team/class-widget-base.php:157
+#: ../inc/widgets/testimonial/class-widget-base.php:135
+msgid "Content Positions"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:123
+#: ../inc/widgets/counter/class-widget-base.php:139
+#: ../inc/widgets/icon-box/class-widget-base.php:121
+#: ../inc/widgets/tabs/class-widget-base.php:70
+#: ../inc/widgets/team/class-widget-base.php:158
+#: ../inc/widgets/testimonial/class-widget-base.php:136
+msgid "Element Group - Content Positions"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:125
+msgid "Carousel Items"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:146
+msgid "Advanced Carousel"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:190
+#: ../inc/widgets/google-map/class-widget-base.php:334
+#: ../inc/widgets/team/class-widget-base.php:238
+#: ../inc/widgets/testimonial/class-widget-base.php:217
+msgid "Standard"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:191
+#: ../inc/widgets/icon-box/class-widget-base.php:202
+#: ../inc/widgets/pricing-table/class-widget-base.php:521
+#: ../inc/widgets/team/class-widget-base.php:239
+#: ../inc/widgets/testimonial/class-widget-base.php:218
+msgid "Custom Template"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:203
+#: ../inc/widgets/counter/class-widget-base.php:226
+#: ../inc/widgets/heading/class-widget-base.php:480
+#: ../inc/widgets/icon-box/class-widget-base.php:213
+#: ../inc/widgets/mailchimp/class-widget-base.php:196
+#: ../inc/widgets/pricing-table/class-widget-base.php:536
+#: ../inc/widgets/team/class-widget-base.php:250
+#: ../inc/widgets/testimonial/class-widget-base.php:229
+msgid "Item"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:774
+#: ../inc/widgets/team/class-widget-base.php:912
+#: ../inc/widgets/testimonial/class-widget-base.php:891
+msgid "Elements Group - Image"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:781
+#: ../inc/widgets/hotspot/class-widget-base.php:146
+#: ../inc/widgets/team/class-widget-base.php:231
+#: ../inc/widgets/team/class-widget-base.php:919
+#: ../inc/widgets/testimonial/class-widget-base.php:211
+#: ../inc/widgets/testimonial/class-widget-base.php:898
+msgid "Overlay"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:887
+#: ../inc/widgets/icon-box/class-widget-base.php:811
+#: ../inc/widgets/team/class-widget-base.php:1025
+#: ../inc/widgets/testimonial/class-widget-base.php:1004
+msgid "Elements Group - Content"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1023
+#: ../inc/widgets/icon-box/class-widget-base.php:1014
+#: ../inc/widgets/icon-box/class-widget-base.php:1050
+#: ../inc/widgets/icon-box/class-widget-base.php:1052
+msgid "Title & Sub Title"
+msgstr ""
+
+#: ../inc/widgets/advanced-carousel/class-widget-base.php:1063
+#: ../inc/widgets/counter/class-widget-base.php:407
+#: ../inc/widgets/icon-box/class-widget-base.php:1183
+#: ../inc/widgets/tabs/class-widget-base.php:421
+#: ../inc/widgets/team/class-widget-base.php:1432
+#: ../inc/widgets/testimonial/class-widget-base.php:1435
+msgid "No records found!"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:57
+#: ../inc/widgets/creative-button/class-widget-base.php:49
+#: ../inc/widgets/google-map/class-widget-base.php:68
+#: ../inc/widgets/instagram/class-widget-base.php:125
+msgid "General"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:65
+msgid "Filled"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:66
+msgid "Bordered"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:67
+msgid "Textual"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:71
+#: ../inc/widgets/progress-bar/class-widget-base.php:65
+msgid "Type"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:76
+msgid "Icon Styled"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:84
+msgid "Underline"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:85
+msgid "Line Through"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:86
+msgid "Overline"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:90
+#: ../inc/widgets/mailchimp/class-widget-base.php:158
+#: ../inc/widgets/pricing-table/class-widget-base.php:336
+msgid "Text"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:92
+#: ../inc/widgets/button/class-widget-base.php:93
+#: ../inc/widgets/google-map/class-widget-base.php:341
+#: ../inc/widgets/google-map/class-widget-base.php:361
+#: ../inc/widgets/google-map/class-widget-base.php:367
+msgid "Click here"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:108
+#: ../inc/widgets/creative-button/class-widget-base.php:280
+#: ../inc/widgets/google-map/class-widget-base.php:477
+msgid "Justified"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:114
+#: ../inc/widgets/creative-button/class-widget-base.php:152
+#: ../inc/widgets/flip-box/class-widget-base.php:1517
+#: ../inc/widgets/heading/class-widget-base.php:633
+#: ../inc/widgets/heading/class-widget-base.php:815
+#: ../inc/widgets/heading/class-widget-base.php:1119
+msgid "Size"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:118
+#: ../inc/widgets/creative-button/class-widget-base.php:157
+#: ../inc/widgets/flip-box/class-widget-base.php:1522
+msgid "Small"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:120
+#: ../inc/widgets/creative-button/class-widget-base.php:159
+#: ../inc/widgets/flip-box/class-widget-base.php:1524
+msgid "Large"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:156
+#: ../inc/widgets/creative-button/class-widget-base.php:103
+#: ../inc/widgets/flip-box/class-widget-base.php:409
+#: ../inc/widgets/heading/class-widget-base.php:163
+#: ../inc/widgets/heading/class-widget-base.php:271
+#: ../inc/widgets/tabs/class-widget-base.php:170
+msgid "Icon Position"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:160
+#: ../inc/widgets/creative-button/class-widget-base.php:109
+#: ../inc/widgets/flip-box/class-widget-base.php:414
+msgid "Before"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:161
+#: ../inc/widgets/creative-button/class-widget-base.php:110
+#: ../inc/widgets/flip-box/class-widget-base.php:413
+msgid "After"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:169
+#: ../inc/widgets/creative-button/class-widget-base.php:115
+#: ../inc/widgets/creative-button/class-widget-base.php:123
+msgid "Icon Spacing"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:225
+#: ../inc/widgets/button/class-widget-base.php:267
+#: ../inc/widgets/flip-box/class-widget-base.php:962
+#: ../inc/widgets/flip-box/class-widget-base.php:1000
+#: ../inc/widgets/flip-box/class-widget-base.php:1420
+#: ../inc/widgets/flip-box/class-widget-base.php:1479
+#: ../inc/widgets/flip-box/class-widget-base.php:1558
+#: ../inc/widgets/flip-box/class-widget-base.php:1612
+msgid "Text Color"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:238
+#: ../inc/widgets/button/class-widget-base.php:280
+#: ../inc/widgets/flip-box/class-widget-base.php:183
+#: ../inc/widgets/flip-box/class-widget-base.php:425
+#: ../inc/widgets/progress-bar/class-widget-base.php:231
+#: ../inc/widgets/progress-bar/class-widget-base.php:242
+msgid "Background"
+msgstr ""
+
+#: ../inc/widgets/button/class-widget-base.php:300
+msgid "Hover Animation"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:29
+msgid "Donut & Pie Chart"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:60
+#: ../inc/widgets/progress-bar/class-widget-base.php:58
+#: ../inc/widgets/progress-bar/class-widget-base.php:254
+msgid "Data"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:67
+msgid "Chart Type"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:70
+msgid "Doughnut"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:71
+msgid "Pie"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:82
+#: ../inc/widgets/chart/class-widget-base.php:84
+#: ../inc/widgets/hotspot/class-widget-base.php:173
+msgid "Label"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:91
+msgid "Value"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:111
+msgid "Background Hover Color"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:133
+msgid "Border Hover Color"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:143
+msgid "Chart Data"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:147
+msgid "Label A"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:155
+msgid "Label B"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:181
+#: ../inc/widgets/chart/class-widget-base.php:441
+msgid "Legend"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:189
+msgid "Show Legend"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:200
+#: ../inc/widgets/hotspot/class-widget-base.php:237
+#: ../inc/widgets/hotspot/class-widget-base.php:292
+#: ../inc/widgets/hotspot/class-widget-base.php:363
+#: ../inc/widgets/pricing-table/class-widget-base.php:1439
+msgid "Position"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:230
+msgid "Reverse Legend"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:243
+#: ../inc/widgets/chart/class-widget-base.php:529
+#: ../inc/widgets/hotspot/class-widget-base.php:276
+#: ../inc/widgets/hotspot/class-widget-base.php:357
+#: ../inc/widgets/hotspot/class-widget-base.php:665
+msgid "Tooltip"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:252
+msgid "Enable Tooltip"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:275
+msgid "Enable Animation"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:320
+msgid "Easing"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:330
+msgid "Duration"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:349
+msgid "Animation Scale"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:363
+msgid "Chart"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:401
+msgid "Cutout Percentage"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:429
+msgid "Border Hover Width"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:509
+#: ../inc/widgets/chart/class-widget-base.php:591
+msgid "Font Weight"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:511
+#: ../inc/widgets/chart/class-widget-base.php:593
+msgid "Thin (100)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:512
+#: ../inc/widgets/chart/class-widget-base.php:594
+msgid "Extra Light (200)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:513
+#: ../inc/widgets/chart/class-widget-base.php:595
+msgid "Light (300)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:514
+#: ../inc/widgets/chart/class-widget-base.php:596
+msgid "Normal (400)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:515
+#: ../inc/widgets/chart/class-widget-base.php:597
+msgid "Medium (500)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:516
+#: ../inc/widgets/chart/class-widget-base.php:598
+msgid "Semi Bold (600)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:517
+#: ../inc/widgets/chart/class-widget-base.php:599
+msgid "Bold (700)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:518
+#: ../inc/widgets/chart/class-widget-base.php:600
+msgid "Extra Bold (800)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:519
+#: ../inc/widgets/chart/class-widget-base.php:601
+msgid "Black (900)"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:557
+msgid "Space btw Text & Color Box"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:608
+msgid "Font Style"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:612
+msgid "Italic"
+msgstr ""
+
+#: ../inc/widgets/chart/class-widget-base.php:613
+msgid "Oblique"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:28
+#: ../inc/widgets/counter/class-widget-base.php:45
+msgid "Image or Icon"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:37
+#: ../inc/widgets/pricing-table/class-widget-base.php:27
+#: ../inc/widgets/pricing-table/class-widget-base.php:225
+#: ../inc/widgets/pricing-table/class-widget-base.php:1197
+msgid "Pricing"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:46
+#: ../inc/widgets/counter/class-widget-base.php:63
+#: ../inc/widgets/icon-box/class-widget-base.php:69
+msgid "Title and Sub Title"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:49
+#: ../inc/widgets/counter/class-widget-base.php:67
+#: ../inc/widgets/counter/class-widget-base.php:162
+msgid "Counter"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:141
+msgid "Counter Items"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:215
+#: ../inc/widgets/testimonial/class-widget-base.php:208
+msgid "Aside Content"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:216
+msgid "Aside Meta"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:307
+msgid "Numbers"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:316
+msgid "Start Digit"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:326
+msgid "End Digit"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:336
+msgid "Speed"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:346
+msgid "Refresh Interval"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:350
+msgid "How often the element should be updated"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:358
+msgid "Prefix"
+msgstr ""
+
+#: ../inc/widgets/counter/class-widget-base.php:366
+msgid "Suffix"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:23
+msgid "Creative Button"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:54
+msgid "Primary"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:59
+#: ../inc/widgets/creative-button/class-widget-base.php:60
+msgid "Click Here!"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:64
+msgid "Use Icon"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:71
+msgid "Icon Type"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:77
+msgid "FontAwesome"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:78
+msgid "Custom Class"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:97
+msgid "Icon Class"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:132
+msgid "Secondary"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:135
+msgid "Secondary Button Text"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:137
+#: ../inc/widgets/creative-button/class-widget-base.php:138
+msgid "Go!"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:156
+#: ../inc/widgets/flip-box/class-widget-base.php:1521
+msgid "Extra Small"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:158
+#: ../inc/widgets/flip-box/class-widget-base.php:1523
+msgid "Medium"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:160
+#: ../inc/widgets/flip-box/class-widget-base.php:1525
+msgid "Extra Large"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:165
+msgid "Set Button Effect"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:170
+msgid "Winona"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:171
+msgid "Ujarak"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:172
+msgid "Wayra"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:173
+msgid "Tamaya"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:174
+msgid "Rayen"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:175
+msgid "Pipaluk"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:176
+msgid "Moema"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:177
+msgid "Wave"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:178
+msgid "Aylen"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:179
+msgid "Saqui"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:180
+msgid "Wapasha"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:181
+msgid "Nuka"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:182
+msgid "Antiman"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:183
+msgid "Quidel"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:184
+msgid "Shikoba"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:202
+msgid "Text Size"
+msgstr ""
+
+#: ../inc/widgets/creative-button/class-widget-base.php:219
+#: ../inc/widgets/creative-button/class-widget-base.php:251
+msgid "Border"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:23
+msgid "Flip Box"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:53
+#: ../inc/widgets/flip-box/class-widget-base.php:574
+msgid "Front"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:125
+#: ../inc/widgets/flip-box/class-widget-base.php:294
+msgid "View"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:129
+#: ../inc/widgets/flip-box/class-widget-base.php:298
+msgid "Stacked"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:130
+#: ../inc/widgets/flip-box/class-widget-base.php:299
+msgid "Framed"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:142
+#: ../inc/widgets/flip-box/class-widget-base.php:311
+msgid "Shape"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:145
+#: ../inc/widgets/flip-box/class-widget-base.php:314
+#: ../inc/widgets/progress-bar/class-widget-base.php:69
+msgid "Circle"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:146
+#: ../inc/widgets/flip-box/class-widget-base.php:315
+msgid "Square"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:159
+#: ../inc/widgets/flip-box/class-widget-base.php:328
+msgid "Title & Description"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:161
+#: ../inc/widgets/flip-box/class-widget-base.php:330
+msgid "This is the heading"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:162
+#: ../inc/widgets/flip-box/class-widget-base.php:331
+msgid "Enter your title"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:173
+#: ../inc/widgets/flip-box/class-widget-base.php:341
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet "
+"consectetur adipiscing elit dolor"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:174
+#: ../inc/widgets/flip-box/class-widget-base.php:342
+#: ../inc/widgets/pricing-table/class-widget-base.php:423
+msgid "Enter your description"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:197
+#: ../inc/widgets/flip-box/class-widget-base.php:439
+msgid "Background Overlay"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:222
+#: ../inc/widgets/flip-box/class-widget-base.php:1032
+msgid "Back"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:352
+msgid "Link Type"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:357
+msgid "Box"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:387
+msgid "Get Started"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:397
+#: ../inc/widgets/mailchimp/class-widget-base.php:178
+msgid "Button Icon"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:512
+msgid "Flip Effect"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:530
+msgid "Flip Direction"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:536
+msgid "Up"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:537
+msgid "Down"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:553
+msgid "3D Depth"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:621
+#: ../inc/widgets/flip-box/class-widget-base.php:1080
+#: ../inc/widgets/heading/class-widget-base.php:549
+#: ../inc/widgets/heading/class-widget-base.php:731
+#: ../inc/widgets/hotspot/class-widget-base.php:260
+#: ../inc/widgets/pricing-table/class-widget-base.php:1325
+#: ../inc/widgets/pricing-table/class-widget-base.php:1371
+#: ../inc/widgets/pricing-table/class-widget-base.php:1494
+msgid "Vertical Position"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:630
+#: ../inc/widgets/flip-box/class-widget-base.php:1089
+#: ../inc/widgets/heading/class-widget-base.php:556
+#: ../inc/widgets/heading/class-widget-base.php:738
+#: ../inc/widgets/pricing-table/class-widget-base.php:1332
+#: ../inc/widgets/pricing-table/class-widget-base.php:1378
+#: ../inc/widgets/pricing-table/class-widget-base.php:1501
+#: ../inc/widgets/progress-bar/class-widget-base.php:337
+msgid "Middle"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:674
+#: ../inc/widgets/flip-box/class-widget-base.php:786
+#: ../inc/widgets/flip-box/class-widget-base.php:941
+#: ../inc/widgets/flip-box/class-widget-base.php:1133
+#: ../inc/widgets/flip-box/class-widget-base.php:1245
+#: ../inc/widgets/flip-box/class-widget-base.php:1400
+#: ../inc/widgets/flip-box/class-widget-base.php:1458
+msgid "Spacing"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:694
+#: ../inc/widgets/flip-box/class-widget-base.php:1153
+msgid "Size (%)"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:718
+#: ../inc/widgets/flip-box/class-widget-base.php:1177
+msgid "Opacity"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:806
+#: ../inc/widgets/flip-box/class-widget-base.php:1265
+msgid "Primary Color"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:822
+#: ../inc/widgets/flip-box/class-widget-base.php:1281
+msgid "Secondary Color"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:839
+#: ../inc/widgets/flip-box/class-widget-base.php:1298
+#: ../inc/widgets/google-map/class-widget-base.php:205
+msgid "Icon Size"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:859
+#: ../inc/widgets/flip-box/class-widget-base.php:1318
+msgid "Icon Padding"
+msgstr ""
+
+#: ../inc/widgets/flip-box/class-widget-base.php:880
+#: ../inc/widgets/flip-box/class-widget-base.php:1339
+msgid "Icon Rotate"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:76
+#, php-format
+msgid ""
+"To display customized Google Map without an issue, you need to "
+"configure Google Map API key. Please configure API key from <a "
+"href=\"%s\" target=\"_blank\" rel=\"noopener\">here</a>."
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:84
+msgid "Center Latitude"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:88
+#: ../inc/widgets/google-map/class-widget-base.php:98
+#: ../inc/widgets/google-map/class-widget-base.php:139
+#: ../inc/widgets/google-map/class-widget-base.php:149
+#, php-format
+msgid "Click %1$s to get your location coordinates"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:94
+msgid "Center Longitude"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:104
+msgid "Zoom Level"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:112
+msgid "Map Type"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:115
+msgid "Road Map"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:116
+msgid "Satellite"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:117
+msgid "Hybrid"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:118
+msgid "Terrain"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:120
+msgid "Choose map type for this item."
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:129
+msgid "Markers"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:135
+msgid "Latitude"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:145
+msgid "Longitude"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:158
+msgid "Marker Title"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:162
+msgid "Show Info Window"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:171
+msgid "Show info Window On"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:176
+msgid "Mouse Click"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:177
+msgid "Page Load"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:189
+msgid "Marker Icon"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:199
+msgid "Custom Color"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:220
+msgid "Marker Animation"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:225
+msgid "Drop"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:226
+msgid "Bounce"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:235
+msgid "Controls"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:239
+msgid "Street View Controls"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:248
+msgid "Map Type Controls"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:257
+msgid "Zoom Control"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:266
+msgid "Full Screen Control"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:275
+msgid "Scale Control"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:284
+msgid "Rotate Control"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:293
+msgid "Scroll Wheel Zoom Control"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:302
+msgid "Is Map Draggable ?"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:315
+msgid "Theme"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:319
+msgid "Theme Source"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:322
+msgid "Google Standard"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:323
+msgid "Snazzy Maps"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:330
+msgid "Google Themes"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:335
+msgid "Silver"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:336
+msgid "Retro"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:337
+#: ../inc/widgets/google-map/class-widget-base.php:354
+msgid "Dark"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:338
+msgid "Night"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:339
+msgid "Aubergine"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:341
+msgid ""
+"to generate your own theme and use JSON within Custom style field."
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:346
+msgid "SnazzyMaps Themes"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:351
+msgid "Simple"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:352
+msgid "Colorful"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:353
+msgid "Complex"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:355
+msgid "Greyscale"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:356
+msgid "Light"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:357
+msgid "Monochrome"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:358
+msgid "No Labels"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:359
+msgid "Two Tone"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:361
+msgid "to explore more themes and use JSON within custom style field."
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:366
+msgid "Custom Style"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:367
+msgid "to get JSON style code to style your map"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:380
+msgid "Map"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:385
+msgid "Max Width"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:396
+msgid "Max Height"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:466
+msgid "Info Window"
+msgstr ""
+
+#: ../inc/widgets/google-map/class-widget-base.php:484
+msgid "Info Window Max Width"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:39
+#: ../inc/widgets/heading/class-widget-base.php:112
+msgid "Heading"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:64
+#: ../inc/widgets/heading/class-widget-base.php:330
+#: ../inc/widgets/heading/class-widget-base.php:426
+#: ../inc/widgets/heading/class-widget-base.php:986
+msgid "Separator"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:65
+#: ../inc/widgets/heading/class-widget-base.php:379
+#: ../inc/widgets/heading/class-widget-base.php:399
+#: ../inc/widgets/heading/class-widget-base.php:427
+#: ../inc/widgets/heading/class-widget-base.php:1214
+msgid "Sub Text"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:76
+#: ../inc/widgets/pricing-table/class-widget-base.php:26
+#: ../inc/widgets/pricing-table/class-widget-base.php:174
+#: ../inc/widgets/pricing-table/class-widget-base.php:1017
+msgid "Header"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:91
+msgid "Span"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:101
+#: ../inc/widgets/heading/class-widget-base.php:538
+msgid "Title - First Part"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:111
+msgid "Your title first part goes here"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:118
+#: ../inc/widgets/heading/class-widget-base.php:218
+msgid "Show Divider"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:129
+#: ../inc/widgets/heading/class-widget-base.php:232
+#: ../inc/widgets/heading/class-widget-base.php:305
+#: ../inc/widgets/tabs/class-widget-base.php:148
+msgid "Show Icon"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:150
+#: ../inc/widgets/heading/class-widget-base.php:257
+#: ../inc/widgets/tabs/class-widget-base.php:157
+msgid "Icon Style"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:154
+#: ../inc/widgets/heading/class-widget-base.php:261
+#: ../inc/widgets/tabs/class-widget-base.php:161
+msgid "Block"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:155
+#: ../inc/widgets/heading/class-widget-base.php:262
+#: ../inc/widgets/tabs/class-widget-base.php:162
+msgid "Inline"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:168
+#: ../inc/widgets/heading/class-widget-base.php:276
+#: ../inc/widgets/tabs/class-widget-base.php:175
+msgid "Before Title"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:172
+#: ../inc/widgets/heading/class-widget-base.php:280
+#: ../inc/widgets/tabs/class-widget-base.php:179
+msgid "After Title"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:187
+#: ../inc/widgets/heading/class-widget-base.php:720
+msgid "Title - Second Part"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:196
+msgid "Show Title"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:208
+msgid "Your title second part goes here"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:209
+msgid "Example"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:339
+msgid "Show Separator"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:348
+msgid "Separator Type"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:352
+#: ../inc/widgets/heading/class-widget-base.php:1110
+msgid "Line"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:354
+msgid "Icon & Line"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:388
+msgid "Show Sub Text"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:401
+msgid "Few lines to well describe your content supporting headline."
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:432
+#: ../inc/widgets/pricing-table/class-widget-base.php:206
+#: ../inc/widgets/pricing-table/class-widget-base.php:442
+msgid "Positions"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:466
+#: ../inc/widgets/pricing-table/class-widget-base.php:519
+#: ../inc/widgets/team/class-widget-base.php:233
+#: ../inc/widgets/testimonial/class-widget-base.php:213
+msgid "Classic"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:467
+#: ../inc/widgets/pricing-table/class-widget-base.php:520
+msgid "List"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:626
+#: ../inc/widgets/heading/class-widget-base.php:808
+#: ../inc/widgets/pricing-table/class-widget-base.php:1683
+msgid "Divider"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:643
+#: ../inc/widgets/heading/class-widget-base.php:825
+#: ../inc/widgets/heading/class-widget-base.php:1131
+msgid "Space"
+msgstr ""
+
+#: ../inc/widgets/heading/class-widget-base.php:662
+#: ../inc/widgets/heading/class-widget-base.php:691
+#: ../inc/widgets/heading/class-widget-base.php:844
+#: ../inc/widgets/heading/class-widget-base.php:873
+#: ../inc/widgets/heading/class-widget-base.php:1156
+#: ../inc/widgets/heading/class-widget-base.php:1185
+msgid "Enable"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:39
+msgid "Hotspot"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:119
+#: ../inc/widgets/hotspot/class-widget-base.php:322
+msgid "Hotspots"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:125
+msgid "Hotspot Type"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:130
+msgid "Alphabet"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:144
+msgid "Soft Beat"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:145
+msgid "Expand"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:147
+msgid "Ripple"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:166
+msgid "Show Label"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:188
+msgid "Show Tooltip Content"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:195
+msgid "Tooltip Label"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:203
+msgid "Tooltip Content"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:227
+msgid ""
+"Icon option will be used only when \"Hotspot Type\" is \"Icon\"."
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:244
+#: ../inc/widgets/pricing-table/class-widget-base.php:1349
+msgid "Horizontal Position"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:283
+msgid "Custom Tooltip Properties"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:296
+msgid "Global"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:297
+#: ../inc/widgets/hotspot/class-widget-base.php:367
+msgid "Top Start"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:299
+#: ../inc/widgets/hotspot/class-widget-base.php:369
+msgid "Top End"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:300
+#: ../inc/widgets/hotspot/class-widget-base.php:370
+msgid "Right Start"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:302
+#: ../inc/widgets/hotspot/class-widget-base.php:372
+msgid "Right End"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:303
+#: ../inc/widgets/hotspot/class-widget-base.php:373
+msgid "Bottom Start"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:305
+#: ../inc/widgets/hotspot/class-widget-base.php:375
+msgid "Bottom End"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:306
+#: ../inc/widgets/hotspot/class-widget-base.php:376
+msgid "Left Start"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:308
+#: ../inc/widgets/hotspot/class-widget-base.php:378
+msgid "Left End"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:384
+msgid "Show Arrow"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:394
+msgid "Trigger"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:397
+msgid "Manual"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:399
+msgid "Click"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:410
+msgid "Always shows tooltip."
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:424
+msgid "Fade"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:425
+msgid "Shift-Away"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:426
+msgid "Shift-Toward"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:427
+msgid "Scale"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:428
+msgid "Perspective"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:441
+msgid "Animation Delay"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:469
+msgid "Hotspot Icon"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:528
+msgid "Hotspot Label"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:570
+msgid "Hotspot Element"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:670
+msgid "Label Typography"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:677
+msgid "Content Typography"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:705
+msgid "Label Color"
+msgstr ""
+
+#: ../inc/widgets/hotspot/class-widget-base.php:745
+msgid "Arrow Color"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:118
+msgid "Icon Group"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:123
+msgid "Icon Box Items"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:144
+msgid "Icon Box"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:192
+msgid "Ico-Content Aside"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:193
+msgid "Ico-Title Aside"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:194
+msgid "Ico-Title-Meta Aside"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:195
+msgid "Ico-Boxed-Overlap"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:196
+msgid "Ico-Classic"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:197
+msgid "Ico-Stage Over"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:198
+msgid "Ico-Minimal"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:199
+msgid "Ico-Standard"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:200
+msgid "Ico-Split-Aside"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:201
+msgid "Ico-Side-Overlap"
+msgstr ""
+
+#: ../inc/widgets/icon-box/class-widget-base.php:709
+msgid "Elements Group - Icon"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:58
+msgid "Instagram Settings"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:65
+msgid ""
+"Choose \"Configure Settings\" if you like to provide instagram "
+"application settings individually, else  elementor global settings "
+"will be used if set."
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:71
+msgid "Configure Settings"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:79
+msgid "App ID"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:81
+msgid "Enter your App Id"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:88
+msgid "App Secret"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:90
+msgid "Enter your App Secret"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:97
+msgid "Access Token"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:99
+msgid "Enter your App Token"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:107
+msgid "Limit"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:136
+#: ../inc/widgets/instagram/class-widget-base.php:165
+#: ../inc/widgets/pricing-table/class-widget-base.php:785
+#: ../inc/widgets/pricing-table/class-widget-base.php:826
+msgid "Overlay Color"
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:284
+msgid "Image By "
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:286
+msgid "Video By "
+msgstr ""
+
+#: ../inc/widgets/instagram/class-widget-base.php:304
+msgid "Please provide \"Instagram App\" settings to proceed."
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:95
+msgid "List ID"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:106
+#: ../inc/widgets/pricing-table/class-widget-base.php:477
+msgid "Type 1"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:107
+#: ../inc/widgets/pricing-table/class-widget-base.php:478
+msgid "Type 2"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:108
+#: ../inc/widgets/pricing-table/class-widget-base.php:479
+msgid "Type 3"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:109
+#: ../inc/widgets/pricing-table/class-widget-base.php:480
+msgid "Type 4"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:110
+msgid "Type 5"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:111
+msgid "Type 6"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:118
+#: ../inc/widgets/mailchimp/class-widget-base.php:298
+msgid "Form"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:122
+msgid "Show Name Field"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:134
+msgid "Name Label"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:146
+msgid "Email Label"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:149
+#: ../inc/widgets/mailchimp/class-widget-base.php:150
+msgid "Email"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:154
+msgid "Button Type"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:160
+msgid "Text & Icon"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:165
+msgid "Button Label"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:168
+#: ../inc/widgets/mailchimp/class-widget-base.php:169
+msgid "Submit"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:303
+msgid "Input"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:531
+msgid "Message"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:576
+msgid "Success"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/class-widget-base.php:598
+msgid "Error"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/subscription.php:43
+msgid "Error: You have already subscribed with us !"
+msgstr ""
+
+#: ../inc/widgets/mailchimp/subscription.php:48
+msgid "Error: Please make sure valid mailchimp details are provided."
+msgstr ""
+
+#: ../inc/widgets/mailchimp/subscription.php:101
+msgid "Success! Please check your inbox or spam folder."
+msgstr ""
+
+#: ../inc/widgets/mailchimp/subscription.php:103
+msgid "Error: Something went wrong!"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:25
+#: ../inc/widgets/pricing-table/class-widget-base.php:113
+#: ../inc/widgets/pricing-table/class-widget-base.php:638
+msgid "Media"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:28
+#: ../inc/widgets/pricing-table/class-widget-base.php:327
+#: ../inc/widgets/pricing-table/class-widget-base.php:1523
+msgid "Features"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:29
+#: ../inc/widgets/pricing-table/class-widget-base.php:397
+#: ../inc/widgets/pricing-table/class-widget-base.php:1778
+msgid "Footer"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:53
+msgid "Elements"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:58
+msgid "Pricing Table Items"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:77
+msgid "Pricing Table"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:122
+msgid "Media Element"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:181
+msgid "Your title goes here"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:182
+msgid "Architecto beatae"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:189
+msgid "Your sub title goes here"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:231
+#: ../inc/widgets/pricing-table/class-widget-base.php:1310
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:262
+msgid "Custom Symbol"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:273
+#: ../inc/widgets/pricing-table/class-widget-base.php:1296
+msgid "Price"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:284
+#: ../inc/widgets/pricing-table/class-widget-base.php:1396
+msgid "Period"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:292
+msgid "Currency Format"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:303
+msgid "Show Original Price"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:313
+#: ../inc/widgets/pricing-table/class-widget-base.php:1451
+msgid "Original Price"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:342
+msgid "Included"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:351
+msgid "Included / Excluded Icon"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:359
+#: ../inc/widgets/pricing-table/class-widget-base.php:360
+msgid "Feature Items"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:404
+msgid "Buy Now"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:461
+#: ../inc/widgets/pricing-table/class-widget-base.php:2043
+msgid "Badge"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:465
+msgid "Show Badge"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:473
+msgid "Badge Type"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:486
+msgid "Badge Position"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:499
+msgid "Badge Text"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:501
+msgid "New"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1560
+#: ../inc/widgets/pricing-table/class-widget-base.php:1618
+msgid "Included Text Color"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1569
+#: ../inc/widgets/pricing-table/class-widget-base.php:1627
+msgid "Included Icon Color"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1578
+#: ../inc/widgets/pricing-table/class-widget-base.php:1636
+msgid "Excluded Text Color"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1587
+#: ../inc/widgets/pricing-table/class-widget-base.php:1645
+msgid "Excluded Icon Color"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1702
+msgid "Solid"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1703
+msgid "Double"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1704
+msgid "Dotted"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1705
+msgid "Dashed"
+msgstr ""
+
+#: ../inc/widgets/pricing-table/class-widget-base.php:1929
+msgid "Enable Fullwidth"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:29
+msgid "Progress Bar"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:70
+msgid "Semi Circle"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:79
+msgid "Percentage"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:94
+msgid "Floating"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:108
+#: ../inc/widgets/progress-bar/class-widget-base.php:109
+msgid "Example Title"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:119
+msgid "Bar"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:156
+msgid "Active Thickeness"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:167
+msgid "Inactive Thickeness"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:178
+msgid "Active Color"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:186
+msgid "Inactive Color"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:194
+msgid "Fill Color"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:209
+msgid "Enable Gradient"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:220
+msgid "Gradient Color"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:297
+msgid "Title Typography"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:309
+msgid "Percentage Color"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:321
+msgid "Percentage Typography"
+msgstr ""
+
+#: ../inc/widgets/progress-bar/class-widget-base.php:329
+msgid "Percentage Position"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:59
+msgid ""
+"Vestibulum et augue ultricies, tempus augue non, consectetur est. "
+"In arcu justo, pulvinar sit amet turpis id, tincidunt fermentum "
+"eros. Nam porttitor massa ac leo porta congue nec at leo. Maecenas "
+"rutrum, neque bibendum vestibulum imperdiet, ex tellus molestie "
+"ante, at semper justo neque vel nisi. In tellus felis, suscipit "
+"pellentesque imperdiet sit amet, posuere nec sem. Sed at fringilla "
+"justo. Fusce dictum condimentum turpis vitae interdum."
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:72
+msgid "Tab Items"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:87
+msgid "Tabs"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:138
+#: ../inc/widgets/team/class-widget-base.php:232
+#: ../inc/widgets/testimonial/class-widget-base.php:212
+msgid "Boxed"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:139
+msgid "Title Boxed"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:140
+msgid "Content Boxed"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:141
+msgid "Active Boxed"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:195
+msgid "Tab Title"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:261
+msgid "Hover / Active"
+msgstr ""
+
+#: ../inc/widgets/tabs/class-widget-base.php:303
+msgid "Tab Content"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:74
+#: ../inc/widgets/testimonial/class-widget-base.php:74
+msgid "Name and Role"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:160
+msgid "Team Items"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:181
+msgid "Team"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:234
+msgid "Stage Over"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:235
+msgid "Minimal"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:236
+msgid "Boxed Overlap"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:237
+msgid "Modern Overlay"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:868
+#: ../inc/widgets/testimonial/class-widget-base.php:847
+msgid "Ratings"
+msgstr ""
+
+#: ../inc/widgets/team/class-widget-base.php:1205
+#: ../inc/widgets/team/class-widget-base.php:1206
+#: ../inc/widgets/team/class-widget-base.php:1278
+#: ../inc/widgets/team/class-widget-base.php:1280
+#: ../inc/widgets/testimonial/class-widget-base.php:1210
+#: ../inc/widgets/testimonial/class-widget-base.php:1235
+#: ../inc/widgets/testimonial/class-widget-base.php:1236
+#: ../inc/widgets/testimonial/class-widget-base.php:1308
+#: ../inc/widgets/testimonial/class-widget-base.php:1310
+#: ../inc/widgets/testimonial/class-widget-base.php:1345
+#: ../inc/widgets/testimonial/class-widget-base.php:1369
+msgid "Name & Role"
+msgstr ""
+
+#: ../inc/widgets/testimonial/class-widget-base.php:138
+msgid "Testimonial Items"
+msgstr ""
+
+#: ../inc/widgets/testimonial/class-widget-base.php:159
+msgid "Testimonial"
+msgstr ""
+
+#: ../inc/widgets/testimonial/class-widget-base.php:209
+msgid "Aside Title"
+msgstr ""
+
+#: ../inc/widgets/testimonial/class-widget-base.php:214
+msgid "Aside Icon"
+msgstr ""
+
+#: ../inc/widgets/testimonial/class-widget-base.php:215
+msgid "Duotone"
+msgstr ""
+
+#: ../inc/widgets/testimonial/class-widget-base.php:216
+msgid "Split Aside"
+msgstr ""
+
+#: ../wedesigntech-elementor-addon.php:51
+#: ../wedesigntech-elementor-addon.php:148
+msgid "WeDesignTech Elementor Addon"
+msgstr ""
+
+#: ../wedesigntech-elementor-addon.php:147
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: ../wedesigntech-elementor-addon.php:149
+msgid "Elementor Plugin"
+msgstr ""

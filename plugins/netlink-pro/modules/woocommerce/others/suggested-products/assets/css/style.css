@@ -1,0 +1,77 @@
+.suggested-product-list{
+    margin: 0;
+    height: 120px;
+    max-width: 300px;
+    min-width: 300px;
+    position: fixed;
+    bottom: 20px;
+    width: auto;
+    z-index: 9;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    padding: 0;
+}
+.suggested-product-list .suggested-product-data{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    border-radius: 0;
+    -webkit-transition: all cubic-bezier(.47,1.21,.47,1.21) .3s;
+    transition: all cubic-bezier(.47,1.21,.47,1.21) .3s;
+    align-items: center;  
+}
+
+.suggested-product-list .suggested-product-data.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* -------- Custom Css -------- */
+
+.suggested-product-list { left: 20px; }
+
+.fa-window-close::before { content: "\2716" !important; }
+
+.suggested-product-list .suggested-product-data:before{
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+    z-index: -1;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 30px rgb(0 0 0 / 15%);
+    box-shadow: 0 0 30px rgb(0 0 0 / 15%);
+}
+
+.suggested-product-list .suggested-product-data .suggested-product-image { width: 100px; height: 100px; }
+
+.suggested-product-list .suggested-product-data a.wdt_close{
+    height: 14px;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    text-align: center;
+    width: 14px;
+    pointer-events: all;
+    font-size: 14px;
+}
+
+.suggested-product-list .suggested-product-data .suggested-product-content span { font-size: var(--wdtFontSize_Ext); }
+
+.suggested-product-list .suggested-product-data .suggested-product-content .suggested-product-time { line-height: normal; margin: 0; font-size: var(--wdtFontSize_Ext); }
+
+.suggested-product-list .suggested-product-data .suggested-product-content a { font-size: var(--wdtFontSize_H6); font-weight: var(--wdtFontWeight_Ext); }

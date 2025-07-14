@@ -1,0 +1,148 @@
+
+
+.elementor-editor-active *,
+.elementor-editor-active html
+{
+    cursor: auto !important;
+}
+
+.wdt-cursor-outer
+{
+    -webkit-transition: all .08s ease-out;
+            transition: all .08s ease-out;
+}
+
+.wdt-cursor
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    visibility: hidden;
+
+    cursor: none;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    pointer-events: none;
+
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+
+/*     mix-blend-mode: difference; */
+}
+
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-cursor-link-hover{animation: none;mix-blend-mode: difference;}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-outer.wdt-cursor-link-hover {
+    width: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 20px;
+    box-shadow: none;opacity: 0;box-shadow: inset 0 0 20px rgba(var(--wdtPrimaryColorRgb),0), 0 0 30px rgba(var(--wdtPrimaryColorRgb),0), 0 0 100px rgba(var(--wdtPrimaryColorRgb),0);}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner:before,
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--wdtRadius_Full);
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+.wdt-cursor-wrapper.type-1 .wdt-cursor-outer {
+    z-index: 10000000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25px;
+    margin-top: -25px;
+    border-width: 0px;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    box-shadow: inset 0 0 20px rgba(var(--wdtPrimaryColorRgb),1), 0 0 30px rgba(var(--wdtPrimaryColorRgb),1), 0 0 100px rgba(var(--wdtPrimaryColorRgb),1);
+}
+/*.wdt-cursor-wrapper.type-1 .wdt-cursor-outer.wdt-carousel-hover {background-color: white;}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover:after{ content: '\e856';top: 48%;transform:translateY(-50%);right:calc(100% - 10px);color: var(--wdtPrimaryColor);}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover:before { content: '\e857';top: 48%;transform:translateY(-50%);right: -12px;color: var(--wdtPrimaryColor);}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover {background-color: transparent;}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover:after,
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover:before {
+ position: absolute;
+ content: "";
+ width: 15px;
+ height: 15px;
+  font-family: "AiMax Icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+ 
+}*/
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover.wdt-cursor-link-hover:after,
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover.wdt-cursor-link-hover:before {display:none;}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover.wdt-cursor-link-hover {background: var(--wdtPrimaryColor);}
+/*.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover:after{ content: '\e856';}
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner.wdt-carousel-hover:before { content: '\e857';} */
+.wdt-cursor-wrapper.type-1 .wdt-cursor-inner {
+    z-index: 10000001;
+    margin-left: -10px;
+    margin-top: -10px;
+    background: rgba(var(--wdtPrimaryColorRgb),1);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    /* box-shadow: 0 0 20px #2696E8, 0 0 60px #2696E8, 0 0 100px #2696E8; */
+    /* animation: hueing 5s infinite;
+    -webkit-animation: hueing 5s infinite; */
+}
+@keyframes hueing {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+  
+    100% {
+        filter: hue-rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes hueing {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+  
+    100% {
+        filter: hue-rotate(360deg);
+    }
+  }
+  
+  /* @media only screen  and (min-width: 781px) {
+   *,
+html
+{
+    cursor: none !important;
+}
+  } */
+
+@media only screen  and (max-width: 780px) { 
+  /* *,
+html
+{
+    cursor: auto!important;
+    
+} */
+.wdt-cursor {display: none;}
+}

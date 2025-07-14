@@ -1,0 +1,36 @@
+*** Netlink WordPress Theme Changelog ***
+
+Version 1.0.6
+
+    * Compatible: Latest WordPress Version    
+    * Compatible: Latest Elementor  Version
+    * Importer source updated
+    * Fixed: Bulk plugin installation error
+    * Fixed: Minor bugs
+
+Version 1.0.5
+
+    Updated: Additional demo pages.
+
+Version 1.0.4
+
+    Compatible: Latest Elementor, WordPress and WooCommerce Version
+    Updated: Additional demo pages updated with demo content
+
+Version 1.0.3
+
+    Fixed: Unyson plugin installation issue
+    
+Version 1.0.2
+
+    * Updated: RTL demo content updated
+    * Updated: Demo content updated in external source
+    * Compatible: Latest Elementor and WooCommerce Version
+
+Version 1.0.1
+
+    * Demo content added
+
+Version 1.0.0
+
+    * First release!

@@ -1,0 +1,20 @@
+# 1) Ignore everything in the repo root:
+#    “/*” matches all files and folders at the top level.
+ /*
+# 2) Whitelist the two directories themselves:
+!/themes/
+!/plugins/
+
+# 3) Whitelist every file and subfolder inside them:
+!/themes/**
+!/plugins/**
+
+# 4) But still allow tracking of your gitignore (and README if you have one)
+!.gitignore
+!README.md
+
+# 5) Ignore other noise (optional)
+.DS_Store
+*.log
+node_modules/
+

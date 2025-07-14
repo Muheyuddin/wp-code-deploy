@@ -1,0 +1,1593 @@
+ul.dtsl-dashboard-menus li a span,
+.dtsl-container input[type='submit'],
+.dtsl-container input[type='reset'],
+.dtsl-container input[type='button'],
+.dtsl-container button[type='button'],
+.dtsl-container button,
+.dtsl-container .button,
+.dtsl-container a.button,
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section div[class*="section-options"] span,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-image-preview-holder .dtsl-image-preview-tooltip,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper li,
+.dtsl-dashboard-container .woocommerce-button.view,
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li span,
+.dtsl-dashbord-ads-addnew-wrapper ul.dtsl-addtocart-purhcase-preview-wrapper li:not(.duration):not(.total-amount) span,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li span,
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-item-wrapper {
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+
+
+/* Common Styles */
+
+.dtsl-upload-media-items:empty {
+    display: none;
+}
+
+
+/*Miscellaneous Style */
+
+.dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-floorplan-box-container .dtsl-floorplan-box-item:not(:only-child):not(:last-child),
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item:not(:only-child):not(:last-child),
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item:not(:only-child):not(:last-child),
+.dtsl-my-reviews-item-holder .dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing:not(:only-child):not(:last-child),
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item:not(:only-child):not(:last-child) {
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.dtsl-dashboard-container {
+    margin: auto;
+    width: calc(100% - 8rem);
+}
+
+.dtsl-dashboard-container footer#footer {
+    margin-top: 100px;
+}
+
+.dtsl-dashboard-container table td,
+.dtsl-dashboard-container table tbody th {
+    vertical-align: middle;
+}
+
+
+/*Default Button Style */
+
+.dtsl-dashboard-container .wp-editor-wrap .wp-editor-container {
+    margin-bottom: 20px;
+}
+
+#qt_dtsl_description_toolbar {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Write Style for respective elements alone */
+
+
+/*Dashboard Menus*/
+
+ul.dtsl-dashboard-menus {
+    list-style: none;
+    margin: 20px 0 0;
+}
+
+ul.dtsl-dashboard-menus li {
+    float: left;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 100%;
+}
+
+ul.dtsl-dashboard-menus li a {
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    float: left;
+    hyphens: auto;
+    padding: 10px 15px 10px 65px;
+    position: relative;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+ul.dtsl-dashboard-menus li a span {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    min-width: 50px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+
+/*Dashboard Section holder*/
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder, .dtsl-dashbord-container .dtsl-dashbord-inbox-listing-conversation-wrapper {
+    background-color: #fff;
+    border: 1px solid;
+    float: left;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 100%;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-inbox-listing-conversation-wrapper:empty { display: none; }
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashboard-notices:not(:empty) {
+    margin-bottom: 20px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashboard-notices ul {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashboard-notices.dtsl-warning-notice ul,
+.dtsl-dashbord-section-holder-content ul.dtsl-contactadmin-errorlist {
+    color: red;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashboard-notices.dtsl-warning-notice ul li:not(:last-child) {
+    margin: 0;
+    padding: 0;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder a[class*="dtsl-update-"].custom-button-style,
+.dtsl-dashbord-container .dtsl-dashbord-section-holder a[class*="dtsl-add-"].custom-button-style {
+    margin: 0;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder a[class*="dtsl-update-"].custom-button-style span,
+.dtsl-dashbord-container .dtsl-dashbord-section-holder a[class*="dtsl-add-"].custom-button-style span {
+    margin-right: 10px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-statistics-counter-label {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-statistics-counter {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-holder-intro {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-title {
+    font-weight: bold;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-title:not(:only-child) {
+    border-right-style: solid;
+    border-right-width: 1px;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    word-break: normal;
+}
+
+
+/*Section Holder Content*/
+
+.dtsl-dashbord-section-holder-content {
+    padding-top: 10px;
+    position: relative;
+}
+
+.dtsl-dashbord-section-holder-content ul {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.dtsl-dashbord-section-holder-content .dtsl-dashbord-inbox-listing-messages-wrapper {
+    margin: 0 0 10px 0;
+}
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li {
+    background-color: #fff;
+    border: 1px solid;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: center;
+    line-height: normal;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li:last-child,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li:only-child {
+    margin-bottom: 0;
+}
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li span.dtsl-inbox-listing-user-email {
+    border-style: solid;
+    border-width: 0 1px;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li span.dtsl-inbox-listing-user-unread-count {
+    position: relative;
+}
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li span.dtsl-inbox-listing-user-unread-count:before {
+    content: "\f06e";
+    float: right;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 8px;
+    margin-top: 1px;
+    position: relative;
+}
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li.active:not(.unread) span.dtsl-inbox-listing-user-unread-count:before {
+    font-weight: 400;
+}
+
+.dtsl-dashbord-section-holder-content>.dtsl-dashboard-option-item:only-child,
+.dtsl-dashbord-section-holder-content>.dtsl-dashboard-option-item:only-child .chosen-container,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content>.dtsl-dashboard-option-item:only-child {
+    margin-bottom: 0;
+}
+
+.dtsl-dashbord-section-holder-content p:empty,
+.dtsl-dashbord-section-holder-content .dtsl-social-item-details-container:empty {
+    display: none;
+}
+
+.dtsl-dashbord-section-holder-content .dtsl-social-item-details-container:not(:empty) {
+    margin-bottom: 20px;
+}
+
+.dtsl-dashbord-section-holder-content .dtsl-warning-notice p:only-child:last-child {
+    margin-bottom: 0;
+}
+
+.dtsl-dashbord-section-holder-content .dtsl-dashbord-inbox-listing-title {
+    margin: 0 0 15px;
+}
+
+.dtsl-dashbord-section-holder-content div[class*="output-data-container"] {
+    margin: 0 10px;
+}
+
+.dtsl-dashbord-inbox-conversation-reply-list-wrapper ul.dtsl-dashbord-inbox-conversation-reply-list {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list,
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li,
+.dtsl-dashbord-inbox-conversation-reply-list-wrapper ul.dtsl-dashbord-inbox-conversation-reply-list li {
+    float: left;
+    width: 100%;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li>span {
+    display: flex;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.dtsl-dashbord-inbox-conversation-reply-list-wrapper ul.dtsl-dashbord-inbox-conversation-reply-list li>span {
+    margin-bottom: 0;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li>span:before {
+    content: "\f073";
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+    position: relative;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li a.dtsl-dashbord-inbox-conversation-reply-loader {
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    line-height: normal;
+    padding: 6px 10px;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li .dtsl-dashbord-inbox-conversation-reply-wrapper {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li .dtsl-dashbord-inbox-conversation-reply-wrapper .dtsl-inbox-conversation-reply-submit {
+    float: right;
+    margin: 0;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li .dtsl-dashbord-inbox-conversation-reply-wrapper .dtsl-inbox-conversation-reply-submit>span {
+    margin-right: 10px;
+}
+
+.dtsl-dashbord-inbox-listing-conversation-wrapper ul.dtsl-dashbord-inbox-conversation-list li .dtsl-dashbord-inbox-conversation-reply-wrapper .dtsl-failure {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.dtsl-dashbord-section-holder-content .dtsl-social-item-details-container+.custom-button-style {
+    margin-top: 0;
+}
+
+.dtsl-dashbord-section-holder-content a[class*="dtsl-add-"] {
+    display: inline-block;
+}
+
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section {
+    background: #fff;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: calc(32% - 40px) calc(68% - 40px) 80px;
+    position: relative;
+}
+
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section div[class*="section-options"] {
+    display: flex;
+    flex-flow: row-reverse;
+    left: auto;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section .chosen-container {
+    margin-bottom: 0;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section input[type='text'] {
+    margin-bottom: 0;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-single {
+    background: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    color: inherit;
+    font-size: 16px;
+    height: auto;
+    padding: 16px;
+    position: relative;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-single:before,
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-single:after {
+    -webkit-transition: 0.4s ease;
+    background-color: currentColor;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    transition: 0.4s ease;
+    width: 12px;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-single:before {
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    right: 27px;
+    transform: rotate(45deg) translateY(-50%);
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-single:after {
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+    right: 18px;
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single.chosen-container-active .chosen-single:before {
+    right: 18px;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single.chosen-container-active .chosen-single:after {
+    right: 26px;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-drop {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 15px 25px;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-search,
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-results {
+    padding: 0;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-search {
+    margin: 0 0 10px;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-results {
+    margin: 0;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-results li {
+    font-size: 16px;
+    line-height: normal;
+    padding: 10px 6px;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-search input[type="text"] {
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+}
+
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-single div {
+    display: none;
+}
+
+.dtsl-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"] {
+    text-align: right;
+    width: 115px;
+}
+
+.dtsl-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"]>span:first-child,
+.dtsl-announcements-box-container .dtsl-announcements-box-item-holder .dtsl-announcements-box-item .dtsl-announcements-box-options>span:first-child {
+    float: right;
+    margin-left: 10px;
+}
+
+.dtsl-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"]>span.dtsl-remove-social-item,
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section div[class*="section-options"]>span.dtsl-remove-social-item,
+.dtsl-announcements-box-container .dtsl-announcements-box-item-holder .dtsl-announcements-box-item .dtsl-announcements-box-options>span.dtsl-remove-announcements {
+    cursor: pointer;
+}
+
+.dtsl-dashbord-section-holder-content div[id*="section-to-clone"] div[class*="section-options"]>span.dtsl-sort-features,
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section div[class*="section-options"]>span.dtsl-sort-features,
+.dtsl-announcements-box-container .dtsl-announcements-box-item-holder .dtsl-announcements-box-item .dtsl-announcements-box-options>span.dtsl-sort-announcements {
+    cursor: grab;
+}
+
+.dtsl-dashbord-section-holder-content div[id*="section-to-clone"].hidden {
+    display: none;
+}
+
+
+/*Upload Items Container*/
+
+.dtsl-upload-media-items-container .dtsl-image-holder {
+    margin-bottom: 20px;
+}
+
+.dtsl-upload-media-items-container .dtsl-image-holder>img {
+    max-width: 150px;
+}
+
+.dtsl-upload-media-items-container input.uploadfieldurl {
+    margin-bottom: 10px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items {
+    display: inline-block;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li {
+    float: left;
+    margin: 0 20px 10px 0;
+    position: relative;
+    width: 150px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li input[readonly] {
+    width: 70%;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li input.media-attachment-titles {
+    margin-bottom: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li .dtsl-remove-media-item {
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    left: 5px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 30px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li .media-attachment-titles {
+    margin: 10px 0;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li .dtsl-featured-media-item {
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    left: 5px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    width: 30px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li span {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li .dtsl-remove-media-item:hover,
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-upload-media-items-container ul.dtsl-upload-media-items li .dtsl-featured-media-item:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/*Recent Activities Holder*/
+
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content:last-child {
+    margin-bottom: 0;
+}
+
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content img {
+    margin-right: 20px;
+}
+
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content p {
+    border-right-style: solid;
+    border-right-width: 1px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding-right: 12px;
+}
+
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content p strong { margin: 0 3px 0 0; }
+
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content p a { display: inline-block; }
+
+/*Listing Container*/
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-item-wrapper {
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-thumb:not(:empty) {
+    margin-bottom: 17px;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details {
+    float: left;
+    width: 100%;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details h5 {
+    margin: 0 0 8px;
+    padding-right: 15%;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-listing-description:not(:empty) {
+    margin-bottom: 14px;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container {
+    display: inline-block;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a {
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 4px;
+    position: relative;
+    text-align: center;
+    width: 30px;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a:before,
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a:after {
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a[data-tooltip] {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Hide the tooltip content by default */
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a[data-tooltip]:before,
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a[data-tooltip]:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+/* Position tooltip above the element */
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a[data-tooltip]:before {
+    bottom: 120%;
+    color: #fff;
+    content: attr(data-tooltip);
+    font-size: 12px;
+    left: 50%;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-left: -60px;
+    padding: 7px;
+    position: absolute;
+    text-align: center;
+    width: 135px;
+}
+
+
+/* Triangle hack to make tooltip look like a speech bubble */
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a[data-tooltip]:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: 120%;
+    content: " ";
+    font-size: 0;
+    left: 50%;
+    line-height: 0;
+    margin-left: -5px;
+    position: absolute;
+    width: 0;
+}
+
+
+/* Show tooltip content on hover */
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a[data-tooltip]:hover:before,
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a[data-tooltip]:hover:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    visibility: visible;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-dashboard-status {
+    box-shadow: -1px 1px 5px 0 rgba(0, 0, 0, .3);
+    font-size: 14px;
+    line-height: normal;
+    padding: 3px 10px;
+    position: absolute;
+    right: -5px;
+    top: 13px;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-dashboard-status:after {
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-dashboard-status:before {
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+
+/* Add Listing */
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item>input,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item>.chosen-container,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-dashboard-option-item-data>input,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-dashboard-option-item-data>.chosen-container {
+    margin-bottom: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item:last-child:not(:only-child) {
+    margin-bottom: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item>div.dtsl-dashboard-option-item-data>input:only-child:last-child {
+    margin-bottom: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div.dtsl-dashboard-option-item-data div[class*="-item-holder"].ui-sortable:empty+.custom-button-style {
+    margin-top: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"]:not(:last-child),
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] .dtsl-page-template-module-container .selection-box {
+    margin-bottom: 10px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] .dtsl-page-template-module-container .chosen-container {
+    margin-bottom: 10px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] .selection-box:before {
+    display: none;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] .dtsl-mls-number {
+    margin-bottom: 10px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .chosen-container-multi .chosen-choices {
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .chosen-container-multi.chosen-container .chosen-drop {
+    box-shadow: none;
+    padding: 10px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl_amenities_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl_amenities_list .dtsl-dashboard-option-item-list:not(:last-child) {
+    margin-right: 20px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item label[for*="dtsl_amenity_"] {
+    display: inline;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item label[for*="dtsl_amenity_"]:not(:last-child) {
+    margin-right: 20px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] input[type="checkbox"],
+.dtsl-my-ads-container .dtsl-dashbord-section-holder-content .dtsl-dashbord-ads-addnew-wrapper .dtsl-dashbord-ad-details input[type="checkbox"],
+.dtsl-dashboard-addincharge-form .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item input[type="checkbox"] {
+    opacity: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] input[type="checkbox"]~label,
+.dtsl-my-ads-container .dtsl-dashbord-section-holder-content .dtsl-dashbord-ads-addnew-wrapper .dtsl-dashbord-ad-details input[type="checkbox"]~label,
+.dtsl-dashboard-addincharge-form .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item input[type="checkbox"]~label {
+    cursor: default;
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] input[type="checkbox"]~label:before,
+.dtsl-my-ads-container .dtsl-dashbord-section-holder-content .dtsl-dashbord-ads-addnew-wrapper .dtsl-dashbord-ad-details input[type="checkbox"]~label:before,
+.dtsl-dashboard-addincharge-form .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item input[type="checkbox"]~label:before {
+    -webkit-transition: .2s;
+    border: 1px solid currentcolor;
+    border-radius: 1px;
+    content: "";
+    height: 15px;
+    left: -25px;
+    margin-top: 0;
+    position: absolute;
+    top: 3px;
+    transition: .2s;
+    width: 15px;
+    z-index: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] input[type="checkbox"]:checked~label:before,
+.dtsl-my-ads-container .dtsl-dashbord-section-holder-content .dtsl-dashbord-ads-addnew-wrapper .dtsl-dashbord-ad-details input[type="checkbox"]:checked~label:before,
+.dtsl-dashboard-addincharge-form .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item input[type="checkbox"]:checked~label:before {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: rotate(40deg);
+    -webkit-transform-origin: 100% 100%;
+    backface-visibility: hidden;
+    background: none;
+    border-bottom: 1px solid currentcolor;
+    border-left: 1px solid transparent;
+    border-right: 1px solid currentcolor;
+    border-top: 1px solid transparent;
+    height: 16px;
+    left: -25px;
+    top: 1px;
+    transform: rotate(40deg);
+    transform-origin: 100% 100%;
+    width: 8px;
+}
+
+.dtsl-add-listing .dtsl-attachments-box-item:not(.hidden),
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item:not(.hidden) {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dtsl-add-listing .dtsl-attachments-box-item .dtsl-attachments-box-options,
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-attachments-box-options {
+    display: flex;
+    flex-flow: row-reverse;
+    margin-left: 15px;
+    width: 85px;
+}
+
+.dtsl-add-listing .dtsl-attachments-box-item .dtsl-attachments-box-options>span:first-child,
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-attachments-box-options>span:first-child {
+    margin-left: 10px;
+}
+
+.dtsl-add-listing .dtsl-attachments-box-item .dtsl-attachments-box-options span.dtsl-remove-attachments,
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-attachments-box-options span.dtsl-remove-attachments {
+    cursor: pointer;
+}
+
+.dtsl-add-listing .dtsl-attachments-box-item .dtsl-attachments-box-options span.dtsl-sort-attachments,
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-attachments-box-options span.dtsl-sort-attachments {
+    cursor: grab;
+}
+
+.dtsl-add-listing .dtsl-attachments-box-item .dtsl-column:first-child #dtsl_media_attachments_titles,
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item .dtsl-column:first-child .dtsl_media_attachments_titles {
+    width: calc(100% - 4.5%);
+}
+
+
+/* Features Box */
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item {
+    background: #fff;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-column:not(.dtsl-upload-media-items-container) {
+    margin: 0 2% 0 0;
+    width: calc(49.5% - 30px);
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-column:not(.first) {
+    margin-right: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-features-box-options {
+    display: flex;
+    flex-flow: row-reverse;
+    left: auto;
+    position: absolute;
+    right: 0px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-features-box-options>span,
+.dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section div[class*="section-options"]>span {
+    margin-left: 10px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-features-box-options span.dtsl-remove-features {
+    cursor: pointer;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-features-box-options span.dtsl-sort-features {
+    cursor: grab;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-column.dtsl-upload-media-items-container {
+    align-items: center;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 7fr 2fr 2fr .2fr;
+    width: calc(100% - 50px);
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item .dtsl-column.dtsl-upload-media-items-container input[type="text"] {
+    margin-bottom: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item input[type="button"] {
+    margin: 0;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-image-preview-holder a {
+    position: relative;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-image-preview-holder a .dtsl-image-preview-tooltip {
+    bottom: 100%;
+    height: auto;
+    left: -15px;
+    margin-bottom: 15px;
+    opacity: 0;
+    position: absolute;
+    width: 100px;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-image-preview-holder a:hover .dtsl-image-preview-tooltip {
+    left: 0;
+    opacity: 1;
+}
+
+
+/*reviews-container*/
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper li {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    flex: 1 1 100%;
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing .dtsl-ratings-holder span {
+    font-size: 0;
+}
+
+.dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing .dtsl-ratings-holder span:before {
+    font-size: initial;
+    margin: 0 5px 0 0;
+}
+
+.dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing p:last-child {
+    margin-bottom: 0;
+}
+
+.dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing>* {
+    margin-bottom: 10px;
+}
+
+.dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing ul.dtsl-dashbord-reviews-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing ul.dtsl-dashbord-reviews-gallery li {
+    margin: 0 10px;
+}
+
+.dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing ul.dtsl-dashbord-reviews-gallery li img {
+    width: 100px;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail {
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail>h4 {
+    font-size: 16px;
+    margin-left: -55px;
+    padding: 10px 0 16px;
+    text-align: center;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-value,
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-title {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-label,
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-sub-title {
+    float: left;
+    padding: 13px;
+    text-align: center;
+    width: 100%;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-sub-title:empty {
+    display: none;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail:not(.dtsl-seller_package):not(.dtsl-purchased_date):not(.dtsl-expiry_date) {
+    padding-left: 55px;
+    position: relative;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail:not(.dtsl-seller_package):not(.dtsl-purchased_date):not(.dtsl-expiry_date) span.dtsl-dashboard-package-detail-value {
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    min-width: 50px;
+    padding: 0 10px;
+    position: absolute;
+}
+
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail:not(.dtsl-seller_package):not(.dtsl-purchased_date):not(.dtsl-expiry_date) span.dtsl-dashboard-package-detail-label {
+    padding-right: 20px;
+    text-align: left;
+}
+
+
+/*Dashboard - Available Package Listing*/
+
+.dtsl-dashbord-container div[class*="-output-data-container"] div.dtsl-package-output-data-holder[data-applyisotope*="true"] .dtsl-packages-container .dtsl-packages-item-container {
+    margin: 0 -10px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper {
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-thumb:not(:empty) {
+    margin-bottom: 17px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details {
+    float: left;
+    width: 100%;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details>*:not(:last-child) {
+    margin: 0 0 8px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-proceed-button a.custom-button-style {
+    margin-left: 0;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-packagelist-description:empty {
+    display: none;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-item-pricing-details {
+    margin-bottom: 8px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-proceed-button a.custom-button-style span {
+    margin-right: 10px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-purchased,
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-active {
+    box-shadow: -1px 1px 6px 0 rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 3px 10px;
+    position: absolute;
+    right: -5px;
+    text-transform: capitalize;
+    top: 13px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-purchased:before {
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-purchased:after {
+    border-right: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-active {
+    left: -5px;
+    right: auto;
+    top: 13px;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-active:before {
+    border-left: 5px solid transparent;
+    border-top: 5px solid #000;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    width: 0;
+}
+
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-active:after {
+    border-left: 5px solid transparent;
+    border-top: 5px solid currentColor;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    width: 0;
+}
+
+
+/*Contact Admin Form*/
+
+form.dtsl-dashboard-contactadmin-form textarea.dtsl-contactadmin-message {
+    margin-bottom: 0;
+}
+
+form.dtsl-dashboard-contactadmin-form ul[class*="dtsl-contactadmin-"] li {
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+form.dtsl-dashboard-contactadmin-form .custom-button-style span {
+    margin-right: 10px;
+}
+
+
+/*My Incharges*/
+
+.dtsl-dashbord-container .dtsl-my-incharges-table .dtsl-image-holder {
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.dtsl-dashbord-container .dtsl-my-incharges-table td,
+.dtsl-dashbord-container .dtsl-my-incharges-table tbody th {
+    padding: 10px;
+}
+
+
+/*Announcement*/
+
+.dtsl-dashbord-container .dtsl-dashbord-announcements-listing table {
+    display: inline-block;
+    overflow-x: scroll;
+    overflow: auto;
+}
+
+
+/* Other Colors */
+
+ul.dtsl-dashboard-menus li a span,
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-value,
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-title,
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-statistics-counter-label,
+.dtsl-dashbord-section-holder-content a[class*="dtsl-add-"],
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-dashboard-status,
+.dtsl-dashbord-container .dtsl-my-listings-container .dtsl-listing-details .dtsl-mylisting-options-container>a,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper li:hover,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper li.dtsl-active,
+.dtsl-dashboard-container .woocommerce-button.view,
+.custom-button-style,
+.custom-button-style:hover,
+.dtsl-dashbord-container .dtsl-packages-container .dtsl-packages-item-wrapper .dtsl-packagelist-details .dtsl-item-status-details .dtsl-proceed-button a.custom-button-style,
+.dtsl-dashbord-ads-listing table.dtsl-custom-table tbody tr td:last-child a:hover,
+.dtsl-dashbord-ads-addnew-wrapper ul.dtsl-addtocart-purhcase-preview-wrapper li.duration span,
+.dtsl-dashbord-ads-addnew-wrapper ul.dtsl-addtocart-purhcase-preview-wrapper li.total-amount span {
+    color: #fff;
+}
+
+ul.dtsl-dashboard-menus li,
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail,
+.dtsl-dashboard-user-package-details .dtsl-dashboard-package-detail span.dtsl-dashboard-package-detail-sub-title,
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-statistics-counter,
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content {
+    background: #f7f7f7;
+}
+
+.dtsl-dashbord-container .dtsl-dashbord-section-holder, .dtsl-dashbord-container .dtsl-dashbord-inbox-listing-conversation-wrapper,
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-title,
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-search input[type="text"],
+.dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-holder-intro,
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-single,
+.dtsl-dashbord-section-holder-content .chosen-container-single .chosen-drop,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .chosen-container-multi .chosen-choices,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] label:before,
+.dtsl-my-ads-container .dtsl-dashbord-section-holder-content .dtsl-dashbord-ads-addnew-wrapper .dtsl-dashbord-ad-details label:before,
+.dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-floorplan-box-container .dtsl-floorplan-box-item:not(:only-child):not(:last-child),
+.dtsl-add-listing .dtsl-attachments-box-item-holder .dtsl-attachments-box-item:not(:only-child):not(:last-child),
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-features-box-item:not(:only-child):not(:last-child),
+.dtsl-my-reviews-item-holder .dtsl-dashbord-reviews-listing-wrapper .dtsl-dashbord-reviews-listing:not(:only-child):not(:last-child),
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .dtsl-media-videos-box-item:not(:only-child):not(:last-child),
+.dtsl-dashbord-ads-addnew-wrapper ul.dtsl-addtocart-purhcase-preview-wrapper,
+.dtsl-dashbord-ads-addnew-wrapper ul.dtsl-addtocart-purhcase-preview-wrapper li,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper li,
+.dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content p,
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item .chosen-container-multi.chosen-container .chosen-drop,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li,
+.dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li span {
+    border-color: #e3e3e3;
+}
+
+.dtsl-add-listing .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item div[class*="dtsl-dashboard-option-item"] input[type="checkbox"]~label:before,
+.dtsl-my-ads-container .dtsl-dashbord-section-holder-content .dtsl-dashbord-ads-addnew-wrapper .dtsl-dashbord-ad-details input[type="checkbox"]~label:before,
+.dtsl-dashboard-addincharge-form .dtsl-dashbord-section-holder-content .dtsl-dashboard-option-item label:before {
+    color: #e3e3e3;
+}
+
+.dtsl-dashbord-ads-addnew-wrapper ul.dtsl-addtocart-purhcase-preview-wrapper li:not(.duration):not(.total-amount) span {
+    background: #e3e3e3;
+}
+
+
+/*----*****---- << Small Monitor >> ----*****----*/
+
+
+/* Note: Design for a width of 1440px */
+
+@media only screen and (min-width:1281px) and (max-width:1440px) {
+    .dtsl-dashbord-container .dtsl-my-incharges-container table {
+        font-size: 13px;
+    }
+    .dtsl-dashbord-container .dtsl-my-inbox-container .dtsl-my-inbox-item-holder .dtsl-one-half {
+        width: 35%;
+    }
+    .dtsl-dashbord-container .dtsl-my-inbox-container .dtsl-my-inbox-item-holder .dtsl-one-half.first {
+        width: 60%;
+    }
+    .dtsl-dashbord-container .dtsl-my-inbox-container .dtsl-my-inbox-item-holder .dtsl-column .dtsl-dashbord-section-holder {
+        margin-bottom: 0;
+    }
+    .dtsl-dashbord-container div[class*="-apply-isotope"] .dtsl-column.dtsl-packages-item-wrapper.dtsl-one-third {
+        clear: none;
+        width: calc(100% - 30px);
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table {
+        display: inline-block;
+        overflow: scroll;
+    }
+}
+
+
+/*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 960px */
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+    .dtsl-dashboard-container {
+        width: calc(100% - 4rem);
+    }
+    .dtsl-dashbord-container div[class*="-apply-isotope"] .dtsl-column.dtsl-packages-item-wrapper.dtsl-one-third {
+        clear: none;
+        width: calc(100% - 30px);
+    }
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width:768px) and (max-width:1280px) {
+
+    .dtsl-dashboard-container { width: calc(100% - 2rem); }
+
+    .dtsl-dashboard-container .dtsl-one-fifth, .dtsl-dashboard-container .dtsl-three-fifth { width: 100%; margin: 0 0 20px; }
+
+    .dtsl-dashboard-user-info { text-align: left; }
+
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section {
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 0;
+        margin-bottom: 30px;
+    }
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section .selection-box {
+        width: calc(100% - 60px);
+    }
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section input[type="text"] {
+        margin-top: 15px;
+    }
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section:not(:last-child) {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e3e3e3;
+        padding-bottom: 30px;
+    }
+    .dtsl-dashbord-container .dtsl-my-inbox-container .dtsl-my-inbox-item-holder .dtsl-column.dtsl-one-half {
+        clear: none;
+        margin: 0;
+        width: 100%;
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table,
+    .dtsl-dashbord-container table.dtsl-user-claimed-posts-table {
+        display: inline-block;
+        overflow: scroll;
+    }
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .dtsl-dashbord-container .dtsl-dashbord-section-holder {
+        padding: 15px;
+    }
+    .dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-statistics-counter-label,
+    .dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-statistics-counter {
+        padding: 5px;
+    }
+    .dtsl-dashbord-section-holder-content .dtsl-dashbord-statistics-counter-wrapper .dtsl-one-third:last-child {
+        margin-bottom: 10px;
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content img {
+        margin: 0 15px 15px 0;
+        width: 75px;
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content p {
+        border: none;
+        float: right;
+        margin: 0 0 10px;
+        padding: 0;
+        width: calc(100% - 100px);
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content .dtsl-dashbord-recent-activites-datetime {
+        float: left;
+        width: 100%;
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table {
+        font-size: 12px;
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table td,
+    .dtsl-dashbord-container .dtsl-my-incharges-container table th {
+        word-break: keep-all;
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table thead,
+    .dtsl-dashbord-container .dtsl-my-incharges-container table tbody {
+        width: 100%;
+    }
+    .dtsl-column.dtsl-packages-item-wrapper.dtsl-one-third {
+        clear: none;
+        width: calc(100% - 30px) !important;
+    }
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (max-width: 767px) {
+    .dtsl-dashboard-container {
+        width: calc(100% - 4rem);
+    }
+    .dtsl-dashbord-section-holder-content .dtsl-column {
+        margin-bottom: 0;
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table {
+        display: inline-block;
+        overflow: scroll;
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table td,
+    .dtsl-dashbord-container .dtsl-my-incharges-container table th {
+        word-break: keep-all;
+    }
+    .dtsl-dashbord-container .dtsl-my-incharges-container table thead,
+    .dtsl-dashbord-container .dtsl-my-incharges-container table tbody {
+        width: 100%;
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content {
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 25px;
+        grid-template-columns: 60px repeat(auto-fit, 50%);
+    }
+    .dtsl-dashbord-container .dtsl-my-inbox-container .dtsl-my-inbox-item-holder .dtsl-column.dtsl-one-half {
+        margin: 0;
+    }
+    .dtsl-dashbord-container table.dtsl-user-claimed-posts-table {
+        display: inline-block;
+        overflow: scroll;
+    }
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+
+/* Note: Design for a width of 767px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content img {
+        margin: 0 15px 0 0;
+        width: 75px;
+    }
+    .dtsl-dashbord-section-holder-content .dtsl-dashbord-statistics-counter-wrapper .dtsl-one-third.dtsl-column {
+        clear: none;
+        margin: 0 0 0 2%;
+        margin-bottom: 20px;
+        width: 32%;
+    }
+    .dtsl-dashbord-section-holder-content .dtsl-dashbord-statistics-counter-wrapper .dtsl-one-third.dtsl-column.first {
+        margin-left: 0;
+    }
+}
+
+
+/*----*****---- << Mobile (Portrait) >> ----*****----*/
+
+
+/* Note: Design for a width of 479px */
+
+@media only screen and (max-width: 479px) {
+    .dtsl-dashboard-container {
+        width: calc(100% - 2.5rem);
+    }
+    .dtsl-dashbord-container .dtsl-dashbord-section-holder {
+        padding: 20px;
+    }
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section {
+        display: flex;
+        flex-wrap: wrap;
+        grid-column-gap: 0;
+        margin-bottom: 30px;
+    }
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section .selection-box {
+        width: calc(100% - 60px);
+    }
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section input[type="text"] {
+        margin-top: 15px;
+    }
+    .dtsl-dashbord-section-holder-content .ui-sortable .dtsl-social-item-section:not(:last-child) {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e3e3e3;
+        padding-bottom: 30px;
+    }
+    .dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-holder-intro {
+        flex-wrap: wrap;
+    }
+    .dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-title:not(:only-child) {
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        margin: 0 0 8px;
+        padding: 0px 0 8px;
+    }
+    .dtsl-dashbord-container .dtsl-dashbord-section-holder .dtsl-dashbord-section-title-notes {
+        float: left;
+        width: 100%;
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content {
+        display: block;
+        float: left;
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content img {
+        margin: 0 15px 0 0;
+        width: 75px;
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content p {
+        border: none;
+        float: right;
+        margin: 0 0 10px;
+        padding: 0;
+        width: calc(100% - 100px);
+    }
+    .dtsl-dashbord-recent-activites-holder .dtsl-dashbord-recent-activites-content .dtsl-dashbord-recent-activites-datetime {
+        float: right;
+        font-size: 12px;
+        text-align: right;
+        width: 100%;
+    }
+    .dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li {
+        text-align: center;
+        width: 100%;
+    }
+    .dtsl-dashbord-section-holder-content ul.dtsl-dashbord-inbox-listing-messages-wrapper li span.dtsl-inbox-listing-user-email {
+        border-width: 1px 0;
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 100%;
+    }
+    .dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper {
+        display: grid;
+    }
+    .dtsl-dashbord-section-holder-content ul.dtsl-dashbord-reviews-listing-options-wrapper li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}

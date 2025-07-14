@@ -1,0 +1,10 @@
+===== WeDesignTech Directory Addon =====
+
+WeDesignTech Directory Addon plugin adds additional modules for JusDial theme.
+
+
+== Changelog ==
+
+= 1.0.0 =
+
+    * First release!
