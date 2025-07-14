@@ -33,7 +33,7 @@ jobs:
       - name: Sync plugins via rsync
         uses: burnett01/rsync-deployments@7.0.2
         with:
-         switches: >-
+          switches: >-
             -avzr --delete
             --chown=www-data:www-data
           path: plugins/
