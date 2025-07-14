@@ -20,7 +20,9 @@ jobs:
       - name: Sync themes via rsync
         uses: burnett01/rsync-deployments@7.0.2
         with:
-          switches: -avzr --delete
+          switches: >-
+            -avzr --delete
+            --chown=www-data:www-data
           path: themes/
           remote_host: ${{ secrets.EC2_HOST }}
           remote_user: ${{ secrets.EC2_USER }}
@@ -31,7 +33,9 @@ jobs:
       - name: Sync plugins via rsync
         uses: burnett01/rsync-deployments@7.0.2
         with:
-          switches: -avzr --delete
+         switches: >-
+            -avzr --delete
+            --chown=www-data:www-data
           path: plugins/
           remote_host: ${{ secrets.EC2_HOST }}
           remote_user: ${{ secrets.EC2_USER }}
