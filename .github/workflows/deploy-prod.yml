@@ -1,0 +1,56 @@
+name: Deploy to Production
+
+# 1) Trigger this workflow only on pushes to prod
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 2) Grab your code
+      - name: Checkout prod
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # 3) Sync themes folder
+      - name: Sync themes via rsync
+        uses: burnett01/rsync-deploy@v4
+        with:
+          switches: -avzr --delete
+          path: themes/
+          remote_host: ${{ secrets.EC2_HOST }}
+          remote_user: ${{ secrets.EC2_USER }}
+          remote_key: ${{ secrets.EC2_SSH_KEY }}
+          remote_path: /opt/wp-code-deploy/themes/
+          remote_port: ${{ secrets.SSH_PORT }}
+
+      # 4) Sync plugins folder
+      - name: Sync plugins via rsync
+        uses: burnett01/rsync-deploy@v4
+        with:
+          switches: -avzr --delete
+          path: plugins/
+          remote_host: ${{ secrets.EC2_HOST }}
+          remote_user: ${{ secrets.EC2_USER }}
+          remote_key: ${{ secrets.EC2_SSH_KEY }}
+          remote_path: /opt/wp-code-deploy/plugins/
+          remote_port: ${{ secrets.SSH_PORT }}
+
+      # 5) Flush caches & reload services
+      - name: Flush WP & Varnish cache
+        uses: appleboy/ssh-action@v0.1.8
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            cd /var/www/html
+            wp cache flush --allow-root
+            sudo systemctl reload php8.2-fpm
+            sudo varnishadm "ban req.http.host == example.com"
+
